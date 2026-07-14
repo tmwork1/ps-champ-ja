@@ -1,0 +1,371 @@
+# -*- coding: utf-8 -*-
+"""data_en/ の英語データを translation/ の言語テーブルで和訳し、data_jp/ に書き出す。
+
+対象: pokedex.json の name / type_1 / type_2 / ability_1-3 / pre_evolution / post_evolution
+      moves.json の name / type
+方針: category はゲーム内分類ラベルとして英語小文字のまま残す (physical/special/status)。
+      技ID・種族ID・技リスト(learnsets.json)は内部参照のため翻訳しない(そのままコピー)。
+      フォルム違い(メガ/リージョンフォルム等)の和名は、公式で確立している組み合わせのみ
+      FORM_RULES に明記して合成する。未収録の組み合わせ(コスチューム違いなど、実際のゲームでも
+      固有の表示名を持たないもの)はベースの和名をそのまま使い、翻訳漏れとして一覧に出力する。
+
+Usage: python scripts/translate-data.py
+"""
+import csv
+import json
+import os
+import unicodedata
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EN_DIR = os.path.join(ROOT, 'data_en')
+JP_DIR = os.path.join(ROOT, 'data_jp')
+TRANSLATION_DIR = os.path.join(ROOT, 'translation')
+
+
+def load_csv(name):
+    path = os.path.join(TRANSLATION_DIR, name)
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        return header, list(reader)
+
+
+TYPE_JP = {
+    'Normal': 'ノーマル', 'Fire': 'ほのお', 'Water': 'みず', 'Electric': 'でんき',
+    'Grass': 'くさ', 'Ice': 'こおり', 'Fighting': 'かくとう', 'Poison': 'どく',
+    'Ground': 'じめん', 'Flying': 'ひこう', 'Psychic': 'エスパー', 'Bug': 'むし',
+    'Rock': 'いわ', 'Ghost': 'ゴースト', 'Dragon': 'ドラゴン', 'Dark': 'あく',
+    'Steel': 'はがね', 'Fairy': 'フェアリー', 'Stellar': 'ステラ',
+}
+
+# (num, PS名の "-" 以降の部分) -> {base} をベース和名として展開するテンプレート
+FORM_RULES = {
+    # メガシンカ
+    'Mega': 'メガ{base}',
+    'Mega-X': 'メガ{base}X',
+    'Mega-Y': 'メガ{base}Y',
+    'Mega-Z': 'メガ{base}Z',
+    # キョダイマックス
+    'Gmax': '{base}(キョダイ)',
+    'Low-Key-Gmax': '{base}(ロー)(キョダイ)',
+    'Rapid-Strike-Gmax': '{base}(れんげき)(キョダイ)',
+    # リージョンフォルム
+    'Alola': '{base}(アローラ)',
+    'Alola-Totem': '{base}(アローラ)(ボス)',
+    'Galar': '{base}(ガラル)',
+    'Galar-Zen': '{base}(ガラル)(ダルマ)',
+    'Hisui': '{base}(ヒスイ)',
+    'Paldea': '{base}(パルデア)',
+    'Paldea-Combat': '{base}(パルデア闘)',
+    'Paldea-Blaze': '{base}(パルデア炎)',
+    'Paldea-Aqua': '{base}(パルデア水)',
+    # ボスポケモン(タテヌシ)
+    'Totem': '{base}(ボス)',
+    'Busted': '{base}(ばれたすがた)',
+    'Busted-Totem': '{base}(ばれたすがた)(ボス)',
+    # 原始回帰・オリジン・れいじゅう
+    'Primal': '{base}(ゲンシカイキ)',
+    'Origin': '{base}(オリジン)',
+    'Therian': '{base}(れいじゅう)',
+    'Zen': '{base}(ダルマ)',
+    # デオキシス
+    'Attack': '{base}(アタック)',
+    'Defense': '{base}(ディフェンス)',
+    'Speed': '{base}(スピード)',
+    # ミノムッチ/ミノマダム
+    'Sandy': '{base}(すなち)',
+    'Trash': '{base}(ゴミ)',
+    # ロトム(接頭)
+    'Heat': 'ヒート{base}',
+    'Wash': 'ウォッシュ{base}',
+    'Frost': 'フロスト{base}',
+    'Fan': 'スピン{base}',
+    'Mow': 'カット{base}',
+    # キュレム(接頭)
+    'White': 'ホワイト{base}',
+    'Black': 'ブラック{base}',
+    # バスラオ
+    'Blue-Striped': '{base}(あお)',
+    'White-Striped': '{base}(しろ)',
+    # ケルディオ
+    'Resolute': '{base}(かくご)',
+    # ゲノセクト(ドライブ)
+    'Douse': '{base}(ダウズドライブ)',
+    'Shock': '{base}(ショックドライブ)',
+    'Burn': '{base}(バーンドライブ)',
+    'Chill': '{base}(チルドライブ)',
+    # エーフィ/ブラッキー枠ではなくアギルダー
+    'Blade': '{base}(ブレード)',
+    # シェイミ
+    'Sky': '{base}(スカイ)',
+    # ネクロズマ
+    'Dusk-Mane': '{base}(たそがれ)',
+    'Dawn-Wings': '{base}(あかつき)',
+    'Ultra': '{base}(ウルトラネクロズマ)',
+    # ジガルデ
+    '10%': '{base}(10%)',
+    'Complete': '{base}(パーフェクト)',
+    # フーパ
+    'Unbound': '{base}(ときはなたれし)',
+    # ウッウ
+    'Gulping': '{base}(うのみ)',
+    'Gorging': '{base}(まるのみ)',
+    # コオリッポ
+    'Noice': '{base}(ナイス)',
+    # モルペコ
+    'Hangry': '{base}(はらぺこ)',
+    # ムゲンダイナ
+    'Eternamax': '{base}(ムゲンダイマックス)',
+    # ウルサルーナ
+    'Bloodmoon': '{base}(アカツキ)',
+    # イッカネズミ
+    'Four': '{base}(よにんかぞく)',
+    # パーモット
+    'Hero': '{base}(ヒーロー)',
+    # シャリタツ
+    'Droopy': '{base}(たれた)',
+    'Stretchy': '{base}(のびた)',
+    # コレクレー→パオジアン等は対象外(番号なし)
+    # ドゥドゥ
+    'Three-Segment': '{base}(みつくびがた)',
+    # オーガポン
+    'Wellspring': '{base}(いど)',
+    'Hearthflame': '{base}(かまど)',
+    'Cornerstone': '{base}(いしずえ)',
+    'Teal-Tera': '{base}(テラスタル)',
+    'Wellspring-Tera': '{base}(いど)(テラスタル)',
+    'Hearthflame-Tera': '{base}(かまど)(テラスタル)',
+    'Cornerstone-Tera': '{base}(いしずえ)(テラスタル)',
+    # テラパゴス
+    'Terastal': '{base}(テラスタル)',
+    'Stellar': '{base}(ステラ)',
+    # ニャオニクス
+    'F-Mega': 'メガ{base}(メス)',
+    'M-Mega': 'メガ{base}(オス)',
+    # 性別で見た目が変わる種族共通
+    'F': '{base}(メス)',
+    # ポワルン
+    'Sunny': '{base}(たいよう)',
+    'Rainy': '{base}(あまみず)',
+    'Snowy': '{base}(ゆきぐも)',
+    # フラエッテ
+    'Eternal': '{base}(えいえん)',
+    # メロエッタ
+    'Pirouette': '{base}(ステップ)',
+    # バケッチャ/パンプジン
+    'Small': '{base}(ちいさい)',
+    'Large': '{base}(おおきい)',
+    'Super': '{base}(とくだい)',
+    # ストリンダー
+    'Low-Key': '{base}(ロー)',
+    # ウーラオス
+    'Rapid-Strike': '{base}(れんげき)',
+    # メテノ
+    'Meteor': '{base}(りゅうせい)',
+    # ザルード
+    'Dada': '{base}(ダディ)',
+    # コレクレー
+    'Roaming': '{base}(あるくすがた)',
+}
+
+# メテノのコア色(色による固有名は無く公式表記は全色共通で「コア」)
+MINIOR_CORE_COLORS = {'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'}
+
+# num を限定しないと衝突するもの (num, suffix) -> template
+FORM_RULES_BY_NUM = {
+    (646, 'White'): 'ホワイト{base}',
+    (646, 'Black'): 'ブラック{base}',
+    (931, 'White'): None,  # スカージャー(白) はコスチューム違いで固有名なし
+    (898, 'Ice'): '{base}(はくば)',       # バドレックス(白馬)
+    (898, 'Shadow'): '{base}(こくば)',    # バドレックス(黒馬)
+    (493, 'Ice'): '{base}(こおり)',       # アルセウス: タイプ違いに公式固有名はないため意訳
+    (773, 'Ice'): '{base}(こおり)',       # シルヴァディ: 同上
+    (745, 'Midnight'): '{base}(まよなか)',  # ルガルガン(まよなかのすがた)
+    (745, 'Dusk'): '{base}(たそがれ)',      # ルガルガン(たそがれのすがた)
+}
+for _t_en, _t_jp in TYPE_JP.items():
+    if _t_en != 'Ice':
+        FORM_RULES_BY_NUM[(493, _t_en)] = '{base}(' + _t_jp + ')'  # アルセウス
+        FORM_RULES_BY_NUM[(773, _t_en)] = '{base}(' + _t_jp + ')'  # シルヴァディ
+for _color in MINIOR_CORE_COLORS:
+    FORM_RULES_BY_NUM[(774, _color)] = '{base}(コア)'  # メテノ: コア状態は色によらず表記共通
+
+# ベースの英名からの単純な差分では表現できない特殊ケース (species id -> 和名)
+ID_OVERRIDES = {
+    'nidoranf': 'ニドラン♀',
+    'nidoranm': 'ニドラン♂',
+    'greninjaash': 'サトシゲッコウガ',
+    'zaciancrowned': 'ザシアン(けんのおう)',
+    'zamazentacrowned': 'ザマゼンタ(たてのおう)',
+    'pichuspikyeared': 'ギザみみピチュー',
+}
+
+
+def build_species_table():
+    _, rows = load_csv('foreign_names.csv')
+    by_num = {}
+    for row in rows:
+        if not row[0]:
+            continue
+        en = row[2]
+        # 英伊西で表記が割れる行は "Name (英語)Nome (イタリア語)..." のように連結されている。
+        # 実際に必要なのは英語表記だけなので "(英語)" の手前を取り出す。
+        if '(英語)' in en:
+            en = en.split('(英語)')[0].strip()
+        by_num.setdefault(int(row[0]), []).append((row[1], normalize_name(en)))
+    return by_num
+
+
+def build_simple_table(filename):
+    _, rows = load_csv(filename)
+    table = {}
+    for row in rows:
+        jp, en = row[0], row[1]
+        table[en] = jp
+    return table
+
+
+def normalize_name(s):
+    # PS側は "é" をNFD(結合分解形)、アポストロフィを "’" で持つことがあるため、
+    # translation/ 側(NFC・直立アポストロフィ)と比較できるようにそろえる。
+    return unicodedata.normalize('NFC', s).replace('’', "'")
+
+
+def resolve_species_name(sid, name, num, species_by_num, unresolved):
+    if sid in ID_OVERRIDES:
+        return ID_OVERRIDES[sid]
+
+    name_norm = normalize_name(name)
+    candidates = species_by_num.get(num, [])
+    for jp, en in candidates:
+        if en == name_norm:
+            return jp
+
+    if not candidates:
+        unresolved.append((sid, name, num, 'no base entry for dex num'))
+        return name
+
+    base_jp, base_en = candidates[0]
+    if not name_norm.startswith(base_en + '-'):
+        unresolved.append((sid, name, num, f'name does not extend base "{base_en}"'))
+        return name
+
+    suffix = name_norm[len(base_en) + 1:]
+
+    if (num, suffix) in FORM_RULES_BY_NUM:
+        template = FORM_RULES_BY_NUM[(num, suffix)]
+        if template is None:
+            return base_jp
+        return template.format(base=base_jp)
+
+    template = FORM_RULES.get(suffix)
+    if template:
+        return template.format(base=base_jp)
+
+    unresolved.append((sid, name, num, f'no form rule for suffix "{suffix}"'))
+    return base_jp
+
+
+# 「特性名 (バリエーション)」形式のカッコ内は、対応する姿の和名タグに差し替える。
+ABILITY_VARIANT_JP = {
+    'Glastrier': 'はくば', 'Spectrier': 'こくば',  # じんばいったい
+    'Teal': 'みどり', 'Wellspring': 'いど', 'Hearthflame': 'かまど', 'Cornerstone': 'いしずえ',  # おもかげやどし
+}
+
+
+def resolve_ability(en_name, ability_table, unresolved):
+    if not en_name:
+        return en_name
+    if en_name in ability_table:
+        return ability_table[en_name]
+    if '(' in en_name and en_name.endswith(')'):
+        base, paren = en_name[:en_name.index('(')].strip(), en_name[en_name.index('(') + 1:-1]
+        base_jp = ability_table.get(base)
+        if base_jp:
+            paren_jp = ABILITY_VARIANT_JP.get(paren, paren)
+            return f'{base_jp}({paren_jp})'
+    unresolved.append(en_name)
+    return en_name
+
+
+def resolve_move(en_name, move_table, unresolved):
+    if en_name in move_table:
+        return move_table[en_name]
+    normalized = normalize_name(en_name)
+    for key, jp in move_table.items():
+        if normalize_name(key) == normalized:
+            return jp
+    unresolved.append(en_name)
+    return en_name
+
+
+def main():
+    os.makedirs(JP_DIR, exist_ok=True)
+
+    species_by_num = build_species_table()
+    ability_table = build_simple_table('ability_foreign_names.csv')
+    move_table = build_simple_table('move_foreign_names.csv')
+
+    pokedex = json.load(open(os.path.join(EN_DIR, 'pokedex.json'), encoding='utf-8'))
+    moves = json.load(open(os.path.join(EN_DIR, 'moves.json'), encoding='utf-8'))
+    learnsets = json.load(open(os.path.join(EN_DIR, 'learnsets.json'), encoding='utf-8'))
+
+    unresolved_species = []
+    unresolved_abilities = []
+    unresolved_moves = []
+
+    # 1st pass: 種族名を解決し、英語表示名 -> 和名 の対応表を作る (進化情報の変換に使う)
+    name_jp_by_en = {}
+    for sid, v in pokedex.items():
+        jp_name = resolve_species_name(sid, v['name'], v['num'], species_by_num, unresolved_species)
+        name_jp_by_en[v['name']] = jp_name
+
+    pokedex_jp = {}
+    for sid, v in pokedex.items():
+        pokedex_jp[sid] = {
+            **v,
+            'name': name_jp_by_en[v['name']],
+            'type_1': TYPE_JP.get(v['type_1'], v['type_1']),
+            'type_2': TYPE_JP.get(v['type_2'], v['type_2']) if v['type_2'] else '',
+            'ability_1': resolve_ability(v['ability_1'], ability_table, unresolved_abilities),
+            'ability_2': resolve_ability(v['ability_2'], ability_table, unresolved_abilities),
+            'ability_3': resolve_ability(v['ability_3'], ability_table, unresolved_abilities),
+            'pre_evolution': [name_jp_by_en.get(n, n) for n in v['pre_evolution']],
+            'post_evolution': [name_jp_by_en.get(n, n) for n in v['post_evolution']],
+        }
+
+    moves_jp = {}
+    for mid, v in moves.items():
+        moves_jp[mid] = {
+            **v,
+            'name': resolve_move(v['name'], move_table, unresolved_moves),
+            'type': TYPE_JP.get(v['type'], v['type']),
+            'category': v['category'].lower(),
+        }
+
+    json.dump(pokedex_jp, open(os.path.join(JP_DIR, 'pokedex.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=2)
+    json.dump(moves_jp, open(os.path.join(JP_DIR, 'moves.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=2)
+    json.dump(learnsets, open(os.path.join(JP_DIR, 'learnsets.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=2)
+
+    print(f'pokedex: {len(pokedex_jp)} 件書き出し')
+    print(f'moves: {len(moves_jp)} 件書き出し')
+    print(f'learnsets: {len(learnsets)} 件コピー(翻訳対象外)')
+    print()
+    print(f'[species] 未解決/ルール未収録 (ベース和名をそのまま使用): {len(unresolved_species)} 件')
+    for sid, name, num, reason in unresolved_species:
+        print(f'  {sid}\t{name}\t#{num}\t{reason}')
+    print()
+    print(f'[ability] 未収録 (英語のまま): {len(unresolved_abilities)} 件')
+    for name in sorted(set(unresolved_abilities)):
+        print(f'  {name}')
+    print()
+    print(f'[move] 未収録 (英語のまま): {len(unresolved_moves)} 件')
+    for name in sorted(set(unresolved_moves)):
+        print(f'  {name}')
+
+
+if __name__ == '__main__':
+    main()

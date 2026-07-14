@@ -1,0 +1,8958 @@
+{
+  "appleacid": {
+    "name": "りんごさん",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "banefulbunker": {
+    "name": "トーチカ",
+    "type": "どく",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "beakblast": {
+    "name": "くちばしキャノン",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 100,
+    "priority": -3,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "failcopycat",
+      "failinstruct",
+      "failmefirst",
+      "noassist",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "belch": {
+    "name": "ゲップ",
+    "type": "どく",
+    "category": "special",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "failinstruct",
+      "failmefirst",
+      "failmimic",
+      "noassist",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "bonerush": {
+    "name": "ボーンラッシュ",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 30,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "burnup": {
+    "name": "もえつきる",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 130,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "defrost",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "clangoroussoul": {
+    "name": "ソウルビート",
+    "type": "ドラゴン",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "snatch",
+      "sound"
+    ]
+  },
+  "corrosivegas": {
+    "name": "ふしょくガス",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "crabhammer": {
+    "name": "クラブハンマー",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "crushclaw": {
+    "name": "ブレイククロー",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "direclaw": {
+    "name": "フェイタルクロー",
+    "type": "どく",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "dragoncheer": {
+    "name": "ドラゴンエール",
+    "type": "ドラゴン",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "adjacentAlly",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "sound"
+    ]
+  },
+  "dragonclaw": {
+    "name": "ドラゴンクロー",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "electrify": {
+    "name": "そうでん",
+    "type": "でんき",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "encore": {
+    "name": "アンコール",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "failencore",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "fakeout": {
+    "name": "ねこだまし",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 3,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "firelash": {
+    "name": "ほのおのムチ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "firstimpression": {
+    "name": "であいがしら",
+    "type": "むし",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 100,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "freezedry": {
+    "name": "フリーズドライ",
+    "type": "こおり",
+    "category": "special",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "gravapple": {
+    "name": "Gのちから",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "growth": {
+    "name": "せいちょう",
+    "type": "くさ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "howl": {
+    "name": "とおぼえ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allies",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "snatch",
+      "sound"
+    ]
+  },
+  "infernalparade": {
+    "name": "ひゃっきやこう",
+    "type": "ゴースト",
+    "category": "special",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "ironhead": {
+    "name": "アイアンヘッド",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "kingsshield": {
+    "name": "キングシールド",
+    "type": "はがね",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "failinstruct",
+      "noassist"
+    ]
+  },
+  "lightofruin": {
+    "name": "はめつのひかり",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 8,
+    "power": 140,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "makeitrain": {
+    "name": "ゴールドラッシュ",
+    "type": "はがね",
+    "category": "special",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "moonblast": {
+    "name": "ムーンフォース",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 16,
+    "power": 95,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "mountaingale": {
+    "name": "ひょうざんおろし",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "nightdaze": {
+    "name": "ナイトバースト",
+    "type": "あく",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "nightslash": {
+    "name": "つじぎり",
+    "type": "あく",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "powershift": {
+    "name": "パワーシフト",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "snatch"
+    ]
+  },
+  "protect": {
+    "name": "まもる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "psyshieldbash": {
+    "name": "バリアーラッシュ",
+    "type": "エスパー",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "ragefist": {
+    "name": "ふんどのこぶし",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "saltcure": {
+    "name": "しおづけ",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 16,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "sandstorm": {
+    "name": "すなあらし",
+    "type": "いわ",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "wind"
+    ]
+  },
+  "shadowclaw": {
+    "name": "シャドークロー",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 16,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "snaptrap": {
+    "name": "トラバサミ",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 16,
+    "power": 35,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "snowscape": {
+    "name": "ゆきげしき",
+    "type": "こおり",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": []
+  },
+  "spikyshield": {
+    "name": "ニードルガード",
+    "type": "くさ",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "spiritshackle": {
+    "name": "かげぬい",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "stormthrow": {
+    "name": "やまあらし",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "stuffcheeks": {
+    "name": "ほおばる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "syrupbomb": {
+    "name": "みずあめボム",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "toxicthread": {
+    "name": "どくのいと",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "trickortreat": {
+    "name": "ハロウィン",
+    "type": "ゴースト",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "tropkick": {
+    "name": "トロピカルキック",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 16,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "accelerock": {
+    "name": "アクセルロック",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "acidarmor": {
+    "name": "とける",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "acidspray": {
+    "name": "アシッドボム",
+    "type": "どく",
+    "category": "special",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "acrobatics": {
+    "name": "アクロバット",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 16,
+    "power": 55,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "acupressure": {
+    "name": "つぼをつく",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "adjacentAllyOrSelf",
+    "multi_hit": null,
+    "flags": [
+      "metronome"
+    ]
+  },
+  "aerialace": {
+    "name": "つばめがえし",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "afteryou": {
+    "name": "おさきにどうぞ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub"
+    ]
+  },
+  "agility": {
+    "name": "こうそくいどう",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "aircutter": {
+    "name": "エアカッター",
+    "type": "ひこう",
+    "category": "special",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing",
+      "wind"
+    ]
+  },
+  "airslash": {
+    "name": "エアスラッシュ",
+    "type": "ひこう",
+    "category": "special",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "alluringvoice": {
+    "name": "みわくのボイス",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "allyswitch": {
+    "name": "サイドチェンジ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome"
+    ]
+  },
+  "amnesia": {
+    "name": "ドわすれ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "ancientpower": {
+    "name": "げんしのちから",
+    "type": "いわ",
+    "category": "special",
+    "pp": 8,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "aquacutter": {
+    "name": "アクアカッター",
+    "type": "みず",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "aquajet": {
+    "name": "アクアジェット",
+    "type": "みず",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "aquaring": {
+    "name": "アクアリング",
+    "type": "みず",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "aquastep": {
+    "name": "アクアステップ",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "dance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "aquatail": {
+    "name": "アクアテール",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "armorcannon": {
+    "name": "アーマーキャノン",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "aromaticmist": {
+    "name": "アロマミスト",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "adjacentAlly",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "assurance": {
+    "name": "ダメおし",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "attract": {
+    "name": "メロメロ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "aurasphere": {
+    "name": "はどうだん",
+    "type": "かくとう",
+    "category": "special",
+    "pp": 20,
+    "power": 80,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "pulse"
+    ]
+  },
+  "aurawheel": {
+    "name": "オーラぐるま",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 12,
+    "power": 110,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "auroraveil": {
+    "name": "オーロラベール",
+    "type": "こおり",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "avalanche": {
+    "name": "ゆきなだれ",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 100,
+    "priority": -4,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "axekick": {
+    "name": "かかとおとし",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "babydolleyes": {
+    "name": "つぶらなひとみ",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "barbbarrage": {
+    "name": "どくばりセンボン",
+    "type": "どく",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "batonpass": {
+    "name": "バトンタッチ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome"
+    ]
+  },
+  "beatup": {
+    "name": "ふくろだたき",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bellydrum": {
+    "name": "はらだいこ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "bind": {
+    "name": "しめつける",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bite": {
+    "name": "かみつく",
+    "type": "あく",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bitterblade": {
+    "name": "むねんのつるぎ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "bittermalice": {
+    "name": "うらみつらみ",
+    "type": "ゴースト",
+    "category": "special",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "blastburn": {
+    "name": "ブラストバーン",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "recharge"
+    ]
+  },
+  "blazekick": {
+    "name": "ブレイズキック",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "blizzard": {
+    "name": "ふぶき",
+    "type": "こおり",
+    "category": "special",
+    "pp": 8,
+    "power": 110,
+    "accuracy": 70,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "wind"
+    ]
+  },
+  "block": {
+    "name": "とおせんぼう",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "reflectable"
+    ]
+  },
+  "bodypress": {
+    "name": "ボディプレス",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bodyslam": {
+    "name": "のしかかり",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 16,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "minimize",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "boomburst": {
+    "name": "ばくおんぱ",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 140,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "bounce": {
+    "name": "とびはねる",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 8,
+    "power": 85,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "contact",
+      "distance",
+      "failinstruct",
+      "gravity",
+      "metronome",
+      "mirror",
+      "noassist",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "bravebird": {
+    "name": "ブレイブバード",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 16,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "breakingswipe": {
+    "name": "ワイドブレイカー",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 16,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "brickbreak": {
+    "name": "かわらわり",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "brutalswing": {
+    "name": "ぶんまわす",
+    "type": "あく",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bugbite": {
+    "name": "むしくい",
+    "type": "むし",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "bugbuzz": {
+    "name": "むしのさざめき",
+    "type": "むし",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "bulkup": {
+    "name": "ビルドアップ",
+    "type": "かくとう",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "bulldoze": {
+    "name": "じならし",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "bulletpunch": {
+    "name": "バレットパンチ",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "bulletseed": {
+    "name": "タネマシンガン",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 20,
+    "power": 25,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "burningjealousy": {
+    "name": "しっとのほのお",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "calmmind": {
+    "name": "めいそう",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "ceaselessedge": {
+    "name": "ひけん・ちえなみ",
+    "type": "あく",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "charge": {
+    "name": "じゅうでん",
+    "type": "でんき",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "chargebeam": {
+    "name": "チャージビーム",
+    "type": "でんき",
+    "category": "special",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "charm": {
+    "name": "あまえる",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "chillingwater": {
+    "name": "ひやみず",
+    "type": "みず",
+    "category": "special",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "chillyreception": {
+    "name": "さむいギャグ",
+    "type": "こおり",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": []
+  },
+  "circlethrow": {
+    "name": "ともえなげ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 90,
+    "priority": -6,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "metronome",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "clangingscales": {
+    "name": "スケイルノイズ",
+    "type": "ドラゴン",
+    "category": "special",
+    "pp": 8,
+    "power": 110,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "clearsmog": {
+    "name": "クリアスモッグ",
+    "type": "どく",
+    "category": "special",
+    "pp": 16,
+    "power": 50,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "closecombat": {
+    "name": "インファイト",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "coaching": {
+    "name": "コーチング",
+    "type": "かくとう",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "adjacentAlly",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "coil": {
+    "name": "とぐろをまく",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "comeuppance": {
+    "name": "ほうふく",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "scripted",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failmefirst",
+      "mirror",
+      "protect"
+    ]
+  },
+  "confuseray": {
+    "name": "あやしいひかり",
+    "type": "ゴースト",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "copycat": {
+    "name": "まねっこ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "failencore",
+      "failinstruct",
+      "failmimic",
+      "noassist",
+      "nosleeptalk"
+    ]
+  },
+  "cosmicpower": {
+    "name": "コスモパワー",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "cottonguard": {
+    "name": "コットンガード",
+    "type": "くさ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "cottonspore": {
+    "name": "わたほうし",
+    "type": "くさ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "counter": {
+    "name": "カウンター",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": -5,
+    "critical_rank": 0,
+    "target": "scripted",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "failmefirst",
+      "noassist",
+      "protect"
+    ]
+  },
+  "covet": {
+    "name": "ほしがる",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "failmefirst",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "crosschop": {
+    "name": "クロスチョップ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 8,
+    "power": 100,
+    "accuracy": 80,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "crosspoison": {
+    "name": "クロスポイズン",
+    "type": "どく",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "crunch": {
+    "name": "かみくだく",
+    "type": "あく",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "curse": {
+    "name": "のろい",
+    "type": "ゴースト",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "darkestlariat": {
+    "name": "DDラリアット",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "darkpulse": {
+    "name": "あくのはどう",
+    "type": "あく",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "pulse"
+    ]
+  },
+  "dazzlinggleam": {
+    "name": "マジカルシャイン",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "decorate": {
+    "name": "デコレーション",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim"
+    ]
+  },
+  "defog": {
+    "name": "きりばらい",
+    "type": "ひこう",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "destinybond": {
+    "name": "みちづれ",
+    "type": "ゴースト",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "detect": {
+    "name": "みきり",
+    "type": "かくとう",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "dig": {
+    "name": "あなをほる",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "noassist",
+      "nonsky",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "disable": {
+    "name": "かなしばり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "discharge": {
+    "name": "ほうでん",
+    "type": "でんき",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "dive": {
+    "name": "ダイビング",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "charge",
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "noassist",
+      "nonsky",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "doubleedge": {
+    "name": "すてみタックル",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 16,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "doublehit": {
+    "name": "ダブルアタック",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 35,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 2,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "doubleteam": {
+    "name": "かげぶんしん",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "dracometeor": {
+    "name": "りゅうせいぐん",
+    "type": "ドラゴン",
+    "category": "special",
+    "pp": 8,
+    "power": 130,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "dragondance": {
+    "name": "りゅうのまい",
+    "type": "ドラゴン",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "dragondarts": {
+    "name": "ドラゴンアロー",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 2,
+    "flags": [
+      "metronome",
+      "mirror",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "dragonpulse": {
+    "name": "りゅうのはどう",
+    "type": "ドラゴン",
+    "category": "special",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "pulse"
+    ]
+  },
+  "dragonrush": {
+    "name": "ドラゴンダイブ",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "minimize",
+      "mirror",
+      "protect"
+    ]
+  },
+  "dragontail": {
+    "name": "ドラゴンテール",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 90,
+    "priority": -6,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "metronome",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "drainingkiss": {
+    "name": "ドレインキッス",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "drainpunch": {
+    "name": "ドレインパンチ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "drillpeck": {
+    "name": "ドリルくちばし",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "drillrun": {
+    "name": "ドリルライナー",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "dualwingbeat": {
+    "name": "ダブルウイング",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 12,
+    "power": 40,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 2,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "dynamicpunch": {
+    "name": "ばくれつパンチ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 8,
+    "power": 100,
+    "accuracy": 50,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "earthpower": {
+    "name": "だいちのちから",
+    "type": "じめん",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "earthquake": {
+    "name": "じしん",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "eerieimpulse": {
+    "name": "かいでんぱ",
+    "type": "でんき",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "eeriespell": {
+    "name": "ぶきみなじゅもん",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 8,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "electricterrain": {
+    "name": "エレキフィールド",
+    "type": "でんき",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky"
+    ]
+  },
+  "electroball": {
+    "name": "エレキボール",
+    "type": "でんき",
+    "category": "special",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "electroshot": {
+    "name": "エレクトロビーム",
+    "type": "でんき",
+    "category": "special",
+    "pp": 12,
+    "power": 130,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "electroweb": {
+    "name": "エレキネット",
+    "type": "でんき",
+    "category": "special",
+    "pp": 16,
+    "power": 55,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "endeavor": {
+    "name": "がむしゃら",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "endure": {
+    "name": "こらえる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 4,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "energyball": {
+    "name": "エナジーボール",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "entrainment": {
+    "name": "なかまづくり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "eruption": {
+    "name": "ふんか",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "expandingforce": {
+    "name": "ワイドフォース",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "explosion": {
+    "name": "だいばくはつ",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 250,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "extrasensory": {
+    "name": "じんつうりき",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "extremespeed": {
+    "name": "しんそく",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "facade": {
+    "name": "からげんき",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "fairylock": {
+    "name": "フェアリーロック",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror"
+    ]
+  },
+  "faketears": {
+    "name": "うそなき",
+    "type": "あく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "featherdance": {
+    "name": "フェザーダンス",
+    "type": "ひこう",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "dance",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "feint": {
+    "name": "フェイント",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 30,
+    "accuracy": 100,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "mirror",
+      "noassist"
+    ]
+  },
+  "fellstinger": {
+    "name": "とどめばり",
+    "type": "むし",
+    "category": "physical",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "ficklebeam": {
+    "name": "きまぐレーザー",
+    "type": "ドラゴン",
+    "category": "special",
+    "pp": 8,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "fierydance": {
+    "name": "ほのおのまい",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "finalgambit": {
+    "name": "いのちがけ",
+    "type": "かくとう",
+    "category": "special",
+    "pp": 8,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "fireblast": {
+    "name": "だいもんじ",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 110,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "firefang": {
+    "name": "ほのおのキバ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "firepunch": {
+    "name": "ほのおのパンチ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "firespin": {
+    "name": "ほのおのうず",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 16,
+    "power": 35,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "fissure": {
+    "name": "じわれ",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 8,
+    "power": null,
+    "accuracy": 30,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "flail": {
+    "name": "じたばた",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flamecharge": {
+    "name": "ニトロチャージ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flamethrower": {
+    "name": "かえんほうしゃ",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flareblitz": {
+    "name": "フレアドライブ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 16,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "defrost",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flashcannon": {
+    "name": "ラスターカノン",
+    "type": "はがね",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flatter": {
+    "name": "おだてる",
+    "type": "あく",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "fling": {
+    "name": "なげつける",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "flipturn": {
+    "name": "クイックターン",
+    "type": "みず",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "flowertrick": {
+    "name": "トリックフラワー",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 12,
+    "power": 70,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "fly": {
+    "name": "そらをとぶ",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "contact",
+      "distance",
+      "failinstruct",
+      "gravity",
+      "metronome",
+      "mirror",
+      "noassist",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "flyingpress": {
+    "name": "フライングプレス",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "gravity",
+      "metronome",
+      "minimize",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "focusblast": {
+    "name": "きあいだま",
+    "type": "かくとう",
+    "category": "special",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 70,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "focusenergy": {
+    "name": "きあいだめ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "focuspunch": {
+    "name": "きあいパンチ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": 150,
+    "accuracy": 100,
+    "priority": -3,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "failinstruct",
+      "failmefirst",
+      "noassist",
+      "nosleeptalk",
+      "protect",
+      "punch"
+    ]
+  },
+  "followme": {
+    "name": "このゆびとまれ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "forestscurse": {
+    "name": "もりののろい",
+    "type": "くさ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "foulplay": {
+    "name": "イカサマ",
+    "type": "あく",
+    "category": "physical",
+    "pp": 16,
+    "power": 95,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "frenzyplant": {
+    "name": "ハードプラント",
+    "type": "くさ",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect",
+      "recharge"
+    ]
+  },
+  "frostbreath": {
+    "name": "こおりのいぶき",
+    "type": "こおり",
+    "category": "special",
+    "pp": 12,
+    "power": 60,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "futuresight": {
+    "name": "みらいよち",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "futuremove",
+      "metronome"
+    ]
+  },
+  "gastroacid": {
+    "name": "いえき",
+    "type": "どく",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "gigadrain": {
+    "name": "ギガドレイン",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "gigaimpact": {
+    "name": "ギガインパクト",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "recharge"
+    ]
+  },
+  "gigatonhammer": {
+    "name": "デカハンマー",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 8,
+    "power": 160,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "cantusetwice",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "glare": {
+    "name": "へびにらみ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "grassknot": {
+    "name": "くさむすび",
+    "type": "くさ",
+    "category": "special",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "grassyglide": {
+    "name": "グラススライダー",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 20,
+    "power": 55,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "grassyterrain": {
+    "name": "グラスフィールド",
+    "type": "くさ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky"
+    ]
+  },
+  "gravity": {
+    "name": "じゅうりょく",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky"
+    ]
+  },
+  "guardsplit": {
+    "name": "ガードシェア",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "protect"
+    ]
+  },
+  "guardswap": {
+    "name": "ガードスワップ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "guillotine": {
+    "name": "ハサミギロチン",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": null,
+    "accuracy": 30,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "gunkshot": {
+    "name": "ダストシュート",
+    "type": "どく",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 80,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "gyroball": {
+    "name": "ジャイロボール",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 8,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "hammerarm": {
+    "name": "アームハンマー",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "hardpress": {
+    "name": "ハードプレス",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "haze": {
+    "name": "くろいきり",
+    "type": "こおり",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "headlongrush": {
+    "name": "ぶちかまし",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "headsmash": {
+    "name": "もろはのずつき",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 80,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "healbell": {
+    "name": "いやしのすず",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allyTeam",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "distance",
+      "metronome",
+      "snatch",
+      "sound"
+    ]
+  },
+  "healingwish": {
+    "name": "いやしのねがい",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "healpulse": {
+    "name": "いやしのはどう",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "distance",
+      "heal",
+      "metronome",
+      "protect",
+      "pulse",
+      "reflectable"
+    ]
+  },
+  "heatcrash": {
+    "name": "ヒートスタンプ",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "minimize",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "heatwave": {
+    "name": "ねっぷう",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 12,
+    "power": 95,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "wind"
+    ]
+  },
+  "heavyslam": {
+    "name": "ヘビーボンバー",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "minimize",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "helpinghand": {
+    "name": "てだすけ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 5,
+    "critical_rank": 0,
+    "target": "adjacentAlly",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "failcopycat",
+      "noassist"
+    ]
+  },
+  "hex": {
+    "name": "たたりめ",
+    "type": "ゴースト",
+    "category": "special",
+    "pp": 12,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "highhorsepower": {
+    "name": "10まんばりき",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 95,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "highjumpkick": {
+    "name": "とびひざげり",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 130,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "gravity",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "horndrill": {
+    "name": "つのドリル",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": null,
+    "accuracy": 30,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "hornleech": {
+    "name": "ウッドホーン",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "hurricane": {
+    "name": "ぼうふう",
+    "type": "ひこう",
+    "category": "special",
+    "pp": 12,
+    "power": 110,
+    "accuracy": 70,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "wind"
+    ]
+  },
+  "hydrocannon": {
+    "name": "ハイドロカノン",
+    "type": "みず",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "recharge"
+    ]
+  },
+  "hydropump": {
+    "name": "ハイドロポンプ",
+    "type": "みず",
+    "category": "special",
+    "pp": 8,
+    "power": 110,
+    "accuracy": 80,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "hyperbeam": {
+    "name": "はかいこうせん",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "recharge"
+    ]
+  },
+  "hypervoice": {
+    "name": "ハイパーボイス",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "hypnosis": {
+    "name": "さいみんじゅつ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 60,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "icebeam": {
+    "name": "れいとうビーム",
+    "type": "こおり",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "icefang": {
+    "name": "こおりのキバ",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "icehammer": {
+    "name": "アイスハンマー",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 12,
+    "power": 100,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "icepunch": {
+    "name": "れいとうパンチ",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "iceshard": {
+    "name": "こおりのつぶて",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "icespinner": {
+    "name": "アイススピナー",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "iciclecrash": {
+    "name": "つららおとし",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "iciclespear": {
+    "name": "つららばり",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 20,
+    "power": 25,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "icywind": {
+    "name": "こごえるかぜ",
+    "type": "こおり",
+    "category": "special",
+    "pp": 16,
+    "power": 55,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "wind"
+    ]
+  },
+  "imprison": {
+    "name": "ふういん",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mustpressure",
+      "snatch"
+    ]
+  },
+  "inferno": {
+    "name": "れんごく",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 100,
+    "accuracy": 50,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "infestation": {
+    "name": "まとわりつく",
+    "type": "むし",
+    "category": "special",
+    "pp": 20,
+    "power": 20,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "ingrain": {
+    "name": "ねをはる",
+    "type": "くさ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky",
+      "snatch"
+    ]
+  },
+  "instruct": {
+    "name": "さいはい",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "failinstruct",
+      "protect"
+    ]
+  },
+  "irondefense": {
+    "name": "てっぺき",
+    "type": "はがね",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "irontail": {
+    "name": "アイアンテール",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 16,
+    "power": 100,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "jetpunch": {
+    "name": "ジェットパンチ",
+    "type": "みず",
+    "category": "physical",
+    "pp": 16,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "knockoff": {
+    "name": "はたきおとす",
+    "type": "あく",
+    "category": "physical",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "kowtowcleave": {
+    "name": "ドゲザン",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "lashout": {
+    "name": "うっぷんばらし",
+    "type": "あく",
+    "category": "physical",
+    "pp": 8,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lastresort": {
+    "name": "とっておき",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 140,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lastrespects": {
+    "name": "おはかまいり",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lavaplume": {
+    "name": "ふんえん",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "leafblade": {
+    "name": "リーフブレード",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "leafstorm": {
+    "name": "リーフストーム",
+    "type": "くさ",
+    "category": "special",
+    "pp": 8,
+    "power": 130,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "leechlife": {
+    "name": "きゅうけつ",
+    "type": "むし",
+    "category": "physical",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "leechseed": {
+    "name": "やどりぎのタネ",
+    "type": "くさ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "lifedew": {
+    "name": "いのちのしずく",
+    "type": "みず",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allies",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "heal",
+      "snatch"
+    ]
+  },
+  "lightscreen": {
+    "name": "ひかりのかべ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "liquidation": {
+    "name": "アクアブレイク",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lockon": {
+    "name": "ロックオン",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lowkick": {
+    "name": "けたぐり",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lowsweep": {
+    "name": "ローキック",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "luminacrash": {
+    "name": "ルミナコリジョン",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "lunge": {
+    "name": "とびかかる",
+    "type": "むし",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "machpunch": {
+    "name": "マッハパンチ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "magicpowder": {
+    "name": "まほうのこな",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "magicroom": {
+    "name": "マジックルーム",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror"
+    ]
+  },
+  "magneticflux": {
+    "name": "じばそうさ",
+    "type": "でんき",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "distance",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "magnetrise": {
+    "name": "でんじふゆう",
+    "type": "でんき",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "gravity",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "matchagotcha": {
+    "name": "シャカシャカほう",
+    "type": "くさ",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "defrost",
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "meanlook": {
+    "name": "くろいまなざし",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "reflectable"
+    ]
+  },
+  "megahorn": {
+    "name": "メガホーン",
+    "type": "むし",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "megakick": {
+    "name": "メガトンキック",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "memento": {
+    "name": "おきみやげ",
+    "type": "あく",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "metalburst": {
+    "name": "メタルバースト",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "scripted",
+    "multi_hit": null,
+    "flags": [
+      "failmefirst",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "metalsound": {
+    "name": "きんぞくおん",
+    "type": "はがね",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "meteorbeam": {
+    "name": "メテオビーム",
+    "type": "いわ",
+    "category": "special",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "meteormash": {
+    "name": "コメットパンチ",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "minimize": {
+    "name": "ちいさくなる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "mirrorcoat": {
+    "name": "ミラーコート",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": -5,
+    "critical_rank": 0,
+    "target": "scripted",
+    "multi_hit": null,
+    "flags": [
+      "failmefirst",
+      "noassist",
+      "protect"
+    ]
+  },
+  "mistyexplosion": {
+    "name": "ミストバースト",
+    "type": "フェアリー",
+    "category": "special",
+    "pp": 8,
+    "power": 100,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "mistyterrain": {
+    "name": "ミストフィールド",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky"
+    ]
+  },
+  "moonlight": {
+    "name": "つきのひかり",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "morningsun": {
+    "name": "あさのひざし",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "mortalspin": {
+    "name": "キラースピン",
+    "type": "どく",
+    "category": "physical",
+    "pp": 16,
+    "power": 30,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "muddywater": {
+    "name": "だくりゅう",
+    "type": "みず",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "mudshot": {
+    "name": "マッドショット",
+    "type": "じめん",
+    "category": "special",
+    "pp": 16,
+    "power": 55,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "mudslap": {
+    "name": "どろかけ",
+    "type": "じめん",
+    "category": "special",
+    "pp": 12,
+    "power": 20,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "mysticalfire": {
+    "name": "マジカルフレイム",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "nastyplot": {
+    "name": "わるだくみ",
+    "type": "あく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "nightshade": {
+    "name": "ナイトヘッド",
+    "type": "ゴースト",
+    "category": "special",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "nobleroar": {
+    "name": "おたけび",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "noretreat": {
+    "name": "はいすいのじん",
+    "type": "かくとう",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "nuzzle": {
+    "name": "ほっぺすりすり",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 20,
+    "power": 20,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "outrage": {
+    "name": "げきりん",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "overheat": {
+    "name": "オーバーヒート",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 8,
+    "power": 130,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "painsplit": {
+    "name": "いたみわけ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "paraboliccharge": {
+    "name": "パラボラチャージ",
+    "type": "でんき",
+    "category": "special",
+    "pp": 20,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "partingshot": {
+    "name": "すてゼリフ",
+    "type": "あく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "payback": {
+    "name": "しっぺがえし",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "perishsong": {
+    "name": "ほろびのうた",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "distance",
+      "metronome",
+      "sound"
+    ]
+  },
+  "petalblizzard": {
+    "name": "はなふぶき",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "wind"
+    ]
+  },
+  "petaldance": {
+    "name": "はなびらのまい",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "dance",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "phantomforce": {
+    "name": "ゴーストダイブ",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "noassist",
+      "nosleeptalk"
+    ]
+  },
+  "pinmissile": {
+    "name": "ミサイルばり",
+    "type": "むし",
+    "category": "physical",
+    "pp": 20,
+    "power": 25,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "playrough": {
+    "name": "じゃれつく",
+    "type": "フェアリー",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "pluck": {
+    "name": "ついばむ",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "distance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "poisonfang": {
+    "name": "どくどくのキバ",
+    "type": "どく",
+    "category": "physical",
+    "pp": 16,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "poisonjab": {
+    "name": "どくづき",
+    "type": "どく",
+    "category": "physical",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "poisonpowder": {
+    "name": "どくのこな",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "pollenpuff": {
+    "name": "かふんだんご",
+    "type": "むし",
+    "category": "special",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "poltergeist": {
+    "name": "ポルターガイスト",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 8,
+    "power": 110,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "populationbomb": {
+    "name": "ネズミざん",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 20,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 10,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "pounce": {
+    "name": "とびつく",
+    "type": "むし",
+    "category": "physical",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "pound": {
+    "name": "はたく",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "powergem": {
+    "name": "パワージェム",
+    "type": "いわ",
+    "category": "special",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "powersplit": {
+    "name": "パワーシェア",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "protect"
+    ]
+  },
+  "powerswap": {
+    "name": "パワースワップ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "powertrick": {
+    "name": "パワートリック",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "powertrip": {
+    "name": "つけあがる",
+    "type": "あく",
+    "category": "physical",
+    "pp": 12,
+    "power": 20,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "powerwhip": {
+    "name": "パワーウィップ",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "psychic": {
+    "name": "サイコキネシス",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "psychicfangs": {
+    "name": "サイコファング",
+    "type": "エスパー",
+    "category": "physical",
+    "pp": 12,
+    "power": 85,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "psychicnoise": {
+    "name": "サイコノイズ",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "psychicterrain": {
+    "name": "サイコフィールド",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky"
+    ]
+  },
+  "psychocut": {
+    "name": "サイコカッター",
+    "type": "エスパー",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "psychup": {
+    "name": "じこあんじ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "psyshock": {
+    "name": "サイコショック",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "quash": {
+    "name": "さきおくり",
+    "type": "あく",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "quickattack": {
+    "name": "でんこうせっか",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "quickguard": {
+    "name": "ファストガード",
+    "type": "かくとう",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 3,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "snatch"
+    ]
+  },
+  "quiverdance": {
+    "name": "ちょうのまい",
+    "type": "むし",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "ragepowder": {
+    "name": "いかりのこな",
+    "type": "むし",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 2,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "noassist",
+      "powder"
+    ]
+  },
+  "ragingbull": {
+    "name": "レイジングブル",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "ragingfury": {
+    "name": "だいふんげき",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "raindance": {
+    "name": "あまごい",
+    "type": "みず",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome"
+    ]
+  },
+  "rapidspin": {
+    "name": "こうそくスピン",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "razorshell": {
+    "name": "シェルブレード",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "recover": {
+    "name": "じこさいせい",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "recycle": {
+    "name": "リサイクル",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "reflect": {
+    "name": "リフレクター",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "reflecttype": {
+    "name": "ミラータイプ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "protect"
+    ]
+  },
+  "rest": {
+    "name": "ねむる",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "reversal": {
+    "name": "きしかいせい",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "risingvoltage": {
+    "name": "ライジングボルト",
+    "type": "でんき",
+    "category": "special",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "roar": {
+    "name": "ほえる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": -6,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "failcopycat",
+      "metronome",
+      "mirror",
+      "noassist",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "rockblast": {
+    "name": "ロックブラスト",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 12,
+    "power": 25,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "rockpolish": {
+    "name": "ロックカット",
+    "type": "いわ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "rockslide": {
+    "name": "いわなだれ",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "rocktomb": {
+    "name": "がんせきふうじ",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 16,
+    "power": 60,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "rockwrecker": {
+    "name": "がんせきほう",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect",
+      "recharge"
+    ]
+  },
+  "roleplay": {
+    "name": "なりきり",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "roost": {
+    "name": "はねやすめ",
+    "type": "ひこう",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "round": {
+    "name": "りんしょう",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 16,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "sacredsword": {
+    "name": "せいなるつるぎ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "safeguard": {
+    "name": "しんぴのまもり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "sandtomb": {
+    "name": "すなじごく",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 16,
+    "power": 35,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "scald": {
+    "name": "ねっとう",
+    "type": "みず",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "defrost",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "scaleshot": {
+    "name": "スケイルショット",
+    "type": "ドラゴン",
+    "category": "physical",
+    "pp": 20,
+    "power": 25,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "scaryface": {
+    "name": "こわいかお",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "scorchingsands": {
+    "name": "ねっさのだいち",
+    "type": "じめん",
+    "category": "special",
+    "pp": 12,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "defrost",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "screech": {
+    "name": "いやなおと",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "seedbomb": {
+    "name": "タネばくだん",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "seismictoss": {
+    "name": "ちきゅうなげ",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "selfdestruct": {
+    "name": "じばく",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 8,
+    "power": 200,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "noparentalbond",
+      "protect"
+    ]
+  },
+  "shadowball": {
+    "name": "シャドーボール",
+    "type": "ゴースト",
+    "category": "special",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "shadowpunch": {
+    "name": "シャドーパンチ",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "shadowsneak": {
+    "name": "かげうち",
+    "type": "ゴースト",
+    "category": "physical",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "shedtail": {
+    "name": "しっぽきり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": []
+  },
+  "sheercold": {
+    "name": "ぜったいれいど",
+    "type": "こおり",
+    "category": "special",
+    "pp": 8,
+    "power": null,
+    "accuracy": 30,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "shellsidearm": {
+    "name": "シェルアームズ",
+    "type": "どく",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "shellsmash": {
+    "name": "からをやぶる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "shelter": {
+    "name": "たてこもる",
+    "type": "はがね",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "simplebeam": {
+    "name": "シンプルビーム",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "sing": {
+    "name": "うたう",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 55,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable",
+      "sound"
+    ]
+  },
+  "skillswap": {
+    "name": "スキルスワップ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "skittersmack": {
+    "name": "はいよるいちげき",
+    "type": "むし",
+    "category": "physical",
+    "pp": 12,
+    "power": 70,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "skyattack": {
+    "name": "ゴッドバード",
+    "type": "ひこう",
+    "category": "physical",
+    "pp": 8,
+    "power": 140,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "distance",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "slackoff": {
+    "name": "なまける",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "sleeppowder": {
+    "name": "ねむりごな",
+    "type": "くさ",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "sleeptalk": {
+    "name": "ねごと",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "failcopycat",
+      "failencore",
+      "failinstruct",
+      "failmimic",
+      "noassist",
+      "nosleeptalk"
+    ]
+  },
+  "sludgebomb": {
+    "name": "ヘドロばくだん",
+    "type": "どく",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "sludgewave": {
+    "name": "ヘドロウェーブ",
+    "type": "どく",
+    "category": "special",
+    "pp": 12,
+    "power": 95,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "smackdown": {
+    "name": "うちおとす",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 16,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "smartstrike": {
+    "name": "スマートホーン",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 12,
+    "power": 70,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "snarl": {
+    "name": "バークアウト",
+    "type": "あく",
+    "category": "special",
+    "pp": 16,
+    "power": 55,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "snore": {
+    "name": "いびき",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 16,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "soak": {
+    "name": "みずびたし",
+    "type": "みず",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "softboiled": {
+    "name": "タマゴうみ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "solarbeam": {
+    "name": "ソーラービーム",
+    "type": "くさ",
+    "category": "special",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "solarblade": {
+    "name": "ソーラーブレード",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 12,
+    "power": 125,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "charge",
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "nosleeptalk",
+      "protect",
+      "slicing"
+    ]
+  },
+  "sparklingaria": {
+    "name": "うたかたのアリア",
+    "type": "みず",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "speedswap": {
+    "name": "スピードスワップ",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "spicyextract": {
+    "name": "ハバネロエキス",
+    "type": "くさ",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "spikes": {
+    "name": "まきびし",
+    "type": "じめん",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "foeSide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mustpressure",
+      "nonsky",
+      "reflectable"
+    ]
+  },
+  "spiritbreak": {
+    "name": "ソウルクラッシュ",
+    "type": "フェアリー",
+    "category": "physical",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "spite": {
+    "name": "うらみ",
+    "type": "ゴースト",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "spitup": {
+    "name": "はきだす",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "protect"
+    ]
+  },
+  "spore": {
+    "name": "キノコのほうし",
+    "type": "くさ",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "stealthrock": {
+    "name": "ステルスロック",
+    "type": "いわ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "foeSide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mustpressure",
+      "reflectable"
+    ]
+  },
+  "steelbeam": {
+    "name": "てっていこうせん",
+    "type": "はがね",
+    "category": "special",
+    "pp": 8,
+    "power": 140,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "steelroller": {
+    "name": "アイアンローラー",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 8,
+    "power": 130,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "steelwing": {
+    "name": "はがねのつばさ",
+    "type": "はがね",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "stickyweb": {
+    "name": "ねばねばネット",
+    "type": "むし",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "foeSide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "reflectable"
+    ]
+  },
+  "stockpile": {
+    "name": "たくわえる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch"
+    ]
+  },
+  "stompingtantrum": {
+    "name": "じだんだ",
+    "type": "じめん",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "stoneaxe": {
+    "name": "がんせきアックス",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "stoneedge": {
+    "name": "ストーンエッジ",
+    "type": "いわ",
+    "category": "physical",
+    "pp": 8,
+    "power": 100,
+    "accuracy": 80,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "storedpower": {
+    "name": "アシストパワー",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 20,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "strengthsap": {
+    "name": "ちからをすいとる",
+    "type": "くさ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "stringshot": {
+    "name": "いとをはく",
+    "type": "むし",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "struggle": {
+    "name": "わるあがき",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 1,
+    "power": 50,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "failencore",
+      "failinstruct",
+      "failmefirst",
+      "failmimic",
+      "noassist",
+      "nosketch",
+      "nosleeptalk",
+      "protect"
+    ]
+  },
+  "strugglebug": {
+    "name": "むしのていこう",
+    "type": "むし",
+    "category": "special",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "stunspore": {
+    "name": "しびれごな",
+    "type": "くさ",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "powder",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "substitute": {
+    "name": "みがわり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "nonsky",
+      "snatch"
+    ]
+  },
+  "suckerpunch": {
+    "name": "ふいうち",
+    "type": "あく",
+    "category": "physical",
+    "pp": 8,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "sunnyday": {
+    "name": "にほんばれ",
+    "type": "ほのお",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome"
+    ]
+  },
+  "supercellslam": {
+    "name": "サンダーダイブ",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 16,
+    "power": 100,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "minimize",
+      "mirror",
+      "protect"
+    ]
+  },
+  "superfang": {
+    "name": "いかりのまえば",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": null,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "superpower": {
+    "name": "ばかぢから",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "surf": {
+    "name": "なみのり",
+    "type": "みず",
+    "category": "special",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "nonsky",
+      "protect"
+    ]
+  },
+  "swagger": {
+    "name": "いばる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "swallow": {
+    "name": "のみこむ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "sweetkiss": {
+    "name": "てんしのキッス",
+    "type": "フェアリー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 75,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "sweetscent": {
+    "name": "あまいかおり",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "switcheroo": {
+    "name": "すりかえ",
+    "type": "あく",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "failcopycat",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "swordsdance": {
+    "name": "つるぎのまい",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "synthesis": {
+    "name": "こうごうせい",
+    "type": "くさ",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "tailslap": {
+    "name": "スイープビンタ",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 25,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "tailwind": {
+    "name": "おいかぜ",
+    "type": "ひこう",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "snatch",
+      "wind"
+    ]
+  },
+  "taunt": {
+    "name": "ちょうはつ",
+    "type": "あく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "tearfullook": {
+    "name": "なみだめ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "reflectable"
+    ]
+  },
+  "teatime": {
+    "name": "おちゃかい",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome"
+    ]
+  },
+  "teeterdance": {
+    "name": "フラフラダンス",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacent",
+    "multi_hit": null,
+    "flags": [
+      "dance",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "temperflare": {
+    "name": "やけっぱち",
+    "type": "ほのお",
+    "category": "physical",
+    "pp": 12,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "terrainpulse": {
+    "name": "だいちのはどう",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "pulse"
+    ]
+  },
+  "thief": {
+    "name": "どろぼう",
+    "type": "あく",
+    "category": "physical",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failcopycat",
+      "failmefirst",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "thrash": {
+    "name": "あばれる",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "throatchop": {
+    "name": "じごくづき",
+    "type": "あく",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "thunder": {
+    "name": "かみなり",
+    "type": "でんき",
+    "category": "special",
+    "pp": 12,
+    "power": 110,
+    "accuracy": 70,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "thunderbolt": {
+    "name": "10まんボルト",
+    "type": "でんき",
+    "category": "special",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "thunderfang": {
+    "name": "かみなりのキバ",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 95,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bite",
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "thunderpunch": {
+    "name": "かみなりパンチ",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 16,
+    "power": 75,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "punch"
+    ]
+  },
+  "thunderwave": {
+    "name": "でんじは",
+    "type": "でんき",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "tickle": {
+    "name": "くすぐる",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "tidyup": {
+    "name": "おかたづけ",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": []
+  },
+  "topsyturvy": {
+    "name": "ひっくりかえす",
+    "type": "あく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "torchsong": {
+    "name": "フレアソング",
+    "type": "ほのお",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "sound"
+    ]
+  },
+  "torment": {
+    "name": "いちゃもん",
+    "type": "あく",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "toxic": {
+    "name": "どくどく",
+    "type": "どく",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "toxicspikes": {
+    "name": "どくびし",
+    "type": "どく",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "foeSide",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mustpressure",
+      "nonsky",
+      "reflectable"
+    ]
+  },
+  "trailblaze": {
+    "name": "くさわけ",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 20,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "mirror",
+      "protect"
+    ]
+  },
+  "transform": {
+    "name": "へんしん",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "failcopycat",
+      "failencore",
+      "failinstruct",
+      "failmimic",
+      "noassist"
+    ]
+  },
+  "triattack": {
+    "name": "トライアタック",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "trick": {
+    "name": "トリック",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "failcopycat",
+      "mirror",
+      "noassist",
+      "protect"
+    ]
+  },
+  "trickroom": {
+    "name": "トリックルーム",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 8,
+    "power": null,
+    "accuracy": null,
+    "priority": -7,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror"
+    ]
+  },
+  "triplearrows": {
+    "name": "3ぼんのや",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 1,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "tripleaxel": {
+    "name": "トリプルアクセル",
+    "type": "こおり",
+    "category": "physical",
+    "pp": 12,
+    "power": 20,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 3,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "twinbeam": {
+    "name": "ツインビーム",
+    "type": "エスパー",
+    "category": "special",
+    "pp": 12,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": 2,
+    "flags": [
+      "mirror",
+      "protect"
+    ]
+  },
+  "upperhand": {
+    "name": "はやてがえし",
+    "type": "かくとう",
+    "category": "physical",
+    "pp": 16,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 3,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "uproar": {
+    "name": "さわぐ",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "randomNormal",
+    "multi_hit": null,
+    "flags": [
+      "bypasssub",
+      "failinstruct",
+      "metronome",
+      "mirror",
+      "nosleeptalk",
+      "protect",
+      "sound"
+    ]
+  },
+  "uturn": {
+    "name": "とんぼがえり",
+    "type": "むし",
+    "category": "physical",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "vacuumwave": {
+    "name": "しんくうは",
+    "type": "かくとう",
+    "category": "special",
+    "pp": 20,
+    "power": 40,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "venoshock": {
+    "name": "ベノムショック",
+    "type": "どく",
+    "category": "special",
+    "pp": 12,
+    "power": 65,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "voltswitch": {
+    "name": "ボルトチェンジ",
+    "type": "でんき",
+    "category": "special",
+    "pp": 20,
+    "power": 70,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "volttackle": {
+    "name": "ボルテッカー",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 16,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "waterfall": {
+    "name": "たきのぼり",
+    "type": "みず",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "waterpulse": {
+    "name": "みずのはどう",
+    "type": "みず",
+    "category": "special",
+    "pp": 20,
+    "power": 60,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "any",
+    "multi_hit": null,
+    "flags": [
+      "distance",
+      "metronome",
+      "mirror",
+      "protect",
+      "pulse"
+    ]
+  },
+  "watershuriken": {
+    "name": "みずしゅりけん",
+    "type": "みず",
+    "category": "special",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 100,
+    "priority": 1,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": [
+      2,
+      5
+    ],
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "waterspout": {
+    "name": "しおふき",
+    "type": "みず",
+    "category": "special",
+    "pp": 8,
+    "power": 150,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "allAdjacentFoes",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "wavecrash": {
+    "name": "ウェーブタックル",
+    "type": "みず",
+    "category": "physical",
+    "pp": 12,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "weatherball": {
+    "name": "ウェザーボール",
+    "type": "ノーマル",
+    "category": "special",
+    "pp": 12,
+    "power": 50,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "whirlpool": {
+    "name": "うずしお",
+    "type": "みず",
+    "category": "special",
+    "pp": 16,
+    "power": 35,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "whirlwind": {
+    "name": "ふきとばし",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 20,
+    "power": null,
+    "accuracy": null,
+    "priority": -6,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "bypasssub",
+      "failcopycat",
+      "metronome",
+      "mirror",
+      "noassist",
+      "reflectable",
+      "wind"
+    ]
+  },
+  "wideguard": {
+    "name": "ワイドガード",
+    "type": "いわ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 3,
+    "critical_rank": 0,
+    "target": "allySide",
+    "multi_hit": null,
+    "flags": [
+      "snatch"
+    ]
+  },
+  "wildcharge": {
+    "name": "ワイルドボルト",
+    "type": "でんき",
+    "category": "physical",
+    "pp": 16,
+    "power": 90,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "willowisp": {
+    "name": "おにび",
+    "type": "ほのお",
+    "category": "status",
+    "pp": 16,
+    "power": null,
+    "accuracy": 85,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "wish": {
+    "name": "ねがいごと",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "self",
+    "multi_hit": null,
+    "flags": [
+      "heal",
+      "metronome",
+      "snatch"
+    ]
+  },
+  "wonderroom": {
+    "name": "ワンダールーム",
+    "type": "エスパー",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "all",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror"
+    ]
+  },
+  "woodhammer": {
+    "name": "ウッドハンマー",
+    "type": "くさ",
+    "category": "physical",
+    "pp": 16,
+    "power": 120,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "worryseed": {
+    "name": "なやみのタネ",
+    "type": "くさ",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "allyanim",
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "wrap": {
+    "name": "まきつく",
+    "type": "ノーマル",
+    "category": "physical",
+    "pp": 20,
+    "power": 15,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "xscissor": {
+    "name": "シザークロス",
+    "type": "むし",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 100,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect",
+      "slicing"
+    ]
+  },
+  "yawn": {
+    "name": "あくび",
+    "type": "ノーマル",
+    "category": "status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "metronome",
+      "mirror",
+      "protect",
+      "reflectable"
+    ]
+  },
+  "zapcannon": {
+    "name": "でんじほう",
+    "type": "でんき",
+    "category": "special",
+    "pp": 8,
+    "power": 120,
+    "accuracy": 50,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "bullet",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  },
+  "zenheadbutt": {
+    "name": "しねんのずつき",
+    "type": "エスパー",
+    "category": "physical",
+    "pp": 16,
+    "power": 80,
+    "accuracy": 90,
+    "priority": 0,
+    "critical_rank": 0,
+    "target": "normal",
+    "multi_hit": null,
+    "flags": [
+      "contact",
+      "metronome",
+      "mirror",
+      "protect"
+    ]
+  }
+}
