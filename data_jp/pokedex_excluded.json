@@ -4,6 +4,7 @@
     "showdown_name": "Pikachu-Cosplay",
     "num": 25,
     "forme": "Cosplay",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -35,6 +36,7 @@
     "showdown_name": "Pikachu-Rock-Star",
     "num": 25,
     "forme": "Rock-Star",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -66,6 +68,7 @@
     "showdown_name": "Pikachu-Belle",
     "num": 25,
     "forme": "Belle",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -97,6 +100,7 @@
     "showdown_name": "Pikachu-Pop-Star",
     "num": 25,
     "forme": "Pop-Star",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -128,6 +132,7 @@
     "showdown_name": "Pikachu-PhD",
     "num": 25,
     "forme": "PhD",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -159,6 +164,7 @@
     "showdown_name": "Pikachu-Libre",
     "num": 25,
     "forme": "Libre",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -190,6 +196,7 @@
     "showdown_name": "Pikachu-Original",
     "num": 25,
     "forme": "Original",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -222,6 +229,7 @@
     "showdown_name": "Pikachu-Hoenn",
     "num": 25,
     "forme": "Hoenn",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -254,6 +262,7 @@
     "showdown_name": "Pikachu-Sinnoh",
     "num": 25,
     "forme": "Sinnoh",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -286,6 +295,7 @@
     "showdown_name": "Pikachu-Unova",
     "num": 25,
     "forme": "Unova",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -318,6 +328,7 @@
     "showdown_name": "Pikachu-Kalos",
     "num": 25,
     "forme": "Kalos",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -350,6 +361,7 @@
     "showdown_name": "Pikachu-Partner",
     "num": 25,
     "forme": "Partner",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -382,6 +394,7 @@
     "showdown_name": "Pikachu-World",
     "num": 25,
     "forme": "World",
+    "baseForme": "",
     "types": [
       "でんき"
     ],
@@ -414,6 +427,7 @@
     "showdown_name": "Cherrim-Sunshine",
     "num": 421,
     "forme": "Sunshine",
+    "baseForme": "",
     "types": [
       "くさ"
     ],
@@ -445,6 +459,7 @@
     "showdown_name": "Shellos-East",
     "num": 422,
     "forme": "East",
+    "baseForme": "",
     "types": [
       "みず"
     ],
@@ -480,6 +495,7 @@
     "showdown_name": "Gastrodon-East",
     "num": 423,
     "forme": "East",
+    "baseForme": "",
     "types": [
       "みず",
       "じめん"
@@ -514,6 +530,7 @@
     "showdown_name": "Deerling-Summer",
     "num": 585,
     "forme": "Summer",
+    "baseForme": "",
     "types": [
       "ノーマル",
       "くさ"
@@ -550,6 +567,7 @@
     "showdown_name": "Deerling-Autumn",
     "num": 585,
     "forme": "Autumn",
+    "baseForme": "",
     "types": [
       "ノーマル",
       "くさ"
@@ -586,6 +604,7 @@
     "showdown_name": "Deerling-Winter",
     "num": 585,
     "forme": "Winter",
+    "baseForme": "",
     "types": [
       "ノーマル",
       "くさ"
@@ -622,6 +641,7 @@
     "showdown_name": "Greninja-Bond",
     "num": 658,
     "forme": "Bond",
+    "baseForme": "",
     "types": [
       "みず",
       "あく"
@@ -654,6 +674,7 @@
     "showdown_name": "Vivillon-Icy Snow",
     "num": 666,
     "forme": "Icy Snow",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -688,6 +709,7 @@
     "showdown_name": "Vivillon-Polar",
     "num": 666,
     "forme": "Polar",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -722,6 +744,7 @@
     "showdown_name": "Vivillon-Tundra",
     "num": 666,
     "forme": "Tundra",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -756,6 +779,7 @@
     "showdown_name": "Vivillon-Continental",
     "num": 666,
     "forme": "Continental",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -790,6 +814,7 @@
     "showdown_name": "Vivillon-Garden",
     "num": 666,
     "forme": "Garden",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -824,6 +849,7 @@
     "showdown_name": "Vivillon-Elegant",
     "num": 666,
     "forme": "Elegant",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -858,6 +884,7 @@
     "showdown_name": "Vivillon-Modern",
     "num": 666,
     "forme": "Modern",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -892,6 +919,7 @@
     "showdown_name": "Vivillon-Marine",
     "num": 666,
     "forme": "Marine",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -926,6 +954,7 @@
     "showdown_name": "Vivillon-Archipelago",
     "num": 666,
     "forme": "Archipelago",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -960,6 +989,7 @@
     "showdown_name": "Vivillon-High Plains",
     "num": 666,
     "forme": "High Plains",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -994,6 +1024,7 @@
     "showdown_name": "Vivillon-Sandstorm",
     "num": 666,
     "forme": "Sandstorm",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1028,6 +1059,7 @@
     "showdown_name": "Vivillon-River",
     "num": 666,
     "forme": "River",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1062,6 +1094,7 @@
     "showdown_name": "Vivillon-Monsoon",
     "num": 666,
     "forme": "Monsoon",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1096,6 +1129,7 @@
     "showdown_name": "Vivillon-Savanna",
     "num": 666,
     "forme": "Savanna",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1130,6 +1164,7 @@
     "showdown_name": "Vivillon-Sun",
     "num": 666,
     "forme": "Sun",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1164,6 +1199,7 @@
     "showdown_name": "Vivillon-Ocean",
     "num": 666,
     "forme": "Ocean",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1198,6 +1234,7 @@
     "showdown_name": "Vivillon-Jungle",
     "num": 666,
     "forme": "Jungle",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1232,6 +1269,7 @@
     "showdown_name": "Vivillon-Fancy",
     "num": 666,
     "forme": "Fancy",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1266,6 +1304,7 @@
     "showdown_name": "Vivillon-Pokeball",
     "num": 666,
     "forme": "Pokeball",
+    "baseForme": "",
     "types": [
       "むし",
       "ひこう"
@@ -1295,107 +1334,12 @@
     "name": "ビビヨン",
     "reason": "和名\"ビビヨン\"が既存エントリ(showdown_id=vivillon)と重複"
   },
-  "oricoriopompom": {
-    "showdown_id": "oricoriopompom",
-    "showdown_name": "Oricorio-Pom-Pom",
-    "num": 741,
-    "forme": "Pom-Pom",
-    "types": [
-      "でんき",
-      "ひこう"
-    ],
-    "abilities": [
-      "おどりこ"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
-    },
-    "weight": 3.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.25,
-      "F": 0.75
-    },
-    "requiredItem": "",
-    "name": "オドリドリ",
-    "reason": "和名\"オドリドリ\"が既存エントリ(showdown_id=oricorio)と重複"
-  },
-  "oricoriopau": {
-    "showdown_id": "oricoriopau",
-    "showdown_name": "Oricorio-Pa'u",
-    "num": 741,
-    "forme": "Pa'u",
-    "types": [
-      "エスパー",
-      "ひこう"
-    ],
-    "abilities": [
-      "おどりこ"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
-    },
-    "weight": 3.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.25,
-      "F": 0.75
-    },
-    "requiredItem": "",
-    "name": "オドリドリ",
-    "reason": "和名\"オドリドリ\"が既存エントリ(showdown_id=oricorio)と重複"
-  },
-  "oricoriosensu": {
-    "showdown_id": "oricoriosensu",
-    "showdown_name": "Oricorio-Sensu",
-    "num": 741,
-    "forme": "Sensu",
-    "types": [
-      "ゴースト",
-      "ひこう"
-    ],
-    "abilities": [
-      "おどりこ"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
-    },
-    "weight": 3.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.25,
-      "F": 0.75
-    },
-    "requiredItem": "",
-    "name": "オドリドリ",
-    "reason": "和名\"オドリドリ\"が既存エントリ(showdown_id=oricorio)と重複"
-  },
   "rockruffdusk": {
     "showdown_id": "rockruffdusk",
     "showdown_name": "Rockruff-Dusk",
     "num": 744,
     "forme": "Dusk",
+    "baseForme": "",
     "types": [
       "いわ"
     ],
@@ -1424,42 +1368,12 @@
     "name": "イワンコ",
     "reason": "和名\"イワンコ\"が既存エントリ(showdown_id=rockruff)と重複"
   },
-  "wishiwashischool": {
-    "showdown_id": "wishiwashischool",
-    "showdown_name": "Wishiwashi-School",
-    "num": 746,
-    "forme": "School",
-    "types": [
-      "みず"
-    ],
-    "abilities": [
-      "ぎょぐん"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "atk": 140,
-      "def": 130,
-      "spa": 140,
-      "spd": 135,
-      "spe": 30
-    },
-    "weight": 78.6,
-    "height": 8.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": "",
-    "name": "ヨワシ",
-    "reason": "和名\"ヨワシ\"が既存エントリ(showdown_id=wishiwashi)と重複"
-  },
   "minioryellow": {
     "showdown_id": "minioryellow",
     "showdown_name": "Minior-Yellow",
     "num": 774,
     "forme": "Yellow",
+    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -1492,6 +1406,7 @@
     "showdown_name": "Minior-Green",
     "num": 774,
     "forme": "Green",
+    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -1524,6 +1439,7 @@
     "showdown_name": "Minior-Blue",
     "num": 774,
     "forme": "Blue",
+    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -1556,6 +1472,7 @@
     "showdown_name": "Minior-Indigo",
     "num": 774,
     "forme": "Indigo",
+    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -1588,6 +1505,7 @@
     "showdown_name": "Minior-Violet",
     "num": 774,
     "forme": "Violet",
+    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -1620,6 +1538,7 @@
     "showdown_name": "Magearna-Original",
     "num": 801,
     "forme": "Original",
+    "baseForme": "",
     "types": [
       "はがね",
       "フェアリー"
@@ -1652,6 +1571,7 @@
     "showdown_name": "Sinistea-Antique",
     "num": 854,
     "forme": "Antique",
+    "baseForme": "",
     "types": [
       "ゴースト"
     ],
@@ -1686,6 +1606,7 @@
     "showdown_name": "Polteageist-Antique",
     "num": 855,
     "forme": "Antique",
+    "baseForme": "",
     "types": [
       "ゴースト"
     ],
@@ -1718,6 +1639,7 @@
     "showdown_name": "Alcremie-Ruby-Cream",
     "num": 869,
     "forme": "Ruby-Cream",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1750,6 +1672,7 @@
     "showdown_name": "Alcremie-Matcha-Cream",
     "num": 869,
     "forme": "Matcha-Cream",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1782,6 +1705,7 @@
     "showdown_name": "Alcremie-Mint-Cream",
     "num": 869,
     "forme": "Mint-Cream",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1814,6 +1738,7 @@
     "showdown_name": "Alcremie-Lemon-Cream",
     "num": 869,
     "forme": "Lemon-Cream",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1846,6 +1771,7 @@
     "showdown_name": "Alcremie-Ruby-Swirl",
     "num": 869,
     "forme": "Ruby-Swirl",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1878,6 +1804,7 @@
     "showdown_name": "Alcremie-Caramel-Swirl",
     "num": 869,
     "forme": "Caramel-Swirl",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1910,6 +1837,7 @@
     "showdown_name": "Alcremie-Rainbow-Swirl",
     "num": 869,
     "forme": "Rainbow-Swirl",
+    "baseForme": "",
     "types": [
       "フェアリー"
     ],
@@ -1937,113 +1865,12 @@
     "name": "マホイップ",
     "reason": "和名\"マホイップ\"が既存エントリ(showdown_id=alcremie)と重複"
   },
-  "squawkabillyblue": {
-    "showdown_id": "squawkabillyblue",
-    "showdown_name": "Squawkabilly-Blue",
-    "num": 931,
-    "forme": "Blue",
-    "types": [
-      "ノーマル",
-      "ひこう"
-    ],
-    "abilities": [
-      "いかく",
-      "はりきり",
-      "こんじょう"
-    ],
-    "baseStats": {
-      "hp": 82,
-      "atk": 96,
-      "def": 51,
-      "spa": 45,
-      "spd": 51,
-      "spe": 92
-    },
-    "weight": 2.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": "",
-    "name": "イキリンコ",
-    "reason": "和名\"イキリンコ\"が既存エントリ(showdown_id=squawkabilly)と重複"
-  },
-  "squawkabillyyellow": {
-    "showdown_id": "squawkabillyyellow",
-    "showdown_name": "Squawkabilly-Yellow",
-    "num": 931,
-    "forme": "Yellow",
-    "types": [
-      "ノーマル",
-      "ひこう"
-    ],
-    "abilities": [
-      "いかく",
-      "はりきり",
-      "ちからずく"
-    ],
-    "baseStats": {
-      "hp": 82,
-      "atk": 96,
-      "def": 51,
-      "spa": 45,
-      "spd": 51,
-      "spe": 92
-    },
-    "weight": 2.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": "",
-    "name": "イキリンコ",
-    "reason": "和名\"イキリンコ\"が既存エントリ(showdown_id=squawkabilly)と重複"
-  },
-  "squawkabillywhite": {
-    "showdown_id": "squawkabillywhite",
-    "showdown_name": "Squawkabilly-White",
-    "num": 931,
-    "forme": "White",
-    "types": [
-      "ノーマル",
-      "ひこう"
-    ],
-    "abilities": [
-      "いかく",
-      "はりきり",
-      "ちからずく"
-    ],
-    "baseStats": {
-      "hp": 82,
-      "atk": 96,
-      "def": 51,
-      "spa": 45,
-      "spd": 51,
-      "spe": 92
-    },
-    "weight": 2.4,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": "",
-    "name": "イキリンコ",
-    "reason": "和名\"イキリンコ\"が既存エントリ(showdown_id=squawkabilly)と重複"
-  },
   "poltchageistartisan": {
     "showdown_id": "poltchageistartisan",
     "showdown_name": "Poltchageist-Artisan",
     "num": 1012,
     "forme": "Artisan",
+    "baseForme": "",
     "types": [
       "くさ",
       "ゴースト"
@@ -2079,6 +1906,7 @@
     "showdown_name": "Sinistcha-Masterpiece",
     "num": 1013,
     "forme": "Masterpiece",
+    "baseForme": "",
     "types": [
       "くさ",
       "ゴースト"

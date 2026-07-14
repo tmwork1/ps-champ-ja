@@ -42,6 +42,17 @@ const EXCLUDED_SPECIES_TAGS = new Set(['CAP', 'Custom', 'Future', 'LGPE']);
 // ここで配列化しておく(スロット情報自体はどの言語にも依存しないformat)。
 const ABILITY_SLOT_ORDER = ['0', '1', 'H', 'S'];
 
+// PSは基本フォルムを無印名(例: "Charizard")、差分フォルムのみ "-Forme" サフィックス
+// (例: "Charizard-Mega-X")で表す。オドリドリ/ヨワシ等ごく一部の種族は基本フォルムにも
+// baseForme(例: "Baile"/"Solo")という固有名を持つが、それ以外は基本フォルムの固有名を持たない。
+// displayNameは差分フォルム・baseFormeを持つ基本フォルムを "種族名(フォルム名)" 形式に統一し、
+// それ以外(baseForme・forme共に無い基本フォルム)は無印のままにする。
+function buildDisplayName(species) {
+	if (species.forme) return `${species.baseSpecies}(${species.forme})`;
+	if (species.baseForme) return `${species.baseSpecies}(${species.baseForme})`;
+	return species.name;
+}
+
 // PSの生データ(species)のキー名・構造は、対戦データとして必要なものだけを残しつつ
 // 見出し語(weightkg/heightm等)やabilitiesの形は data_en/data_jp で共通のformatに揃える。
 // 対戦に不要なキー(タマゴグループ・使用率ランク等)は落とす(pick)。
@@ -53,8 +64,10 @@ function buildPokedex() {
 		pokedex[species.id] = {
 			showdown_id: species.id,
 			showdown_name: species.name,
+			displayName: buildDisplayName(species),
 			num: species.num,
 			forme: species.forme,
+			baseForme: species.baseForme || '',
 			types: species.types,
 			abilities: ABILITY_SLOT_ORDER
 				.filter(slot => slot in species.abilities)

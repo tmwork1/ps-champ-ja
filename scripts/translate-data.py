@@ -18,6 +18,8 @@ poke-langmap に収録が無いものを手動で補う対応表(リポジトリ
       フォルム違い(メガ/リージョンフォルム等)の和名は、公式で確立している組み合わせのみ
       FORM_RULES に明記して合成する。未収録の組み合わせ(コスチューム違いなど、実際のゲームでも
       固有の表示名を持たないもの)はベースの和名をそのまま使い、翻訳漏れとして一覧に出力する。
+      基本フォルムであっても baseForme(例: オドリドリの"Baile")を持つ種族は同じ仕組みで
+      「ベース和名(フォルム)」に合成する対象になる(単純な無印名にはしない)。
       abilities は data_en 側の {スロット: 特性名} オブジェクトから、data_jp 側では
       スロット情報を落として和名の配列に変換する。
       data_jp/pokedex.json は data_en と異なりキーを和名にする(showdown_id/showdown_name
@@ -65,7 +67,7 @@ def load_additional_table():
             if not row or not row[0]:
                 continue
             en, jp = row[0], row[1]
-            table[en] = jp
+            table[en] = normalize_fullwidth_alnum(jp)
     return table
 
 
@@ -211,16 +213,34 @@ FORM_RULES = {
 MINIOR_CORE_COLORS = {'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'}
 
 # num を限定しないと衝突するもの (num, suffix) -> template
+# suffixは差分フォルムでは forme、基本フォルムでは baseForme の値がそのまま入る
+# (例: オドリドリの基本フォルムは forme="" だが baseForme="Baile" を持つ)。
 FORM_RULES_BY_NUM = {
     (646, 'White'): 'ホワイト{base}',
     (646, 'Black'): 'ブラック{base}',
-    (931, 'White'): None,  # スカージャー(白) はコスチューム違いで固有名なし
     (898, 'Ice'): '{base}(はくば)',       # バドレックス(白馬)
     (898, 'Shadow'): '{base}(こくば)',    # バドレックス(黒馬)
     (493, 'Ice'): '{base}(こおり)',       # アルセウス: タイプ違いに公式固有名はないため意訳
     (773, 'Ice'): '{base}(こおり)',       # シルヴァディ: 同上
     (745, 'Midnight'): '{base}(まよなか)',  # ルガルガン(まよなかのすがた)
     (745, 'Dusk'): '{base}(たそがれ)',      # ルガルガン(たそがれのすがた)
+    # ザシアン/ザマゼンタの基本フォルム(baseForme="Hero")はパフュートンの
+    # 'Hero'(ヒーロー)FORM_RULESと英語表記が衝突するため num限定で上書きする。
+    (888, 'Hero'): '{base}(れきせん)',
+    (889, 'Hero'): '{base}(れきせん)',
+    # オドリドリ(基本フォルム含む4スタイル。公式のスタイル名から「スタイル」を除いた形で表記)
+    (741, 'Baile'): '{base}(めらめら)',
+    (741, 'Pom-Pom'): '{base}(ぱちぱち)',
+    (741, "Pa'u"): '{base}(ふらふら)',
+    (741, 'Sensu'): '{base}(まいまい)',
+    # ヨワシ(基本フォルム含む2すがた)
+    (746, 'Solo'): '{base}(たんどく)',
+    (746, 'School'): '{base}(むれ)',
+    # イキリンコ(基本フォルム含む4色。公式に固有名は無いコスチューム違いのため色名を意訳)
+    (931, 'Green'): '{base}(グリーン)',
+    (931, 'Blue'): '{base}(ブルー)',
+    (931, 'Yellow'): '{base}(イエロー)',
+    (931, 'White'): '{base}(ホワイト)',
 }
 for _t_en, _t_jp in TYPE_JP.items():
     if _t_en != 'Ice':
@@ -251,7 +271,7 @@ def build_species_table():
         # 実際に必要なのは英語表記だけなので "(英語)" の手前を取り出す。
         if '(英語)' in en:
             en = en.split('(英語)')[0].strip()
-        by_num.setdefault(int(row[0]), []).append((row[1], normalize_name(en)))
+        by_num.setdefault(int(row[0]), []).append((normalize_fullwidth_alnum(row[1]), normalize_name(en)))
     return by_num
 
 
@@ -260,7 +280,7 @@ def build_simple_table(filename):
     table = {}
     for row in rows:
         jp, en = row[0], row[1]
-        table[en] = jp
+        table[en] = normalize_fullwidth_alnum(jp)
     return table
 
 
@@ -270,26 +290,38 @@ def normalize_name(s):
     return unicodedata.normalize('NFC', s).replace('’', "'")
 
 
-def resolve_species_name(sid, name, num, species_by_num, unresolved):
+# langmap/ 側の和名に全角英数字が紛れているケース(例: "ポリゴン２")に備えて、
+# data_jp/ に書き出す和名は英数字を半角に統一する(全角は半角に統一する方針)。
+FULLWIDTH_ALNUM_TABLE = str.maketrans(
+    '０１２３４５６７８９'
+    'ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ'
+    'ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ',
+    '0123456789'
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    'abcdefghijklmnopqrstuvwxyz',
+)
+
+
+def normalize_fullwidth_alnum(s):
+    return s.translate(FULLWIDTH_ALNUM_TABLE)
+
+
+def resolve_species_name(sid, name, num, forme, base_forme, species_by_num, unresolved):
     if sid in ID_OVERRIDES:
         return ID_OVERRIDES[sid]
 
-    name_norm = normalize_name(name)
     candidates = species_by_num.get(num, [])
-    for jp, en in candidates:
-        if en == name_norm:
-            return jp
-
     if not candidates:
         unresolved.append((sid, name, num, 'no base entry for dex num'))
         return name
 
     base_jp, base_en = candidates[0]
-    if not name_norm.startswith(base_en + '-'):
-        unresolved.append((sid, name, num, f'name does not extend base "{base_en}"'))
-        return name
 
-    suffix = name_norm[len(base_en) + 1:]
+    # 差分フォルムは forme、基本フォルムは(baseFormeを持つ場合のみ)baseForme を
+    # 合成対象のサフィックスとして扱う。どちらも無ければ基本フォルムの和名をそのまま使う。
+    suffix = forme or base_forme
+    if not suffix:
+        return base_jp
 
     if (num, suffix) in FORM_RULES_BY_NUM:
         template = FORM_RULES_BY_NUM[(num, suffix)]
@@ -364,7 +396,8 @@ def main():
     name_jp_by_en = {}
     for sid, v in pokedex.items():
         local_unresolved = []
-        jp_name = resolve_species_name(sid, v['showdown_name'], v['num'], species_by_num, local_unresolved)
+        jp_name = resolve_species_name(
+            sid, v['showdown_name'], v['num'], v['forme'], v['baseForme'], species_by_num, local_unresolved)
         if local_unresolved:
             unresolved_species_by_sid[sid] = local_unresolved[0][1:]
         name_jp_by_en[v['showdown_name']] = jp_name
@@ -382,6 +415,7 @@ def main():
             'showdown_name': v['showdown_name'],
             'num': v['num'],
             'forme': v['forme'],
+            'baseForme': v['baseForme'],
             'types': [TYPE_JP.get(t, t) for t in v['types']],
             'abilities': [
                 resolve_ability(name, ability_table, unresolved_abilities)
