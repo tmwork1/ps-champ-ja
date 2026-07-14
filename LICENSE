@@ -17,11 +17,13 @@ Summary of terms (see the license deed above for the full legally binding text):
 
 Attribution notice:
 
-  translation/*.csv and data_jp/ (which is derived from it) incorporate name
-  translation data sourced from Pokemon Wiki (https://wiki.pokemonwiki.com/),
-  itself published under CC BY-NC-SA 3.0. This repository is licensed under
-  CC BY-NC-SA 4.0 in accordance with Creative Commons' license compatibility
-  provisions for adapting CC BY-NC-SA 3.0 material.
+  langmap/*.csv (downloaded at build time from
+  https://github.com/tmwork1/poke-langmap, not committed to this repository)
+  and data_jp/ (which is derived from it) incorporate name translation data
+  sourced from Pokemon Wiki (https://wiki.pokemonwiki.com/), itself published
+  under CC BY-NC-SA 3.0. This repository is licensed under CC BY-NC-SA 4.0 in
+  accordance with Creative Commons' license compatibility provisions for
+  adapting CC BY-NC-SA 3.0 material.
 
 Note on third-party IP:
 

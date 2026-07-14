@@ -1,3 +1,6 @@
+# poke-langmap からダウンロードする和訳テーブル(scripts/translate-data.py が実行時に取得)
+/langmap/*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""data_en/ の英語データを translation/ の言語テーブルで和訳し、data_jp/ に書き出す。
+"""data_en/ の英語データを langmap/ の言語テーブルで和訳し、data_jp/ に書き出す。
+
+langmap/ (https://github.com/tmwork1/poke-langmap 由来、リポジトリにはコミットしない)
+は scripts/download-langmap.py で事前にダウンロードしておくこと。
 
 対象: pokedex.json の name / types / abilities / prevo / evos / requiredItem
       moves.json の name / type
@@ -17,21 +20,25 @@
       data_jp/pokedex_excluded.json (showdown_idキー、reason付き)に退避して
       data_jp/pokedex.json からは除外する。
 
-Usage: python scripts/translate-data.py
+Usage: python scripts/download-langmap.py && python scripts/translate-data.py
 """
 import csv
 import json
 import os
+import sys
 import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EN_DIR = os.path.join(ROOT, 'data_en')
 JP_DIR = os.path.join(ROOT, 'data_jp')
-TRANSLATION_DIR = os.path.join(ROOT, 'translation')
+TRANSLATION_DIR = os.path.join(ROOT, 'langmap')
 
 
 def load_csv(name):
     path = os.path.join(TRANSLATION_DIR, name)
+    if not os.path.exists(path):
+        print(f'langmap/{name} が見つかりません。先に scripts/download-langmap.py を実行してください。')
+        sys.exit(1)
     with open(path, encoding='utf-8-sig', newline='') as f:
         reader = csv.reader(f)
         header = next(reader)
@@ -210,7 +217,7 @@ ID_OVERRIDES = {
 
 
 def build_species_table():
-    _, rows = load_csv('foreign_names.csv')
+    _, rows = load_csv('name_langmap.csv')
     by_num = {}
     for row in rows:
         if not row[0]:
@@ -235,7 +242,7 @@ def build_simple_table(filename):
 
 def normalize_name(s):
     # PS側は "é" をNFD(結合分解形)、アポストロフィを "’" で持つことがあるため、
-    # translation/ 側(NFC・直立アポストロフィ)と比較できるようにそろえる。
+    # langmap/ 側(NFC・直立アポストロフィ)と比較できるようにそろえる。
     return unicodedata.normalize('NFC', s).replace('’', "'")
 
 
@@ -315,9 +322,9 @@ def main():
     os.makedirs(JP_DIR, exist_ok=True)
 
     species_by_num = build_species_table()
-    ability_table = build_simple_table('ability_foreign_names.csv')
-    item_table = build_simple_table('item_foreign_names.csv')
-    move_table = build_simple_table('move_foreign_names.csv')
+    ability_table = build_simple_table('ability_langmap.csv')
+    item_table = build_simple_table('item_langmap.csv')
+    move_table = build_simple_table('move_langmap.csv')
 
     pokedex = json.load(open(os.path.join(EN_DIR, 'pokedex.json'), encoding='utf-8'))
     moves = json.load(open(os.path.join(EN_DIR, 'moves.json'), encoding='utf-8'))
