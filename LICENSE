@@ -1,21 +1,33 @@
-MIT License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 Copyright (c) 2026 tmwork1
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike
+4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative
+Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Summary of terms (see the license deed above for the full legally binding text):
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  - Attribution (BY): You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial (NC): You may not use the material for commercial purposes.
+  - ShareAlike (SA): If you remix, transform, or build upon the material, you
+    must distribute your contributions under the same license as the original.
+
+Attribution notice:
+
+  translation/*.csv and data_jp/ (which is derived from it) incorporate name
+  translation data sourced from Pokemon Wiki (https://wiki.pokemonwiki.com/),
+  itself published under CC BY-NC-SA 3.0. This repository is licensed under
+  CC BY-NC-SA 4.0 in accordance with Creative Commons' license compatibility
+  provisions for adapting CC BY-NC-SA 3.0 material.
+
+Note on third-party IP:
+
+  This is an unofficial, fan-made project and is not affiliated with,
+  endorsed by, or sponsored by Nintendo, Game Freak, or The Pokemon Company.
+  Pokemon names, species data, and related IP remain the property of their
+  respective rights holders regardless of the license terms above, which
+  cover only the original compilation, scripts, and translation work in this
+  repository.
