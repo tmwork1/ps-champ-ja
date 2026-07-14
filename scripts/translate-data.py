@@ -364,10 +364,10 @@ def main():
     name_jp_by_en = {}
     for sid, v in pokedex.items():
         local_unresolved = []
-        jp_name = resolve_species_name(sid, v['name'], v['num'], species_by_num, local_unresolved)
+        jp_name = resolve_species_name(sid, v['showdown_name'], v['num'], species_by_num, local_unresolved)
         if local_unresolved:
             unresolved_species_by_sid[sid] = local_unresolved[0][1:]
-        name_jp_by_en[v['name']] = jp_name
+        name_jp_by_en[v['showdown_name']] = jp_name
 
     def build_entry(sid, v, unresolved_abilities, unresolved_items):
         item_jp = ''
@@ -378,8 +378,8 @@ def main():
                 item_jp = v['requiredItem']
 
         return {
-            'showdown_id': sid,
-            'showdown_name': v['name'],
+            'showdown_id': v['showdown_id'],
+            'showdown_name': v['showdown_name'],
             'num': v['num'],
             'forme': v['forme'],
             'types': [TYPE_JP.get(t, t) for t in v['types']],
@@ -403,9 +403,9 @@ def main():
     pokedex_jp = {}
     pokedex_excluded = {}
     for sid, v in pokedex.items():
-        jp_name = name_jp_by_en[v['name']]
+        jp_name = name_jp_by_en[v['showdown_name']]
         if jp_name in pokedex_jp:
-            skipped_species.append((sid, v['name'], jp_name))
+            skipped_species.append((sid, v['showdown_name'], jp_name))
             pokedex_excluded[sid] = {
                 **build_entry(sid, v, [], []),
                 'name': jp_name,
@@ -422,15 +422,18 @@ def main():
         if sid not in {s for s, _, _ in skipped_species}
     ]
 
+    # pokedex.json と同様、moves.json も和名をキーにする(showdown_id/showdown_name で元のidを保持)。
     moves_jp = {}
+    mid_to_jp_name = {}
     for mid, v in moves.items():
-        moves_jp[mid] = {
+        jp_name = resolve_move(v['showdown_name'], move_table, unresolved_moves)
+        mid_to_jp_name[mid] = jp_name
+        moves_jp[jp_name] = {
             **v,
-            'name': resolve_move(v['name'], move_table, unresolved_moves),
             'type': TYPE_JP.get(v['type'], v['type']),
         }
 
-    # learnsets.json: キーを showdown_id -> pokedex_jp のキー(和名)に、値を技ID -> 和名に変換する。
+    # learnsets.json: キーを showdown_id -> pokedex_jp のキー(和名)に、値を技ID -> moves_jp のキー(和名)に変換する。
     # pokedex_excluded 送りになった showdown_id(sid_to_jp_name に存在しない)は除外する。
     sid_to_jp_name = {v['showdown_id']: jp_name for jp_name, v in pokedex_jp.items()}
     learnsets_jp = {}
@@ -438,7 +441,7 @@ def main():
         jp_name = sid_to_jp_name.get(sid)
         if jp_name is None:
             continue
-        learnsets_jp[jp_name] = [moves_jp[mid]['name'] for mid in move_ids]
+        learnsets_jp[jp_name] = [mid_to_jp_name[mid] for mid in move_ids]
 
     json.dump(pokedex_jp, open(os.path.join(JP_DIR, 'pokedex.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)

@@ -51,7 +51,8 @@ function buildPokedex() {
 		if (EXCLUDED_SPECIES_TAGS.has(species.isNonstandard)) continue;
 
 		pokedex[species.id] = {
-			name: species.name,
+			showdown_id: species.id,
+			showdown_name: species.name,
 			num: species.num,
 			forme: species.forme,
 			types: species.types,
@@ -84,17 +85,25 @@ function buildMoves() {
 		if (move.isNonstandard !== null) continue;
 
 		moves[move.id] = {
-			name: move.name,
+			showdown_id: move.id,
+			showdown_name: move.name,
+			num: move.num,
 			type: move.type,
-			category: move.category.toLowerCase(),
+			category: move.category,
 			pp: calculatePP(move),
 			power: move.basePower || null,
 			accuracy: move.accuracy === true ? null : move.accuracy,
 			priority: move.priority,
-			critical_rank: (move.critRatio || 1) - 1,
+			critRatio: move.critRatio,
 			target: move.target,
-			multi_hit: move.multihit || null,
+			multihit: Array.isArray(move.multihit) ? move.multihit
+				: move.multihit ? [move.multihit, move.multihit] : [],
 			flags: Object.keys(move.flags || {}).filter(k => move.flags[k]).sort(),
+			spreadHit: move.spreadHit,
+			isZ: move.isZ,
+			isMax: move.isMax,
+			zMove: move.zMove || null,
+			maxMove: move.maxMove || null,
 		};
 	}
 	return moves;
