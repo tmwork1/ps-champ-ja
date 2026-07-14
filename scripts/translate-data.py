@@ -1,13 +1,21 @@
 # -*- coding: utf-8 -*-
 """data_en/ の英語データを translation/ の言語テーブルで和訳し、data_jp/ に書き出す。
 
-対象: pokedex.json の name / type_1 / type_2 / ability_1-3 / pre_evolution / post_evolution
+対象: pokedex.json の name / types / abilities / prevo / evos / requiredItem
       moves.json の name / type
 方針: category はゲーム内分類ラベルとして英語小文字のまま残す (physical/special/status)。
       技ID・種族ID・技リスト(learnsets.json)は内部参照のため翻訳しない(そのままコピー)。
       フォルム違い(メガ/リージョンフォルム等)の和名は、公式で確立している組み合わせのみ
       FORM_RULES に明記して合成する。未収録の組み合わせ(コスチューム違いなど、実際のゲームでも
       固有の表示名を持たないもの)はベースの和名をそのまま使い、翻訳漏れとして一覧に出力する。
+      abilities は data_en 側の {スロット: 特性名} オブジェクトから、data_jp 側では
+      スロット情報を落として和名の配列に変換する。
+      data_jp/pokedex.json は data_en と異なりキーを和名にする(showdown_id/showdown_name
+      としてshowdownのid/nameを残す)。weightkg/heightmはweight/heightにリネームする。
+      和名がフォルム間で重複する場合(コスプレピカチュウ、ビビヨンの模様違いなど、公式に
+      固有の和名を持たないもの)は最初に登場したフォルムだけを残し、以降は
+      data_jp/pokedex_excluded.json (showdown_idキー、reason付き)に退避して
+      data_jp/pokedex.json からは除外する。
 
 Usage: python scripts/translate-data.py
 """
@@ -266,6 +274,10 @@ def resolve_species_name(sid, name, num, species_by_num, unresolved):
     return base_jp
 
 
+# data_en側はスロット("0"=通常1, "1"=通常2, "H"=隠れ, "S"=特別)をキーにしたオブジェクトだが、
+# data_jp側は表示用に配列化する。この順序で並べる。
+ABILITY_SLOT_ORDER = ['0', '1', 'H', 'S']
+
 # 「特性名 (バリエーション)」形式のカッコ内は、対応する姿の和名タグに差し替える。
 ABILITY_VARIANT_JP = {
     'Glastrier': 'はくば', 'Spectrier': 'こくば',  # じんばいったい
@@ -304,6 +316,7 @@ def main():
 
     species_by_num = build_species_table()
     ability_table = build_simple_table('ability_foreign_names.csv')
+    item_table = build_simple_table('item_foreign_names.csv')
     move_table = build_simple_table('move_foreign_names.csv')
 
     pokedex = json.load(open(os.path.join(EN_DIR, 'pokedex.json'), encoding='utf-8'))
@@ -312,6 +325,7 @@ def main():
 
     unresolved_species = []
     unresolved_abilities = []
+    unresolved_items = []
     unresolved_moves = []
 
     # 1st pass: 種族名を解決し、英語表示名 -> 和名 の対応表を作る (進化情報の変換に使う)
@@ -320,19 +334,51 @@ def main():
         jp_name = resolve_species_name(sid, v['name'], v['num'], species_by_num, unresolved_species)
         name_jp_by_en[v['name']] = jp_name
 
-    pokedex_jp = {}
-    for sid, v in pokedex.items():
-        pokedex_jp[sid] = {
-            **v,
-            'name': name_jp_by_en[v['name']],
-            'type_1': TYPE_JP.get(v['type_1'], v['type_1']),
-            'type_2': TYPE_JP.get(v['type_2'], v['type_2']) if v['type_2'] else '',
-            'ability_1': resolve_ability(v['ability_1'], ability_table, unresolved_abilities),
-            'ability_2': resolve_ability(v['ability_2'], ability_table, unresolved_abilities),
-            'ability_3': resolve_ability(v['ability_3'], ability_table, unresolved_abilities),
-            'pre_evolution': [name_jp_by_en.get(n, n) for n in v['pre_evolution']],
-            'post_evolution': [name_jp_by_en.get(n, n) for n in v['post_evolution']],
+    def build_entry(sid, v):
+        item_jp = ''
+        if v.get('requiredItem'):
+            item_jp = item_table.get(v['requiredItem'])
+            if item_jp is None:
+                unresolved_items.append(v['requiredItem'])
+                item_jp = v['requiredItem']
+
+        return {
+            'showdown_id': sid,
+            'showdown_name': v['name'],
+            'num': v['num'],
+            'forme': v['forme'],
+            'types': [TYPE_JP.get(t, t) for t in v['types']],
+            'abilities': [
+                resolve_ability(v['abilities'][slot], ability_table, unresolved_abilities)
+                for slot in ABILITY_SLOT_ORDER if slot in v['abilities']
+            ],
+            'baseStats': v['baseStats'],
+            'weight': v['weightkg'],
+            'height': v['heightm'],
+            'prevo': name_jp_by_en.get(v['prevo'], v['prevo']) if v['prevo'] else '',
+            'evos': [name_jp_by_en.get(n, n) for n in v['evos']],
+            'genderRatio': v['genderRatio'],
+            'requiredItem': item_jp,
         }
+
+    # 2nd pass: 和名をキーにpokedex_jpを組み立てる。コスプレピカチュウやビビヨンの模様違いなど
+    # 公式に固有の和名を持たないフォルムは和名が重複するため、先に登場したものだけを残し、
+    # 以降の重複は pokedex_excluded.json に理由付きで記録して除外する。
+    skipped_species = []
+    pokedex_jp = {}
+    pokedex_excluded = {}
+    for sid, v in pokedex.items():
+        jp_name = name_jp_by_en[v['name']]
+        if jp_name in pokedex_jp:
+            skipped_species.append((sid, v['name'], jp_name))
+            pokedex_excluded[sid] = {
+                **build_entry(sid, v),
+                'name': jp_name,
+                'reason': f'和名"{jp_name}"が既存エントリ(showdown_id={pokedex_jp[jp_name]["showdown_id"]})と重複',
+            }
+            continue
+
+        pokedex_jp[jp_name] = build_entry(sid, v)
 
     moves_jp = {}
     for mid, v in moves.items():
@@ -345,12 +391,15 @@ def main():
 
     json.dump(pokedex_jp, open(os.path.join(JP_DIR, 'pokedex.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
+    json.dump(pokedex_excluded, open(os.path.join(JP_DIR, 'pokedex_excluded.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=2)
     json.dump(moves_jp, open(os.path.join(JP_DIR, 'moves.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
     json.dump(learnsets, open(os.path.join(JP_DIR, 'learnsets.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
 
     print(f'pokedex: {len(pokedex_jp)} 件書き出し')
+    print(f'pokedex_excluded: {len(pokedex_excluded)} 件書き出し')
     print(f'moves: {len(moves_jp)} 件書き出し')
     print(f'learnsets: {len(learnsets)} 件コピー(翻訳対象外)')
     print()
@@ -358,8 +407,16 @@ def main():
     for sid, name, num, reason in unresolved_species:
         print(f'  {sid}\t{name}\t#{num}\t{reason}')
     print()
+    print(f'[species] 和名キー衝突により除外: {len(skipped_species)} 件')
+    for sid, name, jp_name in skipped_species:
+        print(f'  {sid}\t{name}\t-> {jp_name} (既存エントリと衝突)')
+    print()
     print(f'[ability] 未収録 (英語のまま): {len(unresolved_abilities)} 件')
     for name in sorted(set(unresolved_abilities)):
+        print(f'  {name}')
+    print()
+    print(f'[item] 未収録 (英語のまま): {len(unresolved_items)} 件')
+    for name in sorted(set(unresolved_items)):
         print(f'  {name}')
     print()
     print(f'[move] 未収録 (英語のまま): {len(unresolved_moves)} 件')
