@@ -1,5 +1,7 @@
 # poke-langmap からダウンロードする和訳テーブル(scripts/translate-data.py が実行時に取得)
 /langmap/*.csv
+# champions mod 独自の特性・アイテム等、poke-langmap に収録が無いものの手動和訳(コミット対象)
+!/langmap/_additional_langmap.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

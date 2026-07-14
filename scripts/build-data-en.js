@@ -36,21 +36,36 @@ fs.mkdirSync(outDir, {recursive: true});
 // は実在の図鑑データとして扱わない。null(現行)とPast(現行SVの図鑑には無いが実在)は残す。
 const EXCLUDED_SPECIES_TAGS = new Set(['CAP', 'Custom', 'Future', 'LGPE']);
 
-// PSの生データ(species)のキー名・構造はリネーム/整形せずそのまま残し、
-// 対戦に不要なキー(タマゴグループ・使用率ランク等)だけを落とす(pick)。
-const POKEDEX_KEYS = [
-	'name', 'num', 'forme', 'types', 'abilities', 'baseStats',
-	'weightkg', 'heightm', 'prevo', 'evos', 'genderRatio', 'requiredItem',
-];
+// data_en/ 以降(和訳含む)で共通して使う特性スロットの表示順。
+// PSの生データは {"0": "特性1", "1": "特性2", "H": "隠れ特性", "S": "特別な特性"} という
+// スロットキー付きオブジェクトで持つが、対戦データとしてはこの順で並んだ配列であれば十分なため
+// ここで配列化しておく(スロット情報自体はどの言語にも依存しないformat)。
+const ABILITY_SLOT_ORDER = ['0', '1', 'H', 'S'];
 
+// PSの生データ(species)のキー名・構造は、対戦データとして必要なものだけを残しつつ
+// 見出し語(weightkg/heightm等)やabilitiesの形は data_en/data_jp で共通のformatに揃える。
+// 対戦に不要なキー(タマゴグループ・使用率ランク等)は落とす(pick)。
 function buildPokedex() {
 	const pokedex = {};
 	for (const species of Object.values(rawPokedex)) {
 		if (EXCLUDED_SPECIES_TAGS.has(species.isNonstandard)) continue;
 
-		const entry = {};
-		for (const key of POKEDEX_KEYS) entry[key] = species[key];
-		pokedex[species.id] = entry;
+		pokedex[species.id] = {
+			name: species.name,
+			num: species.num,
+			forme: species.forme,
+			types: species.types,
+			abilities: ABILITY_SLOT_ORDER
+				.filter(slot => slot in species.abilities)
+				.map(slot => species.abilities[slot]),
+			baseStats: species.baseStats,
+			weight: species.weightkg,
+			height: species.heightm,
+			prevo: species.prevo || '',
+			evos: species.evos || [],
+			genderRatio: species.genderRatio,
+			requiredItem: species.requiredItem || '',
+		};
 	}
 	return pokedex;
 }
@@ -71,7 +86,7 @@ function buildMoves() {
 		moves[move.id] = {
 			name: move.name,
 			type: move.type,
-			category: move.category,
+			category: move.category.toLowerCase(),
 			pp: calculatePP(move),
 			power: move.basePower || null,
 			accuracy: move.accuracy === true ? null : move.accuracy,

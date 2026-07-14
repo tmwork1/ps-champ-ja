@@ -1,13 +1,20 @@
 # -*- coding: utf-8 -*-
 """data_en/ の英語データを langmap/ の言語テーブルで和訳し、data_jp/ に書き出す。
 
-langmap/ (https://github.com/tmwork1/poke-langmap 由来、リポジトリにはコミットしない)
+langmap/*.csv (https://github.com/tmwork1/poke-langmap 由来、リポジトリにはコミットしない)
 は scripts/download-langmap.py で事前にダウンロードしておくこと。
+langmap/_additional_langmap.csv は champions mod 独自の特性・アイテムなど、
+poke-langmap に収録が無いものを手動で補う対応表(リポジトリにコミットする)。
 
 対象: pokedex.json の name / types / abilities / prevo / evos / requiredItem
       moves.json の name / type
-方針: category はゲーム内分類ラベルとして英語小文字のまま残す (physical/special/status)。
-      技ID・種族ID・技リスト(learnsets.json)は内部参照のため翻訳しない(そのままコピー)。
+      learnsets.json のキー(種族)・値(技リスト)
+方針: data_en/ のキー名・構造(weight/height・abilitiesの配列化・categoryの小文字化等)は
+      scripts/build-data-en.js 側で既に整形済みのため、ここでは値の翻訳のみを行う。
+      技ID・種族IDそのものは内部参照のため翻訳しない。
+      learnsets.json はキーを showdown_id から pokedex.json のキーと同じ和名に、
+      値の技IDをmoves.jsonで解決した和名に変換する。pokedex_excluded.json 送りになった
+      フォルム(showdown_id)は pokedex.json 側に存在しないため learnsets.json からも除外する。
       フォルム違い(メガ/リージョンフォルム等)の和名は、公式で確立している組み合わせのみ
       FORM_RULES に明記して合成する。未収録の組み合わせ(コスチューム違いなど、実際のゲームでも
       固有の表示名を持たないもの)はベースの和名をそのまま使い、翻訳漏れとして一覧に出力する。
@@ -43,6 +50,23 @@ def load_csv(name):
         reader = csv.reader(f)
         header = next(reader)
         return header, list(reader)
+
+
+# champions mod 独自の特性・アイテムなど、poke-langmap (公式ゲームの対応表) には存在しない
+# ものを手動で補う対応表。langmap/_additional_langmap.csv (英語,和名 のヘッダ無しCSV) に
+# 追記していく。ability/item 共通の名前空間として両方のテーブルにマージする。
+def load_additional_table():
+    path = os.path.join(TRANSLATION_DIR, '_additional_langmap.csv')
+    if not os.path.exists(path):
+        return {}
+    table = {}
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        for row in csv.reader(f):
+            if not row or not row[0]:
+                continue
+            en, jp = row[0], row[1]
+            table[en] = jp
+    return table
 
 
 TYPE_JP = {
@@ -281,10 +305,6 @@ def resolve_species_name(sid, name, num, species_by_num, unresolved):
     return base_jp
 
 
-# data_en側はスロット("0"=通常1, "1"=通常2, "H"=隠れ, "S"=特別)をキーにしたオブジェクトだが、
-# data_jp側は表示用に配列化する。この順序で並べる。
-ABILITY_SLOT_ORDER = ['0', '1', 'H', 'S']
-
 # 「特性名 (バリエーション)」形式のカッコ内は、対応する姿の和名タグに差し替える。
 ABILITY_VARIANT_JP = {
     'Glastrier': 'はくば', 'Spectrier': 'こくば',  # じんばいったい
@@ -322,15 +342,20 @@ def main():
     os.makedirs(JP_DIR, exist_ok=True)
 
     species_by_num = build_species_table()
-    ability_table = build_simple_table('ability_langmap.csv')
-    item_table = build_simple_table('item_langmap.csv')
-    move_table = build_simple_table('move_langmap.csv')
+    additional_table = load_additional_table()
+    ability_table = {**build_simple_table('ability_langmap.csv'), **additional_table}
+    item_table = {**build_simple_table('item_langmap.csv'), **additional_table}
+    move_table = {**build_simple_table('move_langmap.csv'), **additional_table}
 
     pokedex = json.load(open(os.path.join(EN_DIR, 'pokedex.json'), encoding='utf-8'))
     moves = json.load(open(os.path.join(EN_DIR, 'moves.json'), encoding='utf-8'))
     learnsets = json.load(open(os.path.join(EN_DIR, 'learnsets.json'), encoding='utf-8'))
 
-    unresolved_species = []
+    # 最終的に pokedex_excluded.json 送りになった種族(コスプレピカチュウ等の重複フォルム)は
+    # data_jp/ の出力に含まれないため、その分の未解決 species/ability/item はログに出さない。
+    # 1st pass の時点ではどの種族が除外されるか分からないので、いったん sid ごとに保持しておき、
+    # 2nd pass で採用が確定した種族の分だけ最終的な unresolved_* に合流させる。
+    unresolved_species_by_sid = {}
     unresolved_abilities = []
     unresolved_items = []
     unresolved_moves = []
@@ -338,12 +363,15 @@ def main():
     # 1st pass: 種族名を解決し、英語表示名 -> 和名 の対応表を作る (進化情報の変換に使う)
     name_jp_by_en = {}
     for sid, v in pokedex.items():
-        jp_name = resolve_species_name(sid, v['name'], v['num'], species_by_num, unresolved_species)
+        local_unresolved = []
+        jp_name = resolve_species_name(sid, v['name'], v['num'], species_by_num, local_unresolved)
+        if local_unresolved:
+            unresolved_species_by_sid[sid] = local_unresolved[0][1:]
         name_jp_by_en[v['name']] = jp_name
 
-    def build_entry(sid, v):
+    def build_entry(sid, v, unresolved_abilities, unresolved_items):
         item_jp = ''
-        if v.get('requiredItem'):
+        if v['requiredItem']:
             item_jp = item_table.get(v['requiredItem'])
             if item_jp is None:
                 unresolved_items.append(v['requiredItem'])
@@ -356,12 +384,12 @@ def main():
             'forme': v['forme'],
             'types': [TYPE_JP.get(t, t) for t in v['types']],
             'abilities': [
-                resolve_ability(v['abilities'][slot], ability_table, unresolved_abilities)
-                for slot in ABILITY_SLOT_ORDER if slot in v['abilities']
+                resolve_ability(name, ability_table, unresolved_abilities)
+                for name in v['abilities']
             ],
             'baseStats': v['baseStats'],
-            'weight': v['weightkg'],
-            'height': v['heightm'],
+            'weight': v['weight'],
+            'height': v['height'],
             'prevo': name_jp_by_en.get(v['prevo'], v['prevo']) if v['prevo'] else '',
             'evos': [name_jp_by_en.get(n, n) for n in v['evos']],
             'genderRatio': v['genderRatio'],
@@ -379,13 +407,20 @@ def main():
         if jp_name in pokedex_jp:
             skipped_species.append((sid, v['name'], jp_name))
             pokedex_excluded[sid] = {
-                **build_entry(sid, v),
+                **build_entry(sid, v, [], []),
                 'name': jp_name,
                 'reason': f'和名"{jp_name}"が既存エントリ(showdown_id={pokedex_jp[jp_name]["showdown_id"]})と重複',
             }
             continue
 
-        pokedex_jp[jp_name] = build_entry(sid, v)
+        pokedex_jp[jp_name] = build_entry(sid, v, unresolved_abilities, unresolved_items)
+
+    # 採用された(pokedex_jp に残った)種族の分だけ未解決speciesログに残す
+    unresolved_species = [
+        (sid, name, num, reason)
+        for sid, (name, num, reason) in unresolved_species_by_sid.items()
+        if sid not in {s for s, _, _ in skipped_species}
+    ]
 
     moves_jp = {}
     for mid, v in moves.items():
@@ -393,8 +428,17 @@ def main():
             **v,
             'name': resolve_move(v['name'], move_table, unresolved_moves),
             'type': TYPE_JP.get(v['type'], v['type']),
-            'category': v['category'].lower(),
         }
+
+    # learnsets.json: キーを showdown_id -> pokedex_jp のキー(和名)に、値を技ID -> 和名に変換する。
+    # pokedex_excluded 送りになった showdown_id(sid_to_jp_name に存在しない)は除外する。
+    sid_to_jp_name = {v['showdown_id']: jp_name for jp_name, v in pokedex_jp.items()}
+    learnsets_jp = {}
+    for sid, move_ids in learnsets.items():
+        jp_name = sid_to_jp_name.get(sid)
+        if jp_name is None:
+            continue
+        learnsets_jp[jp_name] = [moves_jp[mid]['name'] for mid in move_ids]
 
     json.dump(pokedex_jp, open(os.path.join(JP_DIR, 'pokedex.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
@@ -402,33 +446,46 @@ def main():
               ensure_ascii=False, indent=2)
     json.dump(moves_jp, open(os.path.join(JP_DIR, 'moves.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
-    json.dump(learnsets, open(os.path.join(JP_DIR, 'learnsets.json'), 'w', encoding='utf-8'),
+    json.dump(learnsets_jp, open(os.path.join(JP_DIR, 'learnsets.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
 
     print(f'pokedex: {len(pokedex_jp)} 件書き出し')
     print(f'pokedex_excluded: {len(pokedex_excluded)} 件書き出し')
     print(f'moves: {len(moves_jp)} 件書き出し')
-    print(f'learnsets: {len(learnsets)} 件コピー(翻訳対象外)')
+    print(f'learnsets: {len(learnsets_jp)} 件書き出し')
     print()
-    print(f'[species] 未解決/ルール未収録 (ベース和名をそのまま使用): {len(unresolved_species)} 件')
+
+    log_lines = []
+    log_lines.append(f'[species] 未解決/ルール未収録 (ベース和名をそのまま使用): {len(unresolved_species)} 件')
     for sid, name, num, reason in unresolved_species:
-        print(f'  {sid}\t{name}\t#{num}\t{reason}')
-    print()
-    print(f'[species] 和名キー衝突により除外: {len(skipped_species)} 件')
+        log_lines.append(f'  {sid}\t{name}\t#{num}\t{reason}')
+    log_lines.append('')
+    log_lines.append(f'[species] 和名キー衝突により除外: {len(skipped_species)} 件')
     for sid, name, jp_name in skipped_species:
-        print(f'  {sid}\t{name}\t-> {jp_name} (既存エントリと衝突)')
-    print()
-    print(f'[ability] 未収録 (英語のまま): {len(unresolved_abilities)} 件')
+        log_lines.append(f'  {sid}\t{name}\t-> {jp_name} (既存エントリと衝突)')
+    log_lines.append('')
+    log_lines.append(f'[ability] 未収録 (英語のまま): {len(unresolved_abilities)} 件')
     for name in sorted(set(unresolved_abilities)):
-        print(f'  {name}')
-    print()
-    print(f'[item] 未収録 (英語のまま): {len(unresolved_items)} 件')
+        log_lines.append(f'  {name}')
+    log_lines.append('')
+    log_lines.append(f'[item] 未収録 (英語のまま): {len(unresolved_items)} 件')
     for name in sorted(set(unresolved_items)):
-        print(f'  {name}')
-    print()
-    print(f'[move] 未収録 (英語のまま): {len(unresolved_moves)} 件')
+        log_lines.append(f'  {name}')
+    log_lines.append('')
+    log_lines.append(f'[move] 未収録 (英語のまま): {len(unresolved_moves)} 件')
     for name in sorted(set(unresolved_moves)):
-        print(f'  {name}')
+        log_lines.append(f'  {name}')
+
+    log_path = os.path.join(JP_DIR, 'translate_unresolved.log')
+    with open(log_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(log_lines) + '\n')
+
+    print(f'[species] 未解決/ルール未収録: {len(unresolved_species)} 件')
+    print(f'[species] 和名キー衝突により除外: {len(skipped_species)} 件')
+    print(f'[ability] 未収録 (英語のまま): {len(unresolved_abilities)} 件')
+    print(f'[item] 未収録 (英語のまま): {len(unresolved_items)} 件')
+    print(f'[move] 未収録 (英語のまま): {len(unresolved_moves)} 件')
+    print(f'詳細: {os.path.relpath(log_path, ROOT)}')
 
 
 if __name__ == '__main__':
