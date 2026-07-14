@@ -1,0 +1,38 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Applies to: data_raw/, data_en/, data_jp/, jpoke/
+(For scripts/, see LICENSE — MIT.)
+
+Copyright (c) 2026 tmwork1
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike
+4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative
+Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+Summary of terms (see the license deed above for the full legally binding text):
+
+  - Attribution (BY): You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial (NC): You may not use the material for commercial purposes.
+  - ShareAlike (SA): If you remix, transform, or build upon the material, you
+    must distribute your contributions under the same license as the original.
+
+Attribution notice:
+
+  langmap/*.csv (downloaded at build time from
+  https://github.com/tmwork1/poke-langmap, not committed to this repository)
+  and data_jp/ (which is derived from it) incorporate name translation data
+  sourced from Pokemon Wiki (https://wiki.pokemonwiki.com/), itself published
+  under CC BY-NC-SA 3.0. This data is licensed under CC BY-NC-SA 4.0 in
+  accordance with Creative Commons' license compatibility provisions for
+  adapting CC BY-NC-SA 3.0 material.
+
+Note on third-party IP:
+
+  This is an unofficial, fan-made project and is not affiliated with,
+  endorsed by, or sponsored by Nintendo, Game Freak, or The Pokemon Company.
+  Pokemon names, species data, and related IP remain the property of their
+  respective rights holders regardless of the license terms above, which
+  cover only the original compilation and translation work in this
+  repository.
