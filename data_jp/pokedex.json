@@ -22673,7 +22673,7 @@
     },
     "requiredItem": ""
   },
-  "バスラオ": {
+  "バスラオ(あか)": {
     "showdown_id": "basculin",
     "showdown_name": "Basculin",
     "num": 550,
@@ -41388,7 +41388,7 @@
     },
     "requiredItem": ""
   },
-  "オーガポン": {
+  "オーガポン(みどり)": {
     "showdown_id": "ogerpon",
     "showdown_name": "Ogerpon",
     "num": 1017,
@@ -41511,7 +41511,7 @@
     },
     "requiredItem": "いしずえのめん"
   },
-  "オーガポン(テラスタル)": {
+  "オーガポン(みどり,テラスタル)": {
     "showdown_id": "ogerpontealtera",
     "showdown_name": "Ogerpon-Teal-Tera",
     "num": 1017,

@@ -190,7 +190,7 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Audino-Mega,,タブンネ,メガタブンネ
 0,Scolipede-Mega,,ペンドラー,メガペンドラー
 0,Lilligant-Hisui,,ドレディア,ドレディア(ヒスイ)
-0,Basculin,Red-Striped,バスラオ,バスラオ
+0,Basculin,Red-Striped,バスラオ,バスラオ(あか)
 0,Basculin-Blue-Striped,,バスラオ,バスラオ(あお)
 0,Basculin-White-Striped,,バスラオ,バスラオ(しろ)
 0,Darumaka-Galar,,ダルマッカ,ダルマッカ(ガラル)
@@ -427,11 +427,11 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 1,Poltchageist-Artisan,,チャデス,チャデス
 0,Sinistcha,Unremarkable,ヤバソチャ,ヤバソチャ
 1,Sinistcha-Masterpiece,,ヤバソチャ,ヤバソチャ
-0,Ogerpon,Teal,オーガポン,オーガポン
+0,Ogerpon,Teal,オーガポン,オーガポン(みどり)
 0,Ogerpon-Wellspring,,オーガポン,オーガポン(いど)
 0,Ogerpon-Hearthflame,,オーガポン,オーガポン(かまど)
 0,Ogerpon-Cornerstone,,オーガポン,オーガポン(いしずえ)
-0,Ogerpon-Teal-Tera,,オーガポン,オーガポン(テラスタル)
+0,Ogerpon-Teal-Tera,,オーガポン,"オーガポン(みどり,テラスタル)"
 0,Ogerpon-Wellspring-Tera,,オーガポン,"オーガポン(いど,テラスタル)"
 0,Ogerpon-Hearthflame-Tera,,オーガポン,"オーガポン(かまど,テラスタル)"
 0,Ogerpon-Cornerstone-Tera,,オーガポン,"オーガポン(いしずえ,テラスタル)"
