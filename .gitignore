@@ -2,6 +2,8 @@
 /langmap/*.csv
 # champions mod 独自の特性・アイテム等、poke-langmap に収録が無いものの手動和訳(コミット対象)
 !/langmap/_additional_langmap.csv
+# forme/baseFormeを持ち、単純な対応表だけでは和名を組み立てられない種族の解決テーブル(コミット対象)
+!/langmap/_form_langmap.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

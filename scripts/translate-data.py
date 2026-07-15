@@ -15,17 +15,29 @@ poke-langmap に収録が無いものを手動で補う対応表(リポジトリ
       learnsets.json はキーを showdown_id から pokedex.json のキーと同じ和名に、
       値の技IDをmoves.jsonで解決した和名に変換する。pokedex_excluded.json 送りになった
       フォルム(showdown_id)は pokedex.json 側に存在しないため learnsets.json からも除外する。
-      フォルム違い(メガ/リージョンフォルム等)の和名は、公式で確立している組み合わせのみ
-      FORM_RULES に明記して合成する。未収録の組み合わせ(コスチューム違いなど、実際のゲームでも
-      固有の表示名を持たないもの)はベースの和名をそのまま使い、翻訳漏れとして一覧に出力する。
-      基本フォルムであっても baseForme(例: オドリドリの"Baile")を持つ種族は同じ仕組みで
-      「ベース和名(フォルム)」に合成する対象になる(単純な無印名にはしない)。
+      forme/baseForme のいずれかを持つ種族(メガ進化・リージョンフォルム・ガラル/ヒスイ/
+      パルデアの各フォルム、オーガポンの仮面違い、オドリドリ等の baseForme 付き基本フォルム等、
+      単純な name_langmap.csv の対応表だけでは和名を組み立てられないすべてのポケモン)の和名は、
+      langmap/_form_langmap.csv (exclude,showdown_name,baseForme,base_jp,final_jp のヘッダ付き
+      CSV、手動管理・コミット対象)を必ず参照して解決する。フォルムが連なる場合
+      (例: メロエッタ+キョダイのような "(A)(B)")は "(A,B)" のようにカンマ区切りで
+      1つの括弧にまとめる。公式に固有の表示名を持たないコスチューム違い(コスプレピカチュウ、
+      ビビヨンの模様違い等)や、対戦・図鑑上の価値が薄く代表1体のみ収録すれば十分なもの
+      (ボス/タテヌシ勢、アルセウス/シルヴァディのタイプ違い、ゲノセクトのドライブ違い、
+      ウッウの飲み込み形態違い)は final_jp をベースの和名と同じ値にしつつ、
+      exclude列(必ず"0"か"1")を"1"にする。この exclude列は scripts/build-data-en.js が
+      既に参照して data_en/pokedex.json から除外し data_en/pokedex_excluded.json に
+      振り分け済みのため、ここでは data_en/pokedex_excluded.json 側を読み込んで和訳し、
+      data_jp/pokedex.json には含めず data_jp/pokedex_excluded.json にのみ出力する。
+      このCSVに無い組み合わせ(新種族追加など)は翻訳漏れとして一覧に出力し、ベースの和名を
+      そのまま使う。
       abilities は data_en 側の {スロット: 特性名} オブジェクトから、data_jp 側では
       スロット情報を落として和名の配列に変換する。
-      data_jp/pokedex.json は data_en と異なりキーを和名にする(showdown_id/showdown_name
-      としてshowdownのid/nameを残す)。weightkg/heightmはweight/heightにリネームする。
-      和名がフォルム間で重複する場合(コスプレピカチュウ、ビビヨンの模様違いなど、公式に
-      固有の和名を持たないもの)は最初に登場したフォルムだけを残し、以降は
+      data_jp/pokedex.json は data_en/pokedex.json と同じくキーを表示名にするが、
+      英名ではなく和名を使う点が異なる(showdown_id/showdown_name としてshowdownのid/nameを残す)。
+      weightkg/heightmはweight/heightにリネームする。
+      exclude列で除外指定されていないのに和名がフォルム間で重複する場合(CSV未収録の新規
+      フォルム等への保険)も、最初に登場したものだけを残し、以降は同様に
       data_jp/pokedex_excluded.json (showdown_idキー、reason付き)に退避して
       data_jp/pokedex.json からは除外する。
 
@@ -55,7 +67,7 @@ def load_csv(name):
 
 
 # champions mod 独自の特性・アイテムなど、poke-langmap (公式ゲームの対応表) には存在しない
-# ものを手動で補う対応表。langmap/_additional_langmap.csv (英語,和名 のヘッダ無しCSV) に
+# ものを手動で補う対応表。langmap/_additional_langmap.csv (en,jp のヘッダ付きCSV) に
 # 追記していく。ability/item 共通の名前空間として両方のテーブルにマージする。
 def load_additional_table():
     path = os.path.join(TRANSLATION_DIR, '_additional_langmap.csv')
@@ -63,11 +75,43 @@ def load_additional_table():
         return {}
     table = {}
     with open(path, encoding='utf-8-sig', newline='') as f:
-        for row in csv.reader(f):
+        reader = csv.reader(f)
+        next(reader, None)  # header
+        for row in reader:
             if not row or not row[0]:
                 continue
             en, jp = row[0], row[1]
             table[en] = normalize_fullwidth_alnum(jp)
+    return table
+
+
+# forme/baseForme のいずれかを持ち、name_langmap.csv の単純な対応表だけでは和名を
+# 組み立てられない種族の和名は、この langmap/_form_langmap.csv
+# (exclude,showdown_name,baseForme,base_jp,final_jp のヘッダ付きCSV) を必ず参照して解決する。
+# showdown_name は data_en/pokedex.json のキーと同じ表示名で、PSの全species中で一意なため
+# これ単体をキーにする(baseFormeの値自体は種族間で衝突しうる。例: "Normal"はアルセウス/
+# シルヴァディ両方、"Hero"はザシアン/ザマゼンタ両方で使われる)。forme の値は showdown_name
+# 自体に含まれておりCSV側では使わないため列を持たない。
+# exclude列は必ず "0" か "1" で埋める。"1" は、公式に固有の表示名を持たないコスチューム違い
+# (コスプレピカチュウ、ビビヨンの模様違い等)や、対戦上・図鑑上の価値が薄いためこのmodでは
+# 代表1体のみ収録する形違い(ボス/タテヌシ勢、アルセウス/シルヴァディのタイプ違い、
+# ゲノセクトのドライブ違い、ウッウの飲み込み形態違い等)を明示的にマークし、
+# data_jp/pokedex.json からは除外して data_jp/pokedex_excluded.json 側にのみ出力する指示になる。
+# 戻り値: showdown_name(NFC正規化済み) -> (final_jp, excluded: bool)
+def load_form_table():
+    path = os.path.join(TRANSLATION_DIR, '_form_langmap.csv')
+    if not os.path.exists(path):
+        print('langmap/_form_langmap.csv が見つかりません。')
+        sys.exit(1)
+    table = {}
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        reader = csv.reader(f)
+        next(reader, None)  # header
+        for row in reader:
+            if not row:
+                continue
+            exclude, showdown_name, _base_forme, _base_jp, final_jp = row
+            table[normalize_name(showdown_name)] = (final_jp, exclude == '1')
     return table
 
 
@@ -78,187 +122,6 @@ TYPE_JP = {
     'Rock': 'いわ', 'Ghost': 'ゴースト', 'Dragon': 'ドラゴン', 'Dark': 'あく',
     'Steel': 'はがね', 'Fairy': 'フェアリー', 'Stellar': 'ステラ',
 }
-
-# (num, PS名の "-" 以降の部分) -> {base} をベース和名として展開するテンプレート
-FORM_RULES = {
-    # メガシンカ
-    'Mega': 'メガ{base}',
-    'Mega-X': 'メガ{base}X',
-    'Mega-Y': 'メガ{base}Y',
-    'Mega-Z': 'メガ{base}Z',
-    # キョダイマックス
-    'Gmax': '{base}(キョダイ)',
-    'Low-Key-Gmax': '{base}(ロー)(キョダイ)',
-    'Rapid-Strike-Gmax': '{base}(れんげき)(キョダイ)',
-    # リージョンフォルム
-    'Alola': '{base}(アローラ)',
-    'Alola-Totem': '{base}(アローラ)(ボス)',
-    'Galar': '{base}(ガラル)',
-    'Galar-Zen': '{base}(ガラル)(ダルマ)',
-    'Hisui': '{base}(ヒスイ)',
-    'Paldea': '{base}(パルデア)',
-    'Paldea-Combat': '{base}(パルデア闘)',
-    'Paldea-Blaze': '{base}(パルデア炎)',
-    'Paldea-Aqua': '{base}(パルデア水)',
-    # ボスポケモン(タテヌシ)
-    'Totem': '{base}(ボス)',
-    'Busted': '{base}(ばれたすがた)',
-    'Busted-Totem': '{base}(ばれたすがた)(ボス)',
-    # 原始回帰・オリジン・れいじゅう
-    'Primal': '{base}(ゲンシカイキ)',
-    'Origin': '{base}(オリジン)',
-    'Therian': '{base}(れいじゅう)',
-    'Zen': '{base}(ダルマ)',
-    # デオキシス
-    'Attack': '{base}(アタック)',
-    'Defense': '{base}(ディフェンス)',
-    'Speed': '{base}(スピード)',
-    # ミノムッチ/ミノマダム
-    'Sandy': '{base}(すなち)',
-    'Trash': '{base}(ゴミ)',
-    # ロトム(接頭)
-    'Heat': 'ヒート{base}',
-    'Wash': 'ウォッシュ{base}',
-    'Frost': 'フロスト{base}',
-    'Fan': 'スピン{base}',
-    'Mow': 'カット{base}',
-    # キュレム(接頭)
-    'White': 'ホワイト{base}',
-    'Black': 'ブラック{base}',
-    # バスラオ
-    'Blue-Striped': '{base}(あお)',
-    'White-Striped': '{base}(しろ)',
-    # ケルディオ
-    'Resolute': '{base}(かくご)',
-    # ゲノセクト(ドライブ)
-    'Douse': '{base}(ダウズドライブ)',
-    'Shock': '{base}(ショックドライブ)',
-    'Burn': '{base}(バーンドライブ)',
-    'Chill': '{base}(チルドライブ)',
-    # エーフィ/ブラッキー枠ではなくアギルダー
-    'Blade': '{base}(ブレード)',
-    # シェイミ
-    'Sky': '{base}(スカイ)',
-    # ネクロズマ
-    'Dusk-Mane': '{base}(たそがれ)',
-    'Dawn-Wings': '{base}(あかつき)',
-    'Ultra': '{base}(ウルトラネクロズマ)',
-    # ジガルデ
-    '10%': '{base}(10%)',
-    'Complete': '{base}(パーフェクト)',
-    # フーパ
-    'Unbound': '{base}(ときはなたれし)',
-    # ウッウ
-    'Gulping': '{base}(うのみ)',
-    'Gorging': '{base}(まるのみ)',
-    # コオリッポ
-    'Noice': '{base}(ナイス)',
-    # モルペコ
-    'Hangry': '{base}(はらぺこ)',
-    # ムゲンダイナ
-    'Eternamax': '{base}(ムゲンダイマックス)',
-    # ウルサルーナ
-    'Bloodmoon': '{base}(アカツキ)',
-    # イッカネズミ
-    'Four': '{base}(よにんかぞく)',
-    # パーモット
-    'Hero': '{base}(ヒーロー)',
-    # シャリタツ
-    'Droopy': '{base}(たれた)',
-    'Stretchy': '{base}(のびた)',
-    # コレクレー→パオジアン等は対象外(番号なし)
-    # ドゥドゥ
-    'Three-Segment': '{base}(みつくびがた)',
-    # オーガポン
-    'Wellspring': '{base}(いど)',
-    'Hearthflame': '{base}(かまど)',
-    'Cornerstone': '{base}(いしずえ)',
-    'Teal-Tera': '{base}(テラスタル)',
-    'Wellspring-Tera': '{base}(いど)(テラスタル)',
-    'Hearthflame-Tera': '{base}(かまど)(テラスタル)',
-    'Cornerstone-Tera': '{base}(いしずえ)(テラスタル)',
-    # テラパゴス
-    'Terastal': '{base}(テラスタル)',
-    'Stellar': '{base}(ステラ)',
-    # ニャオニクス
-    'F-Mega': 'メガ{base}(メス)',
-    'M-Mega': 'メガ{base}(オス)',
-    # 性別で見た目が変わる種族共通
-    'F': '{base}(メス)',
-    # ポワルン
-    'Sunny': '{base}(たいよう)',
-    'Rainy': '{base}(あまみず)',
-    'Snowy': '{base}(ゆきぐも)',
-    # フラエッテ
-    'Eternal': '{base}(えいえん)',
-    # メロエッタ
-    'Pirouette': '{base}(ステップ)',
-    # バケッチャ/パンプジン
-    'Small': '{base}(ちいさい)',
-    'Large': '{base}(おおきい)',
-    'Super': '{base}(とくだい)',
-    # ストリンダー
-    'Low-Key': '{base}(ロー)',
-    # ウーラオス
-    'Rapid-Strike': '{base}(れんげき)',
-    # メテノ
-    'Meteor': '{base}(りゅうせい)',
-    # ザルード
-    'Dada': '{base}(ダディ)',
-    # コレクレー
-    'Roaming': '{base}(あるくすがた)',
-}
-
-# メテノのコア色(色による固有名は無く公式表記は全色共通で「コア」)
-MINIOR_CORE_COLORS = {'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'}
-
-# num を限定しないと衝突するもの (num, suffix) -> template
-# suffixは差分フォルムでは forme、基本フォルムでは baseForme の値がそのまま入る
-# (例: オドリドリの基本フォルムは forme="" だが baseForme="Baile" を持つ)。
-FORM_RULES_BY_NUM = {
-    (646, 'White'): 'ホワイト{base}',
-    (646, 'Black'): 'ブラック{base}',
-    (898, 'Ice'): '{base}(はくば)',       # バドレックス(白馬)
-    (898, 'Shadow'): '{base}(こくば)',    # バドレックス(黒馬)
-    (493, 'Ice'): '{base}(こおり)',       # アルセウス: タイプ違いに公式固有名はないため意訳
-    (773, 'Ice'): '{base}(こおり)',       # シルヴァディ: 同上
-    (745, 'Midnight'): '{base}(まよなか)',  # ルガルガン(まよなかのすがた)
-    (745, 'Dusk'): '{base}(たそがれ)',      # ルガルガン(たそがれのすがた)
-    # ザシアン/ザマゼンタの基本フォルム(baseForme="Hero")はパフュートンの
-    # 'Hero'(ヒーロー)FORM_RULESと英語表記が衝突するため num限定で上書きする。
-    (888, 'Hero'): '{base}(れきせん)',
-    (889, 'Hero'): '{base}(れきせん)',
-    # オドリドリ(基本フォルム含む4スタイル。公式のスタイル名から「スタイル」を除いた形で表記)
-    (741, 'Baile'): '{base}(めらめら)',
-    (741, 'Pom-Pom'): '{base}(ぱちぱち)',
-    (741, "Pa'u"): '{base}(ふらふら)',
-    (741, 'Sensu'): '{base}(まいまい)',
-    # ヨワシ(基本フォルム含む2すがた)
-    (746, 'Solo'): '{base}(たんどく)',
-    (746, 'School'): '{base}(むれ)',
-    # イキリンコ(基本フォルム含む4色。公式に固有名は無いコスチューム違いのため色名を意訳)
-    (931, 'Green'): '{base}(グリーン)',
-    (931, 'Blue'): '{base}(ブルー)',
-    (931, 'Yellow'): '{base}(イエロー)',
-    (931, 'White'): '{base}(ホワイト)',
-}
-for _t_en, _t_jp in TYPE_JP.items():
-    if _t_en != 'Ice':
-        FORM_RULES_BY_NUM[(493, _t_en)] = '{base}(' + _t_jp + ')'  # アルセウス
-        FORM_RULES_BY_NUM[(773, _t_en)] = '{base}(' + _t_jp + ')'  # シルヴァディ
-for _color in MINIOR_CORE_COLORS:
-    FORM_RULES_BY_NUM[(774, _color)] = '{base}(コア)'  # メテノ: コア状態は色によらず表記共通
-
-# ベースの英名からの単純な差分では表現できない特殊ケース (species id -> 和名)
-ID_OVERRIDES = {
-    'nidoranf': 'ニドラン♀',
-    'nidoranm': 'ニドラン♂',
-    'greninjaash': 'サトシゲッコウガ',
-    'zaciancrowned': 'ザシアン(けんのおう)',
-    'zamazentacrowned': 'ザマゼンタ(たてのおう)',
-    'pichuspikyeared': 'ギザみみピチュー',
-}
-
 
 def build_species_table():
     _, rows = load_csv('name_langmap.csv')
@@ -306,10 +169,7 @@ def normalize_fullwidth_alnum(s):
     return s.translate(FULLWIDTH_ALNUM_TABLE)
 
 
-def resolve_species_name(sid, name, num, forme, base_forme, species_by_num, unresolved):
-    if sid in ID_OVERRIDES:
-        return ID_OVERRIDES[sid]
-
+def resolve_species_name(sid, name, num, forme, base_forme, species_by_num, unresolved, form_table):
     candidates = species_by_num.get(num, [])
     if not candidates:
         unresolved.append((sid, name, num, 'no base entry for dex num'))
@@ -317,23 +177,15 @@ def resolve_species_name(sid, name, num, forme, base_forme, species_by_num, unre
 
     base_jp, base_en = candidates[0]
 
-    # 差分フォルムは forme、基本フォルムは(baseFormeを持つ場合のみ)baseForme を
-    # 合成対象のサフィックスとして扱う。どちらも無ければ基本フォルムの和名をそのまま使う。
-    suffix = forme or base_forme
-    if not suffix:
+    if not forme and not base_forme:
         return base_jp
 
-    if (num, suffix) in FORM_RULES_BY_NUM:
-        template = FORM_RULES_BY_NUM[(num, suffix)]
-        if template is None:
-            return base_jp
-        return template.format(base=base_jp)
-
-    template = FORM_RULES.get(suffix)
-    if template:
-        return template.format(base=base_jp)
-
-    unresolved.append((sid, name, num, f'no form rule for suffix "{suffix}"'))
+    # forme/baseForme のいずれかを持つ種族は langmap/_form_langmap.csv を必ず参照する。
+    entry = form_table.get(normalize_name(name))
+    if entry is not None:
+        final_jp, _excluded = entry
+        return final_jp
+    unresolved.append((sid, name, num, f'no _form_langmap.csv entry for forme="{forme}" baseForme="{base_forme}"'))
     return base_jp
 
 
@@ -374,12 +226,17 @@ def main():
     os.makedirs(JP_DIR, exist_ok=True)
 
     species_by_num = build_species_table()
+    form_table = load_form_table()
     additional_table = load_additional_table()
     ability_table = {**build_simple_table('ability_langmap.csv'), **additional_table}
     item_table = {**build_simple_table('item_langmap.csv'), **additional_table}
     move_table = {**build_simple_table('move_langmap.csv'), **additional_table}
 
     pokedex = json.load(open(os.path.join(EN_DIR, 'pokedex.json'), encoding='utf-8'))
+    # scripts/build-data-en.js が langmap/_form_langmap.csv の exclude列を見て
+    # data_en/pokedex.json から既に除外した種族(コスプレピカチュウ等)。ここでも和訳して
+    # data_jp/pokedex_excluded.json に残す(data_jp/pokedex.json には含めない)。
+    en_pokedex_excluded = json.load(open(os.path.join(EN_DIR, 'pokedex_excluded.json'), encoding='utf-8'))
     moves = json.load(open(os.path.join(EN_DIR, 'moves.json'), encoding='utf-8'))
     learnsets = json.load(open(os.path.join(EN_DIR, 'learnsets.json'), encoding='utf-8'))
 
@@ -393,11 +250,15 @@ def main():
     unresolved_moves = []
 
     # 1st pass: 種族名を解決し、英語表示名 -> 和名 の対応表を作る (進化情報の変換に使う)
+    # pokedex.json のキーは showdown_name(表示名)になったため、showdown_id が必要な箇所は
+    # 辞書のキーではなく v['showdown_id'] を参照する。
     name_jp_by_en = {}
-    for sid, v in pokedex.items():
+    for v in list(pokedex.values()) + list(en_pokedex_excluded.values()):
+        sid = v['showdown_id']
         local_unresolved = []
         jp_name = resolve_species_name(
-            sid, v['showdown_name'], v['num'], v['forme'], v['baseForme'], species_by_num, local_unresolved)
+            sid, v['showdown_name'], v['num'], v['forme'], v['baseForme'], species_by_num, local_unresolved,
+            form_table)
         if local_unresolved:
             unresolved_species_by_sid[sid] = local_unresolved[0][1:]
         name_jp_by_en[v['showdown_name']] = jp_name
@@ -430,14 +291,20 @@ def main():
             'requiredItem': item_jp,
         }
 
-    # 2nd pass: 和名をキーにpokedex_jpを組み立てる。コスプレピカチュウやビビヨンの模様違いなど
-    # 公式に固有の和名を持たないフォルムは和名が重複するため、先に登場したものだけを残し、
-    # 以降の重複は pokedex_excluded.json に理由付きで記録して除外する。
+    # 2nd pass: 和名をキーにpokedex_jpを組み立てる。
+    # langmap/_form_langmap.csv の exclude列で明示的に除外指定された種族(コスプレピカチュウや
+    # ビビヨンの模様違いなど、公式に固有の和名を持たないもの)は scripts/build-data-en.js が
+    # 既に data_en/pokedex.json から取り除き data_en/pokedex_excluded.json 側に回しているため、
+    # ここでの pokedex.values() には含まれない(下の en_pokedex_excluded ループで別途処理する)。
+    # それでも和名が重複する場合(CSV未収録の新規フォルム等への保険)は、先に登場したものだけを
+    # 残し、以降の重複を pokedex_excluded.json に記録して除外する。
     skipped_species = []
     pokedex_jp = {}
     pokedex_excluded = {}
-    for sid, v in pokedex.items():
+    for v in pokedex.values():
+        sid = v['showdown_id']
         jp_name = name_jp_by_en[v['showdown_name']]
+
         if jp_name in pokedex_jp:
             skipped_species.append((sid, v['showdown_name'], jp_name))
             pokedex_excluded[sid] = {
@@ -449,11 +316,22 @@ def main():
 
         pokedex_jp[jp_name] = build_entry(sid, v, unresolved_abilities, unresolved_items)
 
+    # data_en/pokedex_excluded.json 側(exclude列による除外指定)も和訳して合流させる。
+    for v in en_pokedex_excluded.values():
+        sid = v['showdown_id']
+        jp_name = name_jp_by_en[v['showdown_name']]
+        pokedex_excluded[sid] = {
+            **build_entry(sid, v, [], []),
+            'name': jp_name,
+            'reason': f'langmap/_form_langmap.csv の exclude列により除外指定(和名"{jp_name}")',
+        }
+
     # 採用された(pokedex_jp に残った)種族の分だけ未解決speciesログに残す
+    excluded_sids = {s for s, _, _ in skipped_species} | set(pokedex_excluded.keys())
     unresolved_species = [
         (sid, name, num, reason)
         for sid, (name, num, reason) in unresolved_species_by_sid.items()
-        if sid not in {s for s, _, _ in skipped_species}
+        if sid not in excluded_sids
     ]
 
     # pokedex.json と同様、moves.json も和名をキーにする(showdown_id/showdown_name で元のidを保持)。

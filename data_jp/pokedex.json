@@ -1039,37 +1039,6 @@
     },
     "requiredItem": ""
   },
-  "ラッタ(アローラ)(ボス)": {
-    "showdown_id": "raticatealolatotem",
-    "showdown_name": "Raticate-Alola-Totem",
-    "num": 20,
-    "forme": "Alola-Totem",
-    "baseForme": "",
-    "types": [
-      "あく",
-      "ノーマル"
-    ],
-    "abilities": [
-      "あついしぼう"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 71,
-      "def": 70,
-      "spa": 40,
-      "spd": 80,
-      "spe": 77
-    },
-    "weight": 105,
-    "height": 1.4,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "オニスズメ": {
     "showdown_id": "spearow",
     "showdown_name": "Spearow",
@@ -1233,37 +1202,6 @@
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ピカチュウ(アローラ)": {
-    "showdown_id": "pikachualola",
-    "showdown_name": "Pikachu-Alola",
-    "num": 25,
-    "forme": "Alola",
-    "baseForme": "",
-    "types": [
-      "でんき"
-    ],
-    "abilities": [
-      "せいでんき",
-      "ひらいしん"
-    ],
-    "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 40,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
-    },
-    "weight": 6,
-    "height": 0.4,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 1,
-      "F": 0
     },
     "requiredItem": ""
   },
@@ -5184,37 +5122,6 @@
     },
     "requiredItem": ""
   },
-  "ガラガラ(アローラ)(ボス)": {
-    "showdown_id": "marowakalolatotem",
-    "showdown_name": "Marowak-Alola-Totem",
-    "num": 105,
-    "forme": "Alola-Totem",
-    "baseForme": "",
-    "types": [
-      "ほのお",
-      "ゴースト"
-    ],
-    "abilities": [
-      "いしあたま"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "atk": 80,
-      "def": 110,
-      "spa": 50,
-      "spd": 80,
-      "spe": 45
-    },
-    "weight": 98,
-    "height": 1.7,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "サワムラー": {
     "showdown_id": "hitmonlee",
     "showdown_name": "Hitmonlee",
@@ -8121,36 +8028,6 @@
     "evos": [
       "ピカチュウ"
     ],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ギザみみピチュー": {
-    "showdown_id": "pichuspikyeared",
-    "showdown_name": "Pichu-Spiky-eared",
-    "num": 172,
-    "forme": "Spiky-eared",
-    "baseForme": "",
-    "types": [
-      "でんき"
-    ],
-    "abilities": [
-      "せいでんき"
-    ],
-    "baseStats": {
-      "hp": 20,
-      "atk": 40,
-      "def": 15,
-      "spa": 35,
-      "spd": 35,
-      "spe": 60
-    },
-    "weight": 2,
-    "height": 0.3,
-    "prevo": "",
-    "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -16451,7 +16328,7 @@
     },
     "requiredItem": ""
   },
-  "デオキシス": {
+  "デオキシス(ノーマル)": {
     "showdown_id": "deoxys",
     "showdown_name": "Deoxys",
     "num": 386,
@@ -17426,7 +17303,7 @@
     },
     "requiredItem": ""
   },
-  "ミノムッチ": {
+  "ミノムッチ(くさき)": {
     "showdown_id": "burmy",
     "showdown_name": "Burmy",
     "num": 412,
@@ -17451,7 +17328,7 @@
     "height": 0.2,
     "prevo": "",
     "evos": [
-      "ミノマダム",
+      "ミノマダム(くさき)",
       "ミノマダム(すなち)",
       "ミノマダム(ゴミ)",
       "ガーメイル"
@@ -17487,7 +17364,7 @@
     "height": 0.2,
     "prevo": "",
     "evos": [
-      "ミノマダム",
+      "ミノマダム(くさき)",
       "ミノマダム(すなち)",
       "ミノマダム(ゴミ)",
       "ガーメイル"
@@ -17523,7 +17400,7 @@
     "height": 0.2,
     "prevo": "",
     "evos": [
-      "ミノマダム",
+      "ミノマダム(くさき)",
       "ミノマダム(すなち)",
       "ミノマダム(ゴミ)",
       "ガーメイル"
@@ -17534,7 +17411,7 @@
     },
     "requiredItem": ""
   },
-  "ミノマダム": {
+  "ミノマダム(くさき)": {
     "showdown_id": "wormadam",
     "showdown_name": "Wormadam",
     "num": 413,
@@ -17558,7 +17435,7 @@
     },
     "weight": 6.5,
     "height": 0.5,
-    "prevo": "ミノムッチ",
+    "prevo": "ミノムッチ(くさき)",
     "evos": [],
     "genderRatio": {
       "M": 0,
@@ -17590,7 +17467,7 @@
     },
     "weight": 6.5,
     "height": 0.5,
-    "prevo": "ミノムッチ",
+    "prevo": "ミノムッチ(くさき)",
     "evos": [],
     "genderRatio": {
       "M": 0,
@@ -17622,7 +17499,7 @@
     },
     "weight": 6.5,
     "height": 0.5,
-    "prevo": "ミノムッチ",
+    "prevo": "ミノムッチ(くさき)",
     "evos": [],
     "genderRatio": {
       "M": 0,
@@ -17654,7 +17531,7 @@
     },
     "weight": 23.3,
     "height": 0.9,
-    "prevo": "ミノムッチ",
+    "prevo": "ミノムッチ(くさき)",
     "evos": [],
     "genderRatio": {
       "M": 1,
@@ -20719,7 +20596,7 @@
     },
     "requiredItem": ""
   },
-  "アルセウス(ノーマル)": {
+  "アルセウス": {
     "showdown_id": "arceus",
     "showdown_name": "Arceus",
     "num": 493,
@@ -20727,516 +20604,6 @@
     "baseForme": "Normal",
     "types": [
       "ノーマル"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(むし)": {
-    "showdown_id": "arceusbug",
-    "showdown_name": "Arceus-Bug",
-    "num": 493,
-    "forme": "Bug",
-    "baseForme": "",
-    "types": [
-      "むし"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(あく)": {
-    "showdown_id": "arceusdark",
-    "showdown_name": "Arceus-Dark",
-    "num": 493,
-    "forme": "Dark",
-    "baseForme": "",
-    "types": [
-      "あく"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(ドラゴン)": {
-    "showdown_id": "arceusdragon",
-    "showdown_name": "Arceus-Dragon",
-    "num": 493,
-    "forme": "Dragon",
-    "baseForme": "",
-    "types": [
-      "ドラゴン"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(でんき)": {
-    "showdown_id": "arceuselectric",
-    "showdown_name": "Arceus-Electric",
-    "num": 493,
-    "forme": "Electric",
-    "baseForme": "",
-    "types": [
-      "でんき"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(フェアリー)": {
-    "showdown_id": "arceusfairy",
-    "showdown_name": "Arceus-Fairy",
-    "num": 493,
-    "forme": "Fairy",
-    "baseForme": "",
-    "types": [
-      "フェアリー"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(かくとう)": {
-    "showdown_id": "arceusfighting",
-    "showdown_name": "Arceus-Fighting",
-    "num": 493,
-    "forme": "Fighting",
-    "baseForme": "",
-    "types": [
-      "かくとう"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(ほのお)": {
-    "showdown_id": "arceusfire",
-    "showdown_name": "Arceus-Fire",
-    "num": 493,
-    "forme": "Fire",
-    "baseForme": "",
-    "types": [
-      "ほのお"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(ひこう)": {
-    "showdown_id": "arceusflying",
-    "showdown_name": "Arceus-Flying",
-    "num": 493,
-    "forme": "Flying",
-    "baseForme": "",
-    "types": [
-      "ひこう"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(ゴースト)": {
-    "showdown_id": "arceusghost",
-    "showdown_name": "Arceus-Ghost",
-    "num": 493,
-    "forme": "Ghost",
-    "baseForme": "",
-    "types": [
-      "ゴースト"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(くさ)": {
-    "showdown_id": "arceusgrass",
-    "showdown_name": "Arceus-Grass",
-    "num": 493,
-    "forme": "Grass",
-    "baseForme": "",
-    "types": [
-      "くさ"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(じめん)": {
-    "showdown_id": "arceusground",
-    "showdown_name": "Arceus-Ground",
-    "num": 493,
-    "forme": "Ground",
-    "baseForme": "",
-    "types": [
-      "じめん"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(こおり)": {
-    "showdown_id": "arceusice",
-    "showdown_name": "Arceus-Ice",
-    "num": 493,
-    "forme": "Ice",
-    "baseForme": "",
-    "types": [
-      "こおり"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(どく)": {
-    "showdown_id": "arceuspoison",
-    "showdown_name": "Arceus-Poison",
-    "num": 493,
-    "forme": "Poison",
-    "baseForme": "",
-    "types": [
-      "どく"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(エスパー)": {
-    "showdown_id": "arceuspsychic",
-    "showdown_name": "Arceus-Psychic",
-    "num": 493,
-    "forme": "Psychic",
-    "baseForme": "",
-    "types": [
-      "エスパー"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(いわ)": {
-    "showdown_id": "arceusrock",
-    "showdown_name": "Arceus-Rock",
-    "num": 493,
-    "forme": "Rock",
-    "baseForme": "",
-    "types": [
-      "いわ"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(はがね)": {
-    "showdown_id": "arceussteel",
-    "showdown_name": "Arceus-Steel",
-    "num": 493,
-    "forme": "Steel",
-    "baseForme": "",
-    "types": [
-      "はがね"
-    ],
-    "abilities": [
-      "マルチタイプ"
-    ],
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "weight": 320,
-    "height": 3.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "アルセウス(みず)": {
-    "showdown_id": "arceuswater",
-    "showdown_name": "Arceus-Water",
-    "num": 493,
-    "forme": "Water",
-    "baseForme": "",
-    "types": [
-      "みず"
     ],
     "abilities": [
       "マルチタイプ"
@@ -23396,7 +22763,7 @@
     "height": 1,
     "prevo": "",
     "evos": [
-      "イダイトウ",
+      "イダイトウ(オス)",
       "イダイトウ(メス)"
     ],
     "genderRatio": {
@@ -23667,7 +23034,7 @@
     },
     "requiredItem": ""
   },
-  "ヒヒダルマ(ガラル)(ダルマ)": {
+  "ヒヒダルマ(ガラル,ダルマ)": {
     "showdown_id": "darmanitangalarzen",
     "showdown_name": "Darmanitan-Galar-Zen",
     "num": 555,
@@ -26821,7 +26188,7 @@
     },
     "requiredItem": ""
   },
-  "トルネロス": {
+  "トルネロス(けしん)": {
     "showdown_id": "tornadus",
     "showdown_name": "Tornadus",
     "num": 641,
@@ -26882,7 +26249,7 @@
     },
     "requiredItem": ""
   },
-  "ボルトロス": {
+  "ボルトロス(けしん)": {
     "showdown_id": "thundurus",
     "showdown_name": "Thundurus",
     "num": 642,
@@ -27007,7 +26374,7 @@
     },
     "requiredItem": ""
   },
-  "ランドロス": {
+  "ランドロス(けしん)": {
     "showdown_id": "landorus",
     "showdown_name": "Landorus",
     "num": 645,
@@ -27317,130 +26684,6 @@
       "F": 0
     },
     "requiredItem": ""
-  },
-  "ゲノセクト(ダウズドライブ)": {
-    "showdown_id": "genesectdouse",
-    "showdown_name": "Genesect-Douse",
-    "num": 649,
-    "forme": "Douse",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "はがね"
-    ],
-    "abilities": [
-      "ダウンロード"
-    ],
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "weight": 82.5,
-    "height": 1.5,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "アクアカセット"
-  },
-  "ゲノセクト(ショックドライブ)": {
-    "showdown_id": "genesectshock",
-    "showdown_name": "Genesect-Shock",
-    "num": 649,
-    "forme": "Shock",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "はがね"
-    ],
-    "abilities": [
-      "ダウンロード"
-    ],
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "weight": 82.5,
-    "height": 1.5,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "イナズマカセット"
-  },
-  "ゲノセクト(バーンドライブ)": {
-    "showdown_id": "genesectburn",
-    "showdown_name": "Genesect-Burn",
-    "num": 649,
-    "forme": "Burn",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "はがね"
-    ],
-    "abilities": [
-      "ダウンロード"
-    ],
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "weight": 82.5,
-    "height": 1.5,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ブレイズカセット"
-  },
-  "ゲノセクト(チルドライブ)": {
-    "showdown_id": "genesectchill",
-    "showdown_name": "Genesect-Chill",
-    "num": 649,
-    "forme": "Chill",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "はがね"
-    ],
-    "abilities": [
-      "ダウンロード"
-    ],
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "weight": 82.5,
-    "height": 1.5,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "フリーズカセット"
   },
   "ハリマロン": {
     "showdown_id": "chespin",
@@ -28087,7 +27330,6 @@
     "height": 0.3,
     "prevo": "コフキムシ",
     "evos": [
-      "ビビヨン",
       "ビビヨン"
     ],
     "genderRatio": {
@@ -28573,7 +27815,7 @@
     "height": 0.3,
     "prevo": "",
     "evos": [
-      "ニャオニクス",
+      "ニャオニクス(オス)",
       "ニャオニクス(メス)"
     ],
     "genderRatio": {
@@ -28582,7 +27824,7 @@
     },
     "requiredItem": ""
   },
-  "ニャオニクス": {
+  "ニャオニクス(オス)": {
     "showdown_id": "meowstic",
     "showdown_name": "Meowstic",
     "num": 678,
@@ -28764,7 +28006,7 @@
     "height": 0.8,
     "prevo": "ヒトツキ",
     "evos": [
-      "ギルガルド"
+      "ギルガルド(シールド)"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28772,7 +28014,7 @@
     },
     "requiredItem": ""
   },
-  "ギルガルド": {
+  "ギルガルド(シールド)": {
     "showdown_id": "aegislash",
     "showdown_name": "Aegislash",
     "num": 681,
@@ -30451,7 +29693,7 @@
     },
     "requiredItem": ""
   },
-  "ジガルデ": {
+  "ジガルデ(50%)": {
     "showdown_id": "zygarde",
     "showdown_name": "Zygarde",
     "num": 718,
@@ -31199,36 +30441,6 @@
     },
     "requiredItem": ""
   },
-  "デカグース(ボス)": {
-    "showdown_id": "gumshoostotem",
-    "showdown_name": "Gumshoos-Totem",
-    "num": 735,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "ノーマル"
-    ],
-    "abilities": [
-      "てきおうりょく"
-    ],
-    "baseStats": {
-      "hp": 88,
-      "atk": 110,
-      "def": 60,
-      "spa": 55,
-      "spd": 60,
-      "spe": 45
-    },
-    "weight": 60,
-    "height": 1.4,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "アゴジムシ": {
     "showdown_id": "grubbin",
     "showdown_name": "Grubbin",
@@ -31318,37 +30530,6 @@
     "weight": 45,
     "height": 1.5,
     "prevo": "デンヂムシ",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "クワガノン(ボス)": {
-    "showdown_id": "vikavolttotem",
-    "showdown_name": "Vikavolt-Totem",
-    "num": 738,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "でんき"
-    ],
-    "abilities": [
-      "ふゆう"
-    ],
-    "baseStats": {
-      "hp": 77,
-      "atk": 70,
-      "def": 90,
-      "spa": 145,
-      "spd": 75,
-      "spe": 43
-    },
-    "weight": 147.5,
-    "height": 2.6,
-    "prevo": "",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
@@ -31646,37 +30827,6 @@
     },
     "requiredItem": ""
   },
-  "アブリボン(ボス)": {
-    "showdown_id": "ribombeetotem",
-    "showdown_name": "Ribombee-Totem",
-    "num": 743,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "むし",
-      "フェアリー"
-    ],
-    "abilities": [
-      "スイートベール"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "atk": 55,
-      "def": 60,
-      "spa": 95,
-      "spd": 70,
-      "spe": 124
-    },
-    "weight": 2,
-    "height": 0.4,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "イワンコ": {
     "showdown_id": "rockruff",
     "showdown_name": "Rockruff",
@@ -31799,7 +30949,7 @@
     },
     "weight": 25,
     "height": 0.8,
-    "prevo": "イワンコ",
+    "prevo": "",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
@@ -32067,37 +31217,6 @@
     },
     "requiredItem": ""
   },
-  "オニシズクモ(ボス)": {
-    "showdown_id": "araquanidtotem",
-    "showdown_name": "Araquanid-Totem",
-    "num": 752,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "みず",
-      "むし"
-    ],
-    "abilities": [
-      "すいほう"
-    ],
-    "baseStats": {
-      "hp": 68,
-      "atk": 70,
-      "def": 92,
-      "spa": 50,
-      "spd": 132,
-      "spe": 42
-    },
-    "weight": 217.5,
-    "height": 3.1,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "カリキリ": {
     "showdown_id": "fomantis",
     "showdown_name": "Fomantis",
@@ -32155,36 +31274,6 @@
     "weight": 18.5,
     "height": 0.9,
     "prevo": "カリキリ",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ラランテス(ボス)": {
-    "showdown_id": "lurantistotem",
-    "showdown_name": "Lurantis-Totem",
-    "num": 754,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "くさ"
-    ],
-    "abilities": [
-      "リーフガード"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "atk": 105,
-      "def": 90,
-      "spa": 80,
-      "spd": 90,
-      "spe": 45
-    },
-    "weight": 58,
-    "height": 1.5,
-    "prevo": "",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
@@ -32319,37 +31408,6 @@
     "weight": 22.2,
     "height": 1.2,
     "prevo": "ヤトウモリ",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 1
-    },
-    "requiredItem": ""
-  },
-  "エンニュート(ボス)": {
-    "showdown_id": "salazzletotem",
-    "showdown_name": "Salazzle-Totem",
-    "num": 758,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "どく",
-      "ほのお"
-    ],
-    "abilities": [
-      "ふしょく"
-    ],
-    "baseStats": {
-      "hp": 68,
-      "atk": 64,
-      "def": 60,
-      "spa": 111,
-      "spd": 60,
-      "spe": 117
-    },
-    "weight": 81,
-    "height": 2.1,
-    "prevo": "",
     "evos": [],
     "genderRatio": {
       "M": 0,
@@ -32806,7 +31864,7 @@
     "height": 1.9,
     "prevo": "",
     "evos": [
-      "シルヴァディ(ノーマル)"
+      "シルヴァディ"
     ],
     "genderRatio": {
       "M": 0,
@@ -32814,7 +31872,7 @@
     },
     "requiredItem": ""
   },
-  "シルヴァディ(ノーマル)": {
+  "シルヴァディ": {
     "showdown_id": "silvally",
     "showdown_name": "Silvally",
     "num": 773,
@@ -32844,553 +31902,12 @@
     },
     "requiredItem": ""
   },
-  "シルヴァディ(むし)": {
-    "showdown_id": "silvallybug",
-    "showdown_name": "Silvally-Bug",
-    "num": 773,
-    "forme": "Bug",
-    "baseForme": "",
-    "types": [
-      "むし"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "バグメモリ"
-  },
-  "シルヴァディ(あく)": {
-    "showdown_id": "silvallydark",
-    "showdown_name": "Silvally-Dark",
-    "num": 773,
-    "forme": "Dark",
-    "baseForme": "",
-    "types": [
-      "あく"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ダークメモリ"
-  },
-  "シルヴァディ(ドラゴン)": {
-    "showdown_id": "silvallydragon",
-    "showdown_name": "Silvally-Dragon",
-    "num": 773,
-    "forme": "Dragon",
-    "baseForme": "",
-    "types": [
-      "ドラゴン"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ドラゴンメモリ"
-  },
-  "シルヴァディ(でんき)": {
-    "showdown_id": "silvallyelectric",
-    "showdown_name": "Silvally-Electric",
-    "num": 773,
-    "forme": "Electric",
-    "baseForme": "",
-    "types": [
-      "でんき"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "エレクトロメモリ"
-  },
-  "シルヴァディ(フェアリー)": {
-    "showdown_id": "silvallyfairy",
-    "showdown_name": "Silvally-Fairy",
-    "num": 773,
-    "forme": "Fairy",
-    "baseForme": "",
-    "types": [
-      "フェアリー"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "フェアリーメモリ"
-  },
-  "シルヴァディ(かくとう)": {
-    "showdown_id": "silvallyfighting",
-    "showdown_name": "Silvally-Fighting",
-    "num": 773,
-    "forme": "Fighting",
-    "baseForme": "",
-    "types": [
-      "かくとう"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ファイトメモリ"
-  },
-  "シルヴァディ(ほのお)": {
-    "showdown_id": "silvallyfire",
-    "showdown_name": "Silvally-Fire",
-    "num": 773,
-    "forme": "Fire",
-    "baseForme": "",
-    "types": [
-      "ほのお"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ファイヤーメモリ"
-  },
-  "シルヴァディ(ひこう)": {
-    "showdown_id": "silvallyflying",
-    "showdown_name": "Silvally-Flying",
-    "num": 773,
-    "forme": "Flying",
-    "baseForme": "",
-    "types": [
-      "ひこう"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "フライングメモリ"
-  },
-  "シルヴァディ(ゴースト)": {
-    "showdown_id": "silvallyghost",
-    "showdown_name": "Silvally-Ghost",
-    "num": 773,
-    "forme": "Ghost",
-    "baseForme": "",
-    "types": [
-      "ゴースト"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ゴーストメモリ"
-  },
-  "シルヴァディ(くさ)": {
-    "showdown_id": "silvallygrass",
-    "showdown_name": "Silvally-Grass",
-    "num": 773,
-    "forme": "Grass",
-    "baseForme": "",
-    "types": [
-      "くさ"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "グラスメモリ"
-  },
-  "シルヴァディ(じめん)": {
-    "showdown_id": "silvallyground",
-    "showdown_name": "Silvally-Ground",
-    "num": 773,
-    "forme": "Ground",
-    "baseForme": "",
-    "types": [
-      "じめん"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "グラウンドメモリ"
-  },
-  "シルヴァディ(こおり)": {
-    "showdown_id": "silvallyice",
-    "showdown_name": "Silvally-Ice",
-    "num": 773,
-    "forme": "Ice",
-    "baseForme": "",
-    "types": [
-      "こおり"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "アイスメモリ"
-  },
-  "シルヴァディ(どく)": {
-    "showdown_id": "silvallypoison",
-    "showdown_name": "Silvally-Poison",
-    "num": 773,
-    "forme": "Poison",
-    "baseForme": "",
-    "types": [
-      "どく"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ポイズンメモリ"
-  },
-  "シルヴァディ(エスパー)": {
-    "showdown_id": "silvallypsychic",
-    "showdown_name": "Silvally-Psychic",
-    "num": 773,
-    "forme": "Psychic",
-    "baseForme": "",
-    "types": [
-      "エスパー"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "サイキックメモリ"
-  },
-  "シルヴァディ(いわ)": {
-    "showdown_id": "silvallyrock",
-    "showdown_name": "Silvally-Rock",
-    "num": 773,
-    "forme": "Rock",
-    "baseForme": "",
-    "types": [
-      "いわ"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ロックメモリ"
-  },
-  "シルヴァディ(はがね)": {
-    "showdown_id": "silvallysteel",
-    "showdown_name": "Silvally-Steel",
-    "num": 773,
-    "forme": "Steel",
-    "baseForme": "",
-    "types": [
-      "はがね"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "スチールメモリ"
-  },
-  "シルヴァディ(みず)": {
-    "showdown_id": "silvallywater",
-    "showdown_name": "Silvally-Water",
-    "num": 773,
-    "forme": "Water",
-    "baseForme": "",
-    "types": [
-      "みず"
-    ],
-    "abilities": [
-      "ARシステム"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "weight": 100.5,
-    "height": 2.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": "ウオーターメモリ"
-  },
-  "メテノ": {
+  "メテノ(コア)": {
     "showdown_id": "minior",
     "showdown_name": "Minior",
     "num": 774,
     "forme": "",
     "baseForme": "Red",
-    "types": [
-      "いわ",
-      "ひこう"
-    ],
-    "abilities": [
-      "リミットシールド"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "atk": 100,
-      "def": 60,
-      "spa": 100,
-      "spd": 60,
-      "spe": 120
-    },
-    "weight": 0.3,
-    "height": 0.3,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "メテノ(コア)": {
-    "showdown_id": "miniororange",
-    "showdown_name": "Minior-Orange",
-    "num": 774,
-    "forme": "Orange",
-    "baseForme": "",
     "types": [
       "いわ",
       "ひこう"
@@ -33541,37 +32058,6 @@
     },
     "requiredItem": ""
   },
-  "トゲデマル(ボス)": {
-    "showdown_id": "togedemarutotem",
-    "showdown_name": "Togedemaru-Totem",
-    "num": 777,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "でんき",
-      "はがね"
-    ],
-    "abilities": [
-      "がんじょう"
-    ],
-    "baseStats": {
-      "hp": 65,
-      "atk": 98,
-      "def": 63,
-      "spa": 40,
-      "spd": 73,
-      "spe": 96
-    },
-    "weight": 13,
-    "height": 0.6,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "ミミッキュ": {
     "showdown_id": "mimikyu",
     "showdown_name": "Mimikyu",
@@ -33595,99 +32081,6 @@
     },
     "weight": 0.7,
     "height": 0.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ミミッキュ(ばれたすがた)": {
-    "showdown_id": "mimikyubusted",
-    "showdown_name": "Mimikyu-Busted",
-    "num": 778,
-    "forme": "Busted",
-    "baseForme": "",
-    "types": [
-      "ゴースト",
-      "フェアリー"
-    ],
-    "abilities": [
-      "ばけのかわ"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "atk": 90,
-      "def": 80,
-      "spa": 50,
-      "spd": 105,
-      "spe": 96
-    },
-    "weight": 0.7,
-    "height": 0.2,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ミミッキュ(ボス)": {
-    "showdown_id": "mimikyutotem",
-    "showdown_name": "Mimikyu-Totem",
-    "num": 778,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "ゴースト",
-      "フェアリー"
-    ],
-    "abilities": [
-      "ばけのかわ"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "atk": 90,
-      "def": 80,
-      "spa": 50,
-      "spd": 105,
-      "spe": 96
-    },
-    "weight": 2.8,
-    "height": 0.4,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ミミッキュ(ばれたすがた)(ボス)": {
-    "showdown_id": "mimikyubustedtotem",
-    "showdown_name": "Mimikyu-Busted-Totem",
-    "num": 778,
-    "forme": "Busted-Totem",
-    "baseForme": "",
-    "types": [
-      "ゴースト",
-      "フェアリー"
-    ],
-    "abilities": [
-      "ばけのかわ"
-    ],
-    "baseStats": {
-      "hp": 55,
-      "atk": 90,
-      "def": 80,
-      "spa": 50,
-      "spd": 105,
-      "spe": 96
-    },
-    "weight": 2.8,
-    "height": 0.4,
     "prevo": "",
     "evos": [],
     "genderRatio": {
@@ -33919,37 +32312,6 @@
     "weight": 78.2,
     "height": 1.6,
     "prevo": "ジャランゴ",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ジャラランガ(ボス)": {
-    "showdown_id": "kommoototem",
-    "showdown_name": "Kommo-o-Totem",
-    "num": 784,
-    "forme": "Totem",
-    "baseForme": "",
-    "types": [
-      "ドラゴン",
-      "かくとう"
-    ],
-    "abilities": [
-      "ぼうじん"
-    ],
-    "baseStats": {
-      "hp": 75,
-      "atk": 110,
-      "def": 125,
-      "spa": 100,
-      "spd": 105,
-      "spe": 85
-    },
-    "weight": 207.5,
-    "height": 2.4,
-    "prevo": "",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
@@ -36370,68 +34732,6 @@
     },
     "requiredItem": ""
   },
-  "ウッウ(うのみ)": {
-    "showdown_id": "cramorantgulping",
-    "showdown_name": "Cramorant-Gulping",
-    "num": 845,
-    "forme": "Gulping",
-    "baseForme": "",
-    "types": [
-      "ひこう",
-      "みず"
-    ],
-    "abilities": [
-      "うのミサイル"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "atk": 85,
-      "def": 55,
-      "spa": 85,
-      "spd": 95,
-      "spe": 85
-    },
-    "weight": 18,
-    "height": 0.8,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
-  "ウッウ(まるのみ)": {
-    "showdown_id": "cramorantgorging",
-    "showdown_name": "Cramorant-Gorging",
-    "num": 845,
-    "forme": "Gorging",
-    "baseForme": "",
-    "types": [
-      "ひこう",
-      "みず"
-    ],
-    "abilities": [
-      "うのミサイル"
-    ],
-    "baseStats": {
-      "hp": 70,
-      "atk": 85,
-      "def": 55,
-      "spa": 85,
-      "spd": 95,
-      "spe": 85
-    },
-    "weight": 18,
-    "height": 0.8,
-    "prevo": "",
-    "evos": [],
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "requiredItem": ""
-  },
   "サシカマス": {
     "showdown_id": "arrokuda",
     "showdown_name": "Arrokuda",
@@ -36523,7 +34823,7 @@
     "height": 0.4,
     "prevo": "",
     "evos": [
-      "ストリンダー",
+      "ストリンダー(ハイ)",
       "ストリンダー(ロー)"
     ],
     "genderRatio": {
@@ -36532,7 +34832,7 @@
     },
     "requiredItem": ""
   },
-  "ストリンダー": {
+  "ストリンダー(ハイ)": {
     "showdown_id": "toxtricity",
     "showdown_name": "Toxtricity",
     "num": 849,
@@ -36598,7 +34898,7 @@
     },
     "requiredItem": ""
   },
-  "ストリンダー(キョダイ)": {
+  "ストリンダー(ハイ,キョダイ)": {
     "showdown_id": "toxtricitygmax",
     "showdown_name": "Toxtricity-Gmax",
     "num": 849,
@@ -36631,7 +34931,7 @@
     },
     "requiredItem": ""
   },
-  "ストリンダー(ロー)(キョダイ)": {
+  "ストリンダー(ロー,キョダイ)": {
     "showdown_id": "toxtricitylowkeygmax",
     "showdown_name": "Toxtricity-Low-Key-Gmax",
     "num": 849,
@@ -37637,7 +35937,7 @@
     },
     "requiredItem": ""
   },
-  "コオリッポ": {
+  "コオリッポ(アイス)": {
     "showdown_id": "eiscue",
     "showdown_name": "Eiscue",
     "num": 875,
@@ -37697,7 +35997,7 @@
     },
     "requiredItem": ""
   },
-  "イエッサン": {
+  "イエッサン(オス)": {
     "showdown_id": "indeedee",
     "showdown_name": "Indeedee",
     "num": 876,
@@ -37763,7 +36063,7 @@
     },
     "requiredItem": ""
   },
-  "モルペコ": {
+  "モルペコ(まんぷく)": {
     "showdown_id": "morpeko",
     "showdown_name": "Morpeko",
     "num": 877,
@@ -38431,7 +36731,7 @@
     "height": 0.6,
     "prevo": "",
     "evos": [
-      "ウーラオス",
+      "ウーラオス(いちげき)",
       "ウーラオス(れんげき)"
     ],
     "genderRatio": {
@@ -38440,7 +36740,7 @@
     },
     "requiredItem": ""
   },
-  "ウーラオス": {
+  "ウーラオス(いちげき)": {
     "showdown_id": "urshifu",
     "showdown_name": "Urshifu",
     "num": 892,
@@ -38502,7 +36802,7 @@
     },
     "requiredItem": ""
   },
-  "ウーラオス(キョダイ)": {
+  "ウーラオス(いちげき,キョダイ)": {
     "showdown_id": "urshifugmax",
     "showdown_name": "Urshifu-Gmax",
     "num": 892,
@@ -38533,7 +36833,7 @@
     },
     "requiredItem": ""
   },
-  "ウーラオス(れんげき)(キョダイ)": {
+  "ウーラオス(れんげき,キョダイ)": {
     "showdown_id": "urshifurapidstrikegmax",
     "showdown_name": "Urshifu-Rapid-Strike-Gmax",
     "num": 892,
@@ -38969,7 +37269,7 @@
     },
     "requiredItem": ""
   },
-  "イダイトウ": {
+  "イダイトウ(オス)": {
     "showdown_id": "basculegion",
     "showdown_name": "Basculegion",
     "num": 902,
@@ -39101,7 +37401,7 @@
     },
     "requiredItem": ""
   },
-  "ラブトロス": {
+  "ラブトロス(けしん)": {
     "showdown_id": "enamorus",
     "showdown_name": "Enamorus",
     "num": 905,
@@ -39484,7 +37784,7 @@
     "height": 0.5,
     "prevo": "",
     "evos": [
-      "パフュートン",
+      "パフュートン(オス)",
       "パフュートン(メス)"
     ],
     "genderRatio": {
@@ -39493,7 +37793,7 @@
     },
     "requiredItem": ""
   },
-  "パフュートン": {
+  "パフュートン(オス)": {
     "showdown_id": "oinkologne",
     "showdown_name": "Oinkologne",
     "num": 916,
@@ -39814,8 +38114,7 @@
     "height": 0.3,
     "prevo": "",
     "evos": [
-      "イッカネズミ",
-      "イッカネズミ(よにんかぞく)"
+      "イッカネズミ"
     ],
     "genderRatio": {
       "M": 0,
@@ -39846,38 +38145,6 @@
       "spe": 111
     },
     "weight": 2.3,
-    "height": 0.3,
-    "prevo": "ワッカネズミ",
-    "evos": [],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
-  "イッカネズミ(よにんかぞく)": {
-    "showdown_id": "mausholdfour",
-    "showdown_name": "Maushold-Four",
-    "num": 925,
-    "forme": "Four",
-    "baseForme": "",
-    "types": [
-      "ノーマル"
-    ],
-    "abilities": [
-      "フレンドガード",
-      "ほおぶくろ",
-      "テクニシャン"
-    ],
-    "baseStats": {
-      "hp": 74,
-      "atk": 75,
-      "def": 70,
-      "spa": 65,
-      "spd": 75,
-      "spe": 111
-    },
-    "weight": 2.8,
     "height": 0.3,
     "prevo": "ワッカネズミ",
     "evos": [],
@@ -41304,7 +39571,7 @@
     },
     "requiredItem": ""
   },
-  "イルカマン(ヒーロー)": {
+  "イルカマン(マイティ)": {
     "showdown_id": "palafinhero",
     "showdown_name": "Palafin-Hero",
     "num": 964,
@@ -41787,7 +40054,7 @@
     },
     "requiredItem": ""
   },
-  "シャリタツ": {
+  "シャリタツ(そった)": {
     "showdown_id": "tatsugiri",
     "showdown_name": "Tatsugiri",
     "num": 978,
@@ -42583,38 +40850,6 @@
     },
     "requiredItem": ""
   },
-  "コレクレー(あるくすがた)": {
-    "showdown_id": "gimmighoulroaming",
-    "showdown_name": "Gimmighoul-Roaming",
-    "num": 999,
-    "forme": "Roaming",
-    "baseForme": "",
-    "types": [
-      "ゴースト"
-    ],
-    "abilities": [
-      "にげあし"
-    ],
-    "baseStats": {
-      "hp": 45,
-      "atk": 30,
-      "def": 25,
-      "spa": 75,
-      "spd": 45,
-      "spe": 80
-    },
-    "weight": 0.1,
-    "height": 0.1,
-    "prevo": "",
-    "evos": [
-      "サーフゴー"
-    ],
-    "genderRatio": {
-      "M": 0,
-      "F": 0
-    },
-    "requiredItem": ""
-  },
   "サーフゴー": {
     "showdown_id": "gholdengo",
     "showdown_name": "Gholdengo",
@@ -43306,7 +41541,7 @@
     },
     "requiredItem": ""
   },
-  "オーガポン(いど)(テラスタル)": {
+  "オーガポン(いど,テラスタル)": {
     "showdown_id": "ogerponwellspringtera",
     "showdown_name": "Ogerpon-Wellspring-Tera",
     "num": 1017,
@@ -43337,7 +41572,7 @@
     },
     "requiredItem": "いどのめん"
   },
-  "オーガポン(かまど)(テラスタル)": {
+  "オーガポン(かまど,テラスタル)": {
     "showdown_id": "ogerponhearthflametera",
     "showdown_name": "Ogerpon-Hearthflame-Tera",
     "num": 1017,
@@ -43368,7 +41603,7 @@
     },
     "requiredItem": "かまどのめん"
   },
-  "オーガポン(いしずえ)(テラスタル)": {
+  "オーガポン(いしずえ,テラスタル)": {
     "showdown_id": "ogerponcornerstonetera",
     "showdown_name": "Ogerpon-Cornerstone-Tera",
     "num": 1017,

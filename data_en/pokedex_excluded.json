@@ -1,16 +1,17 @@
 {
-  "raticatealolatotem": {
+  "Raticate-Alola-Totem": {
     "showdown_id": "raticatealolatotem",
     "showdown_name": "Raticate-Alola-Totem",
+    "displayName": "Raticate(Alola-Totem)",
     "num": 20,
     "forme": "Alola-Totem",
     "baseForme": "",
     "types": [
-      "あく",
-      "ノーマル"
+      "Dark",
+      "Normal"
     ],
     "abilities": [
-      "あついしぼう"
+      "Thick Fat"
     ],
     "baseStats": {
       "hp": 75,
@@ -28,21 +29,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ラッタ(アローラ,ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ラッタ(アローラ,ボス)\")"
+    "requiredItem": ""
   },
-  "pikachucosplay": {
+  "Pikachu-Cosplay": {
     "showdown_id": "pikachucosplay",
     "showdown_name": "Pikachu-Cosplay",
+    "displayName": "Pikachu(Cosplay)",
     "num": 25,
     "forme": "Cosplay",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -60,21 +60,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachurockstar": {
+  "Pikachu-Rock-Star": {
     "showdown_id": "pikachurockstar",
     "showdown_name": "Pikachu-Rock-Star",
+    "displayName": "Pikachu(Rock-Star)",
     "num": 25,
     "forme": "Rock-Star",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -92,21 +91,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachubelle": {
+  "Pikachu-Belle": {
     "showdown_id": "pikachubelle",
     "showdown_name": "Pikachu-Belle",
+    "displayName": "Pikachu(Belle)",
     "num": 25,
     "forme": "Belle",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -124,21 +122,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachupopstar": {
+  "Pikachu-Pop-Star": {
     "showdown_id": "pikachupopstar",
     "showdown_name": "Pikachu-Pop-Star",
+    "displayName": "Pikachu(Pop-Star)",
     "num": 25,
     "forme": "Pop-Star",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -156,21 +153,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachuphd": {
+  "Pikachu-PhD": {
     "showdown_id": "pikachuphd",
     "showdown_name": "Pikachu-PhD",
+    "displayName": "Pikachu(PhD)",
     "num": 25,
     "forme": "PhD",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -188,21 +184,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachulibre": {
+  "Pikachu-Libre": {
     "showdown_id": "pikachulibre",
     "showdown_name": "Pikachu-Libre",
+    "displayName": "Pikachu(Libre)",
     "num": 25,
     "forme": "Libre",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ひらいしん"
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -220,22 +215,21 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachuoriginal": {
+  "Pikachu-Original": {
     "showdown_id": "pikachuoriginal",
     "showdown_name": "Pikachu-Original",
+    "displayName": "Pikachu(Original)",
     "num": 25,
     "forme": "Original",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -253,22 +247,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachuhoenn": {
+  "Pikachu-Hoenn": {
     "showdown_id": "pikachuhoenn",
     "showdown_name": "Pikachu-Hoenn",
+    "displayName": "Pikachu(Hoenn)",
     "num": 25,
     "forme": "Hoenn",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -286,22 +279,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachusinnoh": {
+  "Pikachu-Sinnoh": {
     "showdown_id": "pikachusinnoh",
     "showdown_name": "Pikachu-Sinnoh",
+    "displayName": "Pikachu(Sinnoh)",
     "num": 25,
     "forme": "Sinnoh",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -319,22 +311,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachuunova": {
+  "Pikachu-Unova": {
     "showdown_id": "pikachuunova",
     "showdown_name": "Pikachu-Unova",
+    "displayName": "Pikachu(Unova)",
     "num": 25,
     "forme": "Unova",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -352,22 +343,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachukalos": {
+  "Pikachu-Kalos": {
     "showdown_id": "pikachukalos",
     "showdown_name": "Pikachu-Kalos",
+    "displayName": "Pikachu(Kalos)",
     "num": 25,
     "forme": "Kalos",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -385,22 +375,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachualola": {
+  "Pikachu-Alola": {
     "showdown_id": "pikachualola",
     "showdown_name": "Pikachu-Alola",
+    "displayName": "Pikachu(Alola)",
     "num": 25,
     "forme": "Alola",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -418,22 +407,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachupartner": {
+  "Pikachu-Partner": {
     "showdown_id": "pikachupartner",
     "showdown_name": "Pikachu-Partner",
+    "displayName": "Pikachu(Partner)",
     "num": 25,
     "forme": "Partner",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -451,22 +439,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "pikachuworld": {
+  "Pikachu-World": {
     "showdown_id": "pikachuworld",
     "showdown_name": "Pikachu-World",
+    "displayName": "Pikachu(World)",
     "num": 25,
     "forme": "World",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき",
-      "ひらいしん"
+      "Static",
+      "Lightning Rod"
     ],
     "baseStats": {
       "hp": 35,
@@ -484,22 +471,21 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ピカチュウ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ピカチュウ\")"
+    "requiredItem": ""
   },
-  "marowakalolatotem": {
+  "Marowak-Alola-Totem": {
     "showdown_id": "marowakalolatotem",
     "showdown_name": "Marowak-Alola-Totem",
+    "displayName": "Marowak(Alola-Totem)",
     "num": 105,
     "forme": "Alola-Totem",
     "baseForme": "",
     "types": [
-      "ほのお",
-      "ゴースト"
+      "Fire",
+      "Ghost"
     ],
     "abilities": [
-      "いしあたま"
+      "Rock Head"
     ],
     "baseStats": {
       "hp": 60,
@@ -517,21 +503,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ガラガラ(アローラ,ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ガラガラ(アローラ,ボス)\")"
+    "requiredItem": ""
   },
-  "pichuspikyeared": {
+  "Pichu-Spiky-eared": {
     "showdown_id": "pichuspikyeared",
     "showdown_name": "Pichu-Spiky-eared",
+    "displayName": "Pichu(Spiky-eared)",
     "num": 172,
     "forme": "Spiky-eared",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "せいでんき"
+      "Static"
     ],
     "baseStats": {
       "hp": 20,
@@ -549,21 +534,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ギザみみピチュー",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ギザみみピチュー\")"
+    "requiredItem": ""
   },
-  "cherrimsunshine": {
+  "Cherrim-Sunshine": {
     "showdown_id": "cherrimsunshine",
     "showdown_name": "Cherrim-Sunshine",
+    "displayName": "Cherrim(Sunshine)",
     "num": 421,
     "forme": "Sunshine",
     "baseForme": "",
     "types": [
-      "くさ"
+      "Grass"
     ],
     "abilities": [
-      "フラワーギフト"
+      "Flower Gift"
     ],
     "baseStats": {
       "hp": 70,
@@ -581,23 +565,22 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "チェリム",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"チェリム\")"
+    "requiredItem": ""
   },
-  "shelloseast": {
+  "Shellos-East": {
     "showdown_id": "shelloseast",
     "showdown_name": "Shellos-East",
+    "displayName": "Shellos(East)",
     "num": 422,
     "forme": "East",
     "baseForme": "",
     "types": [
-      "みず"
+      "Water"
     ],
     "abilities": [
-      "ねんちゃく",
-      "よびみず",
-      "すなのちから"
+      "Sticky Hold",
+      "Storm Drain",
+      "Sand Force"
     ],
     "baseStats": {
       "hp": 76,
@@ -611,30 +594,29 @@
     "height": 0.3,
     "prevo": "",
     "evos": [
-      "トリトドン"
+      "Gastrodon"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "カラナクシ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"カラナクシ\")"
+    "requiredItem": ""
   },
-  "gastrodoneast": {
+  "Gastrodon-East": {
     "showdown_id": "gastrodoneast",
     "showdown_name": "Gastrodon-East",
+    "displayName": "Gastrodon(East)",
     "num": 423,
     "forme": "East",
     "baseForme": "",
     "types": [
-      "みず",
-      "じめん"
+      "Water",
+      "Ground"
     ],
     "abilities": [
-      "ねんちゃく",
-      "よびみず",
-      "すなのちから"
+      "Sticky Hold",
+      "Storm Drain",
+      "Sand Force"
     ],
     "baseStats": {
       "hp": 111,
@@ -646,27 +628,26 @@
     },
     "weight": 29.9,
     "height": 0.9,
-    "prevo": "カラナクシ",
+    "prevo": "Shellos",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "トリトドン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"トリトドン\")"
+    "requiredItem": ""
   },
-  "arceusbug": {
+  "Arceus-Bug": {
     "showdown_id": "arceusbug",
     "showdown_name": "Arceus-Bug",
+    "displayName": "Arceus(Bug)",
     "num": 493,
     "forme": "Bug",
     "baseForme": "",
     "types": [
-      "むし"
+      "Bug"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -684,21 +665,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(むし)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(むし)\")"
+    "requiredItem": ""
   },
-  "arceusdark": {
+  "Arceus-Dark": {
     "showdown_id": "arceusdark",
     "showdown_name": "Arceus-Dark",
+    "displayName": "Arceus(Dark)",
     "num": 493,
     "forme": "Dark",
     "baseForme": "",
     "types": [
-      "あく"
+      "Dark"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -716,21 +696,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(あく)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(あく)\")"
+    "requiredItem": ""
   },
-  "arceusdragon": {
+  "Arceus-Dragon": {
     "showdown_id": "arceusdragon",
     "showdown_name": "Arceus-Dragon",
+    "displayName": "Arceus(Dragon)",
     "num": 493,
     "forme": "Dragon",
     "baseForme": "",
     "types": [
-      "ドラゴン"
+      "Dragon"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -748,21 +727,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(ドラゴン)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(ドラゴン)\")"
+    "requiredItem": ""
   },
-  "arceuselectric": {
+  "Arceus-Electric": {
     "showdown_id": "arceuselectric",
     "showdown_name": "Arceus-Electric",
+    "displayName": "Arceus(Electric)",
     "num": 493,
     "forme": "Electric",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -780,21 +758,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(でんき)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(でんき)\")"
+    "requiredItem": ""
   },
-  "arceusfairy": {
+  "Arceus-Fairy": {
     "showdown_id": "arceusfairy",
     "showdown_name": "Arceus-Fairy",
+    "displayName": "Arceus(Fairy)",
     "num": 493,
     "forme": "Fairy",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -812,21 +789,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(フェアリー)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(フェアリー)\")"
+    "requiredItem": ""
   },
-  "arceusfighting": {
+  "Arceus-Fighting": {
     "showdown_id": "arceusfighting",
     "showdown_name": "Arceus-Fighting",
+    "displayName": "Arceus(Fighting)",
     "num": 493,
     "forme": "Fighting",
     "baseForme": "",
     "types": [
-      "かくとう"
+      "Fighting"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -844,21 +820,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(かくとう)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(かくとう)\")"
+    "requiredItem": ""
   },
-  "arceusfire": {
+  "Arceus-Fire": {
     "showdown_id": "arceusfire",
     "showdown_name": "Arceus-Fire",
+    "displayName": "Arceus(Fire)",
     "num": 493,
     "forme": "Fire",
     "baseForme": "",
     "types": [
-      "ほのお"
+      "Fire"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -876,21 +851,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(ほのお)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(ほのお)\")"
+    "requiredItem": ""
   },
-  "arceusflying": {
+  "Arceus-Flying": {
     "showdown_id": "arceusflying",
     "showdown_name": "Arceus-Flying",
+    "displayName": "Arceus(Flying)",
     "num": 493,
     "forme": "Flying",
     "baseForme": "",
     "types": [
-      "ひこう"
+      "Flying"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -908,21 +882,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(ひこう)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(ひこう)\")"
+    "requiredItem": ""
   },
-  "arceusghost": {
+  "Arceus-Ghost": {
     "showdown_id": "arceusghost",
     "showdown_name": "Arceus-Ghost",
+    "displayName": "Arceus(Ghost)",
     "num": 493,
     "forme": "Ghost",
     "baseForme": "",
     "types": [
-      "ゴースト"
+      "Ghost"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -940,21 +913,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(ゴースト)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(ゴースト)\")"
+    "requiredItem": ""
   },
-  "arceusgrass": {
+  "Arceus-Grass": {
     "showdown_id": "arceusgrass",
     "showdown_name": "Arceus-Grass",
+    "displayName": "Arceus(Grass)",
     "num": 493,
     "forme": "Grass",
     "baseForme": "",
     "types": [
-      "くさ"
+      "Grass"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -972,21 +944,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(くさ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(くさ)\")"
+    "requiredItem": ""
   },
-  "arceusground": {
+  "Arceus-Ground": {
     "showdown_id": "arceusground",
     "showdown_name": "Arceus-Ground",
+    "displayName": "Arceus(Ground)",
     "num": 493,
     "forme": "Ground",
     "baseForme": "",
     "types": [
-      "じめん"
+      "Ground"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1004,21 +975,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(じめん)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(じめん)\")"
+    "requiredItem": ""
   },
-  "arceusice": {
+  "Arceus-Ice": {
     "showdown_id": "arceusice",
     "showdown_name": "Arceus-Ice",
+    "displayName": "Arceus(Ice)",
     "num": 493,
     "forme": "Ice",
     "baseForme": "",
     "types": [
-      "こおり"
+      "Ice"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1036,21 +1006,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(こおり)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(こおり)\")"
+    "requiredItem": ""
   },
-  "arceuspoison": {
+  "Arceus-Poison": {
     "showdown_id": "arceuspoison",
     "showdown_name": "Arceus-Poison",
+    "displayName": "Arceus(Poison)",
     "num": 493,
     "forme": "Poison",
     "baseForme": "",
     "types": [
-      "どく"
+      "Poison"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1068,21 +1037,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(どく)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(どく)\")"
+    "requiredItem": ""
   },
-  "arceuspsychic": {
+  "Arceus-Psychic": {
     "showdown_id": "arceuspsychic",
     "showdown_name": "Arceus-Psychic",
+    "displayName": "Arceus(Psychic)",
     "num": 493,
     "forme": "Psychic",
     "baseForme": "",
     "types": [
-      "エスパー"
+      "Psychic"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1100,21 +1068,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(エスパー)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(エスパー)\")"
+    "requiredItem": ""
   },
-  "arceusrock": {
+  "Arceus-Rock": {
     "showdown_id": "arceusrock",
     "showdown_name": "Arceus-Rock",
+    "displayName": "Arceus(Rock)",
     "num": 493,
     "forme": "Rock",
     "baseForme": "",
     "types": [
-      "いわ"
+      "Rock"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1132,21 +1099,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(いわ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(いわ)\")"
+    "requiredItem": ""
   },
-  "arceussteel": {
+  "Arceus-Steel": {
     "showdown_id": "arceussteel",
     "showdown_name": "Arceus-Steel",
+    "displayName": "Arceus(Steel)",
     "num": 493,
     "forme": "Steel",
     "baseForme": "",
     "types": [
-      "はがね"
+      "Steel"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1164,21 +1130,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(はがね)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(はがね)\")"
+    "requiredItem": ""
   },
-  "arceuswater": {
+  "Arceus-Water": {
     "showdown_id": "arceuswater",
     "showdown_name": "Arceus-Water",
+    "displayName": "Arceus(Water)",
     "num": 493,
     "forme": "Water",
     "baseForme": "",
     "types": [
-      "みず"
+      "Water"
     ],
     "abilities": [
-      "マルチタイプ"
+      "Multitype"
     ],
     "baseStats": {
       "hp": 120,
@@ -1196,24 +1161,23 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "アルセウス(みず)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アルセウス(みず)\")"
+    "requiredItem": ""
   },
-  "deerlingsummer": {
+  "Deerling-Summer": {
     "showdown_id": "deerlingsummer",
     "showdown_name": "Deerling-Summer",
+    "displayName": "Deerling(Summer)",
     "num": 585,
     "forme": "Summer",
     "baseForme": "",
     "types": [
-      "ノーマル",
-      "くさ"
+      "Normal",
+      "Grass"
     ],
     "abilities": [
-      "ようりょくそ",
-      "そうしょく",
-      "てんのめぐみ"
+      "Chlorophyll",
+      "Sap Sipper",
+      "Serene Grace"
     ],
     "baseStats": {
       "hp": 60,
@@ -1227,30 +1191,29 @@
     "height": 0.6,
     "prevo": "",
     "evos": [
-      "メブキジカ"
+      "Sawsbuck"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "シキジカ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シキジカ\")"
+    "requiredItem": ""
   },
-  "deerlingautumn": {
+  "Deerling-Autumn": {
     "showdown_id": "deerlingautumn",
     "showdown_name": "Deerling-Autumn",
+    "displayName": "Deerling(Autumn)",
     "num": 585,
     "forme": "Autumn",
     "baseForme": "",
     "types": [
-      "ノーマル",
-      "くさ"
+      "Normal",
+      "Grass"
     ],
     "abilities": [
-      "ようりょくそ",
-      "そうしょく",
-      "てんのめぐみ"
+      "Chlorophyll",
+      "Sap Sipper",
+      "Serene Grace"
     ],
     "baseStats": {
       "hp": 60,
@@ -1264,30 +1227,29 @@
     "height": 0.6,
     "prevo": "",
     "evos": [
-      "メブキジカ"
+      "Sawsbuck"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "シキジカ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シキジカ\")"
+    "requiredItem": ""
   },
-  "deerlingwinter": {
+  "Deerling-Winter": {
     "showdown_id": "deerlingwinter",
     "showdown_name": "Deerling-Winter",
+    "displayName": "Deerling(Winter)",
     "num": 585,
     "forme": "Winter",
     "baseForme": "",
     "types": [
-      "ノーマル",
-      "くさ"
+      "Normal",
+      "Grass"
     ],
     "abilities": [
-      "ようりょくそ",
-      "そうしょく",
-      "てんのめぐみ"
+      "Chlorophyll",
+      "Sap Sipper",
+      "Serene Grace"
     ],
     "baseStats": {
       "hp": 60,
@@ -1301,28 +1263,27 @@
     "height": 0.6,
     "prevo": "",
     "evos": [
-      "メブキジカ"
+      "Sawsbuck"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "シキジカ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シキジカ\")"
+    "requiredItem": ""
   },
-  "genesectdouse": {
+  "Genesect-Douse": {
     "showdown_id": "genesectdouse",
     "showdown_name": "Genesect-Douse",
+    "displayName": "Genesect(Douse)",
     "num": 649,
     "forme": "Douse",
     "baseForme": "",
     "types": [
-      "むし",
-      "はがね"
+      "Bug",
+      "Steel"
     ],
     "abilities": [
-      "ダウンロード"
+      "Download"
     ],
     "baseStats": {
       "hp": 71,
@@ -1340,22 +1301,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "アクアカセット",
-    "name": "ゲノセクト(ダウズドライブ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ゲノセクト(ダウズドライブ)\")"
+    "requiredItem": "Douse Drive"
   },
-  "genesectshock": {
+  "Genesect-Shock": {
     "showdown_id": "genesectshock",
     "showdown_name": "Genesect-Shock",
+    "displayName": "Genesect(Shock)",
     "num": 649,
     "forme": "Shock",
     "baseForme": "",
     "types": [
-      "むし",
-      "はがね"
+      "Bug",
+      "Steel"
     ],
     "abilities": [
-      "ダウンロード"
+      "Download"
     ],
     "baseStats": {
       "hp": 71,
@@ -1373,22 +1333,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "イナズマカセット",
-    "name": "ゲノセクト(ショックドライブ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ゲノセクト(ショックドライブ)\")"
+    "requiredItem": "Shock Drive"
   },
-  "genesectburn": {
+  "Genesect-Burn": {
     "showdown_id": "genesectburn",
     "showdown_name": "Genesect-Burn",
+    "displayName": "Genesect(Burn)",
     "num": 649,
     "forme": "Burn",
     "baseForme": "",
     "types": [
-      "むし",
-      "はがね"
+      "Bug",
+      "Steel"
     ],
     "abilities": [
-      "ダウンロード"
+      "Download"
     ],
     "baseStats": {
       "hp": 71,
@@ -1406,22 +1365,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ブレイズカセット",
-    "name": "ゲノセクト(バーンドライブ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ゲノセクト(バーンドライブ)\")"
+    "requiredItem": "Burn Drive"
   },
-  "genesectchill": {
+  "Genesect-Chill": {
     "showdown_id": "genesectchill",
     "showdown_name": "Genesect-Chill",
+    "displayName": "Genesect(Chill)",
     "num": 649,
     "forme": "Chill",
     "baseForme": "",
     "types": [
-      "むし",
-      "はがね"
+      "Bug",
+      "Steel"
     ],
     "abilities": [
-      "ダウンロード"
+      "Download"
     ],
     "baseStats": {
       "hp": 71,
@@ -1439,22 +1397,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "フリーズカセット",
-    "name": "ゲノセクト(チルドライブ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ゲノセクト(チルドライブ)\")"
+    "requiredItem": "Chill Drive"
   },
-  "greninjabond": {
+  "Greninja-Bond": {
     "showdown_id": "greninjabond",
     "showdown_name": "Greninja-Bond",
+    "displayName": "Greninja(Bond)",
     "num": 658,
     "forme": "Bond",
     "baseForme": "",
     "types": [
-      "みず",
-      "あく"
+      "Water",
+      "Dark"
     ],
     "abilities": [
-      "きずなへんげ"
+      "Battle Bond"
     ],
     "baseStats": {
       "hp": 72,
@@ -1472,24 +1429,23 @@
       "M": 1,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ゲッコウガ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ゲッコウガ\")"
+    "requiredItem": ""
   },
-  "vivillonicysnow": {
+  "Vivillon-Icy Snow": {
     "showdown_id": "vivillonicysnow",
     "showdown_name": "Vivillon-Icy Snow",
+    "displayName": "Vivillon(Icy Snow)",
     "num": 666,
     "forme": "Icy Snow",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1501,30 +1457,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonpolar": {
+  "Vivillon-Polar": {
     "showdown_id": "vivillonpolar",
     "showdown_name": "Vivillon-Polar",
+    "displayName": "Vivillon(Polar)",
     "num": 666,
     "forme": "Polar",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1536,30 +1491,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillontundra": {
+  "Vivillon-Tundra": {
     "showdown_id": "vivillontundra",
     "showdown_name": "Vivillon-Tundra",
+    "displayName": "Vivillon(Tundra)",
     "num": 666,
     "forme": "Tundra",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1571,30 +1525,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivilloncontinental": {
+  "Vivillon-Continental": {
     "showdown_id": "vivilloncontinental",
     "showdown_name": "Vivillon-Continental",
+    "displayName": "Vivillon(Continental)",
     "num": 666,
     "forme": "Continental",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1606,30 +1559,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillongarden": {
+  "Vivillon-Garden": {
     "showdown_id": "vivillongarden",
     "showdown_name": "Vivillon-Garden",
+    "displayName": "Vivillon(Garden)",
     "num": 666,
     "forme": "Garden",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1641,30 +1593,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonelegant": {
+  "Vivillon-Elegant": {
     "showdown_id": "vivillonelegant",
     "showdown_name": "Vivillon-Elegant",
+    "displayName": "Vivillon(Elegant)",
     "num": 666,
     "forme": "Elegant",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1676,30 +1627,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonmodern": {
+  "Vivillon-Modern": {
     "showdown_id": "vivillonmodern",
     "showdown_name": "Vivillon-Modern",
+    "displayName": "Vivillon(Modern)",
     "num": 666,
     "forme": "Modern",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1711,30 +1661,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonmarine": {
+  "Vivillon-Marine": {
     "showdown_id": "vivillonmarine",
     "showdown_name": "Vivillon-Marine",
+    "displayName": "Vivillon(Marine)",
     "num": 666,
     "forme": "Marine",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1746,30 +1695,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonarchipelago": {
+  "Vivillon-Archipelago": {
     "showdown_id": "vivillonarchipelago",
     "showdown_name": "Vivillon-Archipelago",
+    "displayName": "Vivillon(Archipelago)",
     "num": 666,
     "forme": "Archipelago",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1781,30 +1729,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonhighplains": {
+  "Vivillon-High Plains": {
     "showdown_id": "vivillonhighplains",
     "showdown_name": "Vivillon-High Plains",
+    "displayName": "Vivillon(High Plains)",
     "num": 666,
     "forme": "High Plains",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1816,30 +1763,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonsandstorm": {
+  "Vivillon-Sandstorm": {
     "showdown_id": "vivillonsandstorm",
     "showdown_name": "Vivillon-Sandstorm",
+    "displayName": "Vivillon(Sandstorm)",
     "num": 666,
     "forme": "Sandstorm",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1851,30 +1797,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonriver": {
+  "Vivillon-River": {
     "showdown_id": "vivillonriver",
     "showdown_name": "Vivillon-River",
+    "displayName": "Vivillon(River)",
     "num": 666,
     "forme": "River",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1886,30 +1831,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonmonsoon": {
+  "Vivillon-Monsoon": {
     "showdown_id": "vivillonmonsoon",
     "showdown_name": "Vivillon-Monsoon",
+    "displayName": "Vivillon(Monsoon)",
     "num": 666,
     "forme": "Monsoon",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1921,30 +1865,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonsavanna": {
+  "Vivillon-Savanna": {
     "showdown_id": "vivillonsavanna",
     "showdown_name": "Vivillon-Savanna",
+    "displayName": "Vivillon(Savanna)",
     "num": 666,
     "forme": "Savanna",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1956,30 +1899,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonsun": {
+  "Vivillon-Sun": {
     "showdown_id": "vivillonsun",
     "showdown_name": "Vivillon-Sun",
+    "displayName": "Vivillon(Sun)",
     "num": 666,
     "forme": "Sun",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -1991,30 +1933,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonocean": {
+  "Vivillon-Ocean": {
     "showdown_id": "vivillonocean",
     "showdown_name": "Vivillon-Ocean",
+    "displayName": "Vivillon(Ocean)",
     "num": 666,
     "forme": "Ocean",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -2026,30 +1967,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonjungle": {
+  "Vivillon-Jungle": {
     "showdown_id": "vivillonjungle",
     "showdown_name": "Vivillon-Jungle",
+    "displayName": "Vivillon(Jungle)",
     "num": 666,
     "forme": "Jungle",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -2061,30 +2001,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonfancy": {
+  "Vivillon-Fancy": {
     "showdown_id": "vivillonfancy",
     "showdown_name": "Vivillon-Fancy",
+    "displayName": "Vivillon(Fancy)",
     "num": 666,
     "forme": "Fancy",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -2096,30 +2035,29 @@
     },
     "weight": 17,
     "height": 1.2,
-    "prevo": "コフーライ",
+    "prevo": "Spewpa",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "vivillonpokeball": {
+  "Vivillon-Pokeball": {
     "showdown_id": "vivillonpokeball",
     "showdown_name": "Vivillon-Pokeball",
+    "displayName": "Vivillon(Pokeball)",
     "num": 666,
     "forme": "Pokeball",
     "baseForme": "",
     "types": [
-      "むし",
-      "ひこう"
+      "Bug",
+      "Flying"
     ],
     "abilities": [
-      "りんぷん",
-      "ふくがん",
-      "フレンドガード"
+      "Shield Dust",
+      "Compound Eyes",
+      "Friend Guard"
     ],
     "baseStats": {
       "hp": 80,
@@ -2137,21 +2075,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ビビヨン",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ビビヨン\")"
+    "requiredItem": ""
   },
-  "gumshoostotem": {
+  "Gumshoos-Totem": {
     "showdown_id": "gumshoostotem",
     "showdown_name": "Gumshoos-Totem",
+    "displayName": "Gumshoos(Totem)",
     "num": 735,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "ノーマル"
+      "Normal"
     ],
     "abilities": [
-      "てきおうりょく"
+      "Adaptability"
     ],
     "baseStats": {
       "hp": 88,
@@ -2169,22 +2106,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "デカグース(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"デカグース(ボス)\")"
+    "requiredItem": ""
   },
-  "vikavolttotem": {
+  "Vikavolt-Totem": {
     "showdown_id": "vikavolttotem",
     "showdown_name": "Vikavolt-Totem",
+    "displayName": "Vikavolt(Totem)",
     "num": 738,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "むし",
-      "でんき"
+      "Bug",
+      "Electric"
     ],
     "abilities": [
-      "ふゆう"
+      "Levitate"
     ],
     "baseStats": {
       "hp": 77,
@@ -2202,22 +2138,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "クワガノン(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"クワガノン(ボス)\")"
+    "requiredItem": ""
   },
-  "ribombeetotem": {
+  "Ribombee-Totem": {
     "showdown_id": "ribombeetotem",
     "showdown_name": "Ribombee-Totem",
+    "displayName": "Ribombee(Totem)",
     "num": 743,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "むし",
-      "フェアリー"
+      "Bug",
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール"
+      "Sweet Veil"
     ],
     "baseStats": {
       "hp": 60,
@@ -2235,21 +2170,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "アブリボン(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"アブリボン(ボス)\")"
+    "requiredItem": ""
   },
-  "rockruffdusk": {
+  "Rockruff-Dusk": {
     "showdown_id": "rockruffdusk",
     "showdown_name": "Rockruff-Dusk",
+    "displayName": "Rockruff(Dusk)",
     "num": 744,
     "forme": "Dusk",
     "baseForme": "",
     "types": [
-      "いわ"
+      "Rock"
     ],
     "abilities": [
-      "マイペース"
+      "Own Tempo"
     ],
     "baseStats": {
       "hp": 45,
@@ -2263,28 +2197,27 @@
     "height": 0.5,
     "prevo": "",
     "evos": [
-      "ルガルガン(たそがれ)"
+      "Lycanroc-Dusk"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "イワンコ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"イワンコ\")"
+    "requiredItem": ""
   },
-  "araquanidtotem": {
+  "Araquanid-Totem": {
     "showdown_id": "araquanidtotem",
     "showdown_name": "Araquanid-Totem",
+    "displayName": "Araquanid(Totem)",
     "num": 752,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "みず",
-      "むし"
+      "Water",
+      "Bug"
     ],
     "abilities": [
-      "すいほう"
+      "Water Bubble"
     ],
     "baseStats": {
       "hp": 68,
@@ -2302,21 +2235,20 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "オニシズクモ(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"オニシズクモ(ボス)\")"
+    "requiredItem": ""
   },
-  "lurantistotem": {
+  "Lurantis-Totem": {
     "showdown_id": "lurantistotem",
     "showdown_name": "Lurantis-Totem",
+    "displayName": "Lurantis(Totem)",
     "num": 754,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "くさ"
+      "Grass"
     ],
     "abilities": [
-      "リーフガード"
+      "Leaf Guard"
     ],
     "baseStats": {
       "hp": 70,
@@ -2334,22 +2266,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ラランテス(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ラランテス(ボス)\")"
+    "requiredItem": ""
   },
-  "salazzletotem": {
+  "Salazzle-Totem": {
     "showdown_id": "salazzletotem",
     "showdown_name": "Salazzle-Totem",
+    "displayName": "Salazzle(Totem)",
     "num": 758,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "どく",
-      "ほのお"
+      "Poison",
+      "Fire"
     ],
     "abilities": [
-      "ふしょく"
+      "Corrosion"
     ],
     "baseStats": {
       "hp": 68,
@@ -2367,21 +2298,20 @@
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "エンニュート(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"エンニュート(ボス)\")"
+    "requiredItem": ""
   },
-  "silvallybug": {
+  "Silvally-Bug": {
     "showdown_id": "silvallybug",
     "showdown_name": "Silvally-Bug",
+    "displayName": "Silvally(Bug)",
     "num": 773,
     "forme": "Bug",
     "baseForme": "",
     "types": [
-      "むし"
+      "Bug"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2399,21 +2329,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "バグメモリ",
-    "name": "シルヴァディ(むし)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(むし)\")"
+    "requiredItem": "Bug Memory"
   },
-  "silvallydark": {
+  "Silvally-Dark": {
     "showdown_id": "silvallydark",
     "showdown_name": "Silvally-Dark",
+    "displayName": "Silvally(Dark)",
     "num": 773,
     "forme": "Dark",
     "baseForme": "",
     "types": [
-      "あく"
+      "Dark"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2431,21 +2360,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ダークメモリ",
-    "name": "シルヴァディ(あく)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(あく)\")"
+    "requiredItem": "Dark Memory"
   },
-  "silvallydragon": {
+  "Silvally-Dragon": {
     "showdown_id": "silvallydragon",
     "showdown_name": "Silvally-Dragon",
+    "displayName": "Silvally(Dragon)",
     "num": 773,
     "forme": "Dragon",
     "baseForme": "",
     "types": [
-      "ドラゴン"
+      "Dragon"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2463,21 +2391,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ドラゴンメモリ",
-    "name": "シルヴァディ(ドラゴン)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(ドラゴン)\")"
+    "requiredItem": "Dragon Memory"
   },
-  "silvallyelectric": {
+  "Silvally-Electric": {
     "showdown_id": "silvallyelectric",
     "showdown_name": "Silvally-Electric",
+    "displayName": "Silvally(Electric)",
     "num": 773,
     "forme": "Electric",
     "baseForme": "",
     "types": [
-      "でんき"
+      "Electric"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2495,21 +2422,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "エレクトロメモリ",
-    "name": "シルヴァディ(でんき)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(でんき)\")"
+    "requiredItem": "Electric Memory"
   },
-  "silvallyfairy": {
+  "Silvally-Fairy": {
     "showdown_id": "silvallyfairy",
     "showdown_name": "Silvally-Fairy",
+    "displayName": "Silvally(Fairy)",
     "num": 773,
     "forme": "Fairy",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2527,21 +2453,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "フェアリーメモリ",
-    "name": "シルヴァディ(フェアリー)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(フェアリー)\")"
+    "requiredItem": "Fairy Memory"
   },
-  "silvallyfighting": {
+  "Silvally-Fighting": {
     "showdown_id": "silvallyfighting",
     "showdown_name": "Silvally-Fighting",
+    "displayName": "Silvally(Fighting)",
     "num": 773,
     "forme": "Fighting",
     "baseForme": "",
     "types": [
-      "かくとう"
+      "Fighting"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2559,21 +2484,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ファイトメモリ",
-    "name": "シルヴァディ(かくとう)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(かくとう)\")"
+    "requiredItem": "Fighting Memory"
   },
-  "silvallyfire": {
+  "Silvally-Fire": {
     "showdown_id": "silvallyfire",
     "showdown_name": "Silvally-Fire",
+    "displayName": "Silvally(Fire)",
     "num": 773,
     "forme": "Fire",
     "baseForme": "",
     "types": [
-      "ほのお"
+      "Fire"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2591,21 +2515,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ファイヤーメモリ",
-    "name": "シルヴァディ(ほのお)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(ほのお)\")"
+    "requiredItem": "Fire Memory"
   },
-  "silvallyflying": {
+  "Silvally-Flying": {
     "showdown_id": "silvallyflying",
     "showdown_name": "Silvally-Flying",
+    "displayName": "Silvally(Flying)",
     "num": 773,
     "forme": "Flying",
     "baseForme": "",
     "types": [
-      "ひこう"
+      "Flying"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2623,21 +2546,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "フライングメモリ",
-    "name": "シルヴァディ(ひこう)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(ひこう)\")"
+    "requiredItem": "Flying Memory"
   },
-  "silvallyghost": {
+  "Silvally-Ghost": {
     "showdown_id": "silvallyghost",
     "showdown_name": "Silvally-Ghost",
+    "displayName": "Silvally(Ghost)",
     "num": 773,
     "forme": "Ghost",
     "baseForme": "",
     "types": [
-      "ゴースト"
+      "Ghost"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2655,21 +2577,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ゴーストメモリ",
-    "name": "シルヴァディ(ゴースト)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(ゴースト)\")"
+    "requiredItem": "Ghost Memory"
   },
-  "silvallygrass": {
+  "Silvally-Grass": {
     "showdown_id": "silvallygrass",
     "showdown_name": "Silvally-Grass",
+    "displayName": "Silvally(Grass)",
     "num": 773,
     "forme": "Grass",
     "baseForme": "",
     "types": [
-      "くさ"
+      "Grass"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2687,21 +2608,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "グラスメモリ",
-    "name": "シルヴァディ(くさ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(くさ)\")"
+    "requiredItem": "Grass Memory"
   },
-  "silvallyground": {
+  "Silvally-Ground": {
     "showdown_id": "silvallyground",
     "showdown_name": "Silvally-Ground",
+    "displayName": "Silvally(Ground)",
     "num": 773,
     "forme": "Ground",
     "baseForme": "",
     "types": [
-      "じめん"
+      "Ground"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2719,21 +2639,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "グラウンドメモリ",
-    "name": "シルヴァディ(じめん)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(じめん)\")"
+    "requiredItem": "Ground Memory"
   },
-  "silvallyice": {
+  "Silvally-Ice": {
     "showdown_id": "silvallyice",
     "showdown_name": "Silvally-Ice",
+    "displayName": "Silvally(Ice)",
     "num": 773,
     "forme": "Ice",
     "baseForme": "",
     "types": [
-      "こおり"
+      "Ice"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2751,21 +2670,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "アイスメモリ",
-    "name": "シルヴァディ(こおり)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(こおり)\")"
+    "requiredItem": "Ice Memory"
   },
-  "silvallypoison": {
+  "Silvally-Poison": {
     "showdown_id": "silvallypoison",
     "showdown_name": "Silvally-Poison",
+    "displayName": "Silvally(Poison)",
     "num": 773,
     "forme": "Poison",
     "baseForme": "",
     "types": [
-      "どく"
+      "Poison"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2783,21 +2701,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ポイズンメモリ",
-    "name": "シルヴァディ(どく)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(どく)\")"
+    "requiredItem": "Poison Memory"
   },
-  "silvallypsychic": {
+  "Silvally-Psychic": {
     "showdown_id": "silvallypsychic",
     "showdown_name": "Silvally-Psychic",
+    "displayName": "Silvally(Psychic)",
     "num": 773,
     "forme": "Psychic",
     "baseForme": "",
     "types": [
-      "エスパー"
+      "Psychic"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2815,21 +2732,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "サイキックメモリ",
-    "name": "シルヴァディ(エスパー)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(エスパー)\")"
+    "requiredItem": "Psychic Memory"
   },
-  "silvallyrock": {
+  "Silvally-Rock": {
     "showdown_id": "silvallyrock",
     "showdown_name": "Silvally-Rock",
+    "displayName": "Silvally(Rock)",
     "num": 773,
     "forme": "Rock",
     "baseForme": "",
     "types": [
-      "いわ"
+      "Rock"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2847,21 +2763,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ロックメモリ",
-    "name": "シルヴァディ(いわ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(いわ)\")"
+    "requiredItem": "Rock Memory"
   },
-  "silvallysteel": {
+  "Silvally-Steel": {
     "showdown_id": "silvallysteel",
     "showdown_name": "Silvally-Steel",
+    "displayName": "Silvally(Steel)",
     "num": 773,
     "forme": "Steel",
     "baseForme": "",
     "types": [
-      "はがね"
+      "Steel"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2879,21 +2794,20 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "スチールメモリ",
-    "name": "シルヴァディ(はがね)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(はがね)\")"
+    "requiredItem": "Steel Memory"
   },
-  "silvallywater": {
+  "Silvally-Water": {
     "showdown_id": "silvallywater",
     "showdown_name": "Silvally-Water",
+    "displayName": "Silvally(Water)",
     "num": 773,
     "forme": "Water",
     "baseForme": "",
     "types": [
-      "みず"
+      "Water"
     ],
     "abilities": [
-      "ARシステム"
+      "RKS System"
     ],
     "baseStats": {
       "hp": 95,
@@ -2911,22 +2825,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "ウオーターメモリ",
-    "name": "シルヴァディ(みず)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"シルヴァディ(みず)\")"
+    "requiredItem": "Water Memory"
   },
-  "miniororange": {
+  "Minior-Orange": {
     "showdown_id": "miniororange",
     "showdown_name": "Minior-Orange",
+    "displayName": "Minior(Orange)",
     "num": 774,
     "forme": "Orange",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -2944,22 +2857,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "minioryellow": {
+  "Minior-Yellow": {
     "showdown_id": "minioryellow",
     "showdown_name": "Minior-Yellow",
+    "displayName": "Minior(Yellow)",
     "num": 774,
     "forme": "Yellow",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -2977,22 +2889,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "miniorgreen": {
+  "Minior-Green": {
     "showdown_id": "miniorgreen",
     "showdown_name": "Minior-Green",
+    "displayName": "Minior(Green)",
     "num": 774,
     "forme": "Green",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -3010,22 +2921,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "miniorblue": {
+  "Minior-Blue": {
     "showdown_id": "miniorblue",
     "showdown_name": "Minior-Blue",
+    "displayName": "Minior(Blue)",
     "num": 774,
     "forme": "Blue",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -3043,22 +2953,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "miniorindigo": {
+  "Minior-Indigo": {
     "showdown_id": "miniorindigo",
     "showdown_name": "Minior-Indigo",
+    "displayName": "Minior(Indigo)",
     "num": 774,
     "forme": "Indigo",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -3076,22 +2985,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "miniorviolet": {
+  "Minior-Violet": {
     "showdown_id": "miniorviolet",
     "showdown_name": "Minior-Violet",
+    "displayName": "Minior(Violet)",
     "num": 774,
     "forme": "Violet",
     "baseForme": "",
     "types": [
-      "いわ",
-      "ひこう"
+      "Rock",
+      "Flying"
     ],
     "abilities": [
-      "リミットシールド"
+      "Shields Down"
     ],
     "baseStats": {
       "hp": 60,
@@ -3109,22 +3017,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "メテノ(コア)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"メテノ(コア)\")"
+    "requiredItem": ""
   },
-  "togedemarutotem": {
+  "Togedemaru-Totem": {
     "showdown_id": "togedemarutotem",
     "showdown_name": "Togedemaru-Totem",
+    "displayName": "Togedemaru(Totem)",
     "num": 777,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "でんき",
-      "はがね"
+      "Electric",
+      "Steel"
     ],
     "abilities": [
-      "がんじょう"
+      "Sturdy"
     ],
     "baseStats": {
       "hp": 65,
@@ -3142,22 +3049,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "トゲデマル(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"トゲデマル(ボス)\")"
+    "requiredItem": ""
   },
-  "mimikyubusted": {
+  "Mimikyu-Busted": {
     "showdown_id": "mimikyubusted",
     "showdown_name": "Mimikyu-Busted",
+    "displayName": "Mimikyu(Busted)",
     "num": 778,
     "forme": "Busted",
     "baseForme": "",
     "types": [
-      "ゴースト",
-      "フェアリー"
+      "Ghost",
+      "Fairy"
     ],
     "abilities": [
-      "ばけのかわ"
+      "Disguise"
     ],
     "baseStats": {
       "hp": 55,
@@ -3175,22 +3081,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ミミッキュ(ばれたすがた)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ミミッキュ(ばれたすがた)\")"
+    "requiredItem": ""
   },
-  "mimikyutotem": {
+  "Mimikyu-Totem": {
     "showdown_id": "mimikyutotem",
     "showdown_name": "Mimikyu-Totem",
+    "displayName": "Mimikyu(Totem)",
     "num": 778,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "ゴースト",
-      "フェアリー"
+      "Ghost",
+      "Fairy"
     ],
     "abilities": [
-      "ばけのかわ"
+      "Disguise"
     ],
     "baseStats": {
       "hp": 55,
@@ -3208,22 +3113,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ミミッキュ(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ミミッキュ(ボス)\")"
+    "requiredItem": ""
   },
-  "mimikyubustedtotem": {
+  "Mimikyu-Busted-Totem": {
     "showdown_id": "mimikyubustedtotem",
     "showdown_name": "Mimikyu-Busted-Totem",
+    "displayName": "Mimikyu(Busted-Totem)",
     "num": 778,
     "forme": "Busted-Totem",
     "baseForme": "",
     "types": [
-      "ゴースト",
-      "フェアリー"
+      "Ghost",
+      "Fairy"
     ],
     "abilities": [
-      "ばけのかわ"
+      "Disguise"
     ],
     "baseStats": {
       "hp": 55,
@@ -3241,22 +3145,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ミミッキュ(ばれたすがた,ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ミミッキュ(ばれたすがた,ボス)\")"
+    "requiredItem": ""
   },
-  "kommoototem": {
+  "Kommo-o-Totem": {
     "showdown_id": "kommoototem",
     "showdown_name": "Kommo-o-Totem",
+    "displayName": "Kommo-o(Totem)",
     "num": 784,
     "forme": "Totem",
     "baseForme": "",
     "types": [
-      "ドラゴン",
-      "かくとう"
+      "Dragon",
+      "Fighting"
     ],
     "abilities": [
-      "ぼうじん"
+      "Overcoat"
     ],
     "baseStats": {
       "hp": 75,
@@ -3274,22 +3177,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ジャラランガ(ボス)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ジャラランガ(ボス)\")"
+    "requiredItem": ""
   },
-  "magearnaoriginal": {
+  "Magearna-Original": {
     "showdown_id": "magearnaoriginal",
     "showdown_name": "Magearna-Original",
+    "displayName": "Magearna(Original)",
     "num": 801,
     "forme": "Original",
     "baseForme": "",
     "types": [
-      "はがね",
-      "フェアリー"
+      "Steel",
+      "Fairy"
     ],
     "abilities": [
-      "ソウルハート"
+      "Soul-Heart"
     ],
     "baseStats": {
       "hp": 80,
@@ -3307,22 +3209,21 @@
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "マギアナ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マギアナ\")"
+    "requiredItem": ""
   },
-  "cramorantgulping": {
+  "Cramorant-Gulping": {
     "showdown_id": "cramorantgulping",
     "showdown_name": "Cramorant-Gulping",
+    "displayName": "Cramorant(Gulping)",
     "num": 845,
     "forme": "Gulping",
     "baseForme": "",
     "types": [
-      "ひこう",
-      "みず"
+      "Flying",
+      "Water"
     ],
     "abilities": [
-      "うのミサイル"
+      "Gulp Missile"
     ],
     "baseStats": {
       "hp": 70,
@@ -3340,22 +3241,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ウッウ(うのみ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ウッウ(うのみ)\")"
+    "requiredItem": ""
   },
-  "cramorantgorging": {
+  "Cramorant-Gorging": {
     "showdown_id": "cramorantgorging",
     "showdown_name": "Cramorant-Gorging",
+    "displayName": "Cramorant(Gorging)",
     "num": 845,
     "forme": "Gorging",
     "baseForme": "",
     "types": [
-      "ひこう",
-      "みず"
+      "Flying",
+      "Water"
     ],
     "abilities": [
-      "うのミサイル"
+      "Gulp Missile"
     ],
     "baseStats": {
       "hp": 70,
@@ -3373,22 +3273,21 @@
       "M": 0.5,
       "F": 0.5
     },
-    "requiredItem": "",
-    "name": "ウッウ(まるのみ)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ウッウ(まるのみ)\")"
+    "requiredItem": ""
   },
-  "sinisteaantique": {
+  "Sinistea-Antique": {
     "showdown_id": "sinisteaantique",
     "showdown_name": "Sinistea-Antique",
+    "displayName": "Sinistea(Antique)",
     "num": 854,
     "forme": "Antique",
     "baseForme": "",
     "types": [
-      "ゴースト"
+      "Ghost"
     ],
     "abilities": [
-      "くだけるよろい",
-      "のろわれボディ"
+      "Weak Armor",
+      "Cursed Body"
     ],
     "baseStats": {
       "hp": 40,
@@ -3402,28 +3301,27 @@
     "height": 0.1,
     "prevo": "",
     "evos": [
-      "ポットデス"
+      "Polteageist-Antique"
     ],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ヤバチャ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ヤバチャ\")"
+    "requiredItem": ""
   },
-  "polteageistantique": {
+  "Polteageist-Antique": {
     "showdown_id": "polteageistantique",
     "showdown_name": "Polteageist-Antique",
+    "displayName": "Polteageist(Antique)",
     "num": 855,
     "forme": "Antique",
     "baseForme": "",
     "types": [
-      "ゴースト"
+      "Ghost"
     ],
     "abilities": [
-      "くだけるよろい",
-      "のろわれボディ"
+      "Weak Armor",
+      "Cursed Body"
     ],
     "baseStats": {
       "hp": 60,
@@ -3435,28 +3333,27 @@
     },
     "weight": 0.4,
     "height": 0.2,
-    "prevo": "ヤバチャ",
+    "prevo": "Sinistea-Antique",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ポットデス",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ポットデス\")"
+    "requiredItem": ""
   },
-  "alcremierubycream": {
+  "Alcremie-Ruby-Cream": {
     "showdown_id": "alcremierubycream",
     "showdown_name": "Alcremie-Ruby-Cream",
+    "displayName": "Alcremie(Ruby-Cream)",
     "num": 869,
     "forme": "Ruby-Cream",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3468,28 +3365,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremiematchacream": {
+  "Alcremie-Matcha-Cream": {
     "showdown_id": "alcremiematchacream",
     "showdown_name": "Alcremie-Matcha-Cream",
+    "displayName": "Alcremie(Matcha-Cream)",
     "num": 869,
     "forme": "Matcha-Cream",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3501,28 +3397,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremiemintcream": {
+  "Alcremie-Mint-Cream": {
     "showdown_id": "alcremiemintcream",
     "showdown_name": "Alcremie-Mint-Cream",
+    "displayName": "Alcremie(Mint-Cream)",
     "num": 869,
     "forme": "Mint-Cream",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3534,28 +3429,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremielemoncream": {
+  "Alcremie-Lemon-Cream": {
     "showdown_id": "alcremielemoncream",
     "showdown_name": "Alcremie-Lemon-Cream",
+    "displayName": "Alcremie(Lemon-Cream)",
     "num": 869,
     "forme": "Lemon-Cream",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3567,28 +3461,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremierubyswirl": {
+  "Alcremie-Ruby-Swirl": {
     "showdown_id": "alcremierubyswirl",
     "showdown_name": "Alcremie-Ruby-Swirl",
+    "displayName": "Alcremie(Ruby-Swirl)",
     "num": 869,
     "forme": "Ruby-Swirl",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3600,28 +3493,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremiecaramelswirl": {
+  "Alcremie-Caramel-Swirl": {
     "showdown_id": "alcremiecaramelswirl",
     "showdown_name": "Alcremie-Caramel-Swirl",
+    "displayName": "Alcremie(Caramel-Swirl)",
     "num": 869,
     "forme": "Caramel-Swirl",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3633,28 +3525,27 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "alcremierainbowswirl": {
+  "Alcremie-Rainbow-Swirl": {
     "showdown_id": "alcremierainbowswirl",
     "showdown_name": "Alcremie-Rainbow-Swirl",
+    "displayName": "Alcremie(Rainbow-Swirl)",
     "num": 869,
     "forme": "Rainbow-Swirl",
     "baseForme": "",
     "types": [
-      "フェアリー"
+      "Fairy"
     ],
     "abilities": [
-      "スイートベール",
-      "アロマベール"
+      "Sweet Veil",
+      "Aroma Veil"
     ],
     "baseStats": {
       "hp": 65,
@@ -3666,29 +3557,28 @@
     },
     "weight": 0.5,
     "height": 0.3,
-    "prevo": "マホミル",
+    "prevo": "Milcery",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 1
     },
-    "requiredItem": "",
-    "name": "マホイップ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"マホイップ\")"
+    "requiredItem": ""
   },
-  "mausholdfour": {
+  "Maushold-Four": {
     "showdown_id": "mausholdfour",
     "showdown_name": "Maushold-Four",
+    "displayName": "Maushold(Four)",
     "num": 925,
     "forme": "Four",
     "baseForme": "",
     "types": [
-      "ノーマル"
+      "Normal"
     ],
     "abilities": [
-      "フレンドガード",
-      "ほおぶくろ",
-      "テクニシャン"
+      "Friend Guard",
+      "Cheek Pouch",
+      "Technician"
     ],
     "baseStats": {
       "hp": 74,
@@ -3700,27 +3590,26 @@
     },
     "weight": 2.8,
     "height": 0.3,
-    "prevo": "ワッカネズミ",
+    "prevo": "Tandemaus",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "イッカネズミ(よにんかぞく)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"イッカネズミ(よにんかぞく)\")"
+    "requiredItem": ""
   },
-  "gimmighoulroaming": {
+  "Gimmighoul-Roaming": {
     "showdown_id": "gimmighoulroaming",
     "showdown_name": "Gimmighoul-Roaming",
+    "displayName": "Gimmighoul(Roaming)",
     "num": 999,
     "forme": "Roaming",
     "baseForme": "",
     "types": [
-      "ゴースト"
+      "Ghost"
     ],
     "abilities": [
-      "にげあし"
+      "Run Away"
     ],
     "baseStats": {
       "hp": 45,
@@ -3734,29 +3623,28 @@
     "height": 0.1,
     "prevo": "",
     "evos": [
-      "サーフゴー"
+      "Gholdengo"
     ],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "コレクレー(あるくすがた)",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"コレクレー(あるくすがた)\")"
+    "requiredItem": ""
   },
-  "poltchageistartisan": {
+  "Poltchageist-Artisan": {
     "showdown_id": "poltchageistartisan",
     "showdown_name": "Poltchageist-Artisan",
+    "displayName": "Poltchageist(Artisan)",
     "num": 1012,
     "forme": "Artisan",
     "baseForme": "",
     "types": [
-      "くさ",
-      "ゴースト"
+      "Grass",
+      "Ghost"
     ],
     "abilities": [
-      "おもてなし",
-      "たいねつ"
+      "Hospitality",
+      "Heatproof"
     ],
     "baseStats": {
       "hp": 40,
@@ -3770,29 +3658,28 @@
     "height": 0.1,
     "prevo": "",
     "evos": [
-      "ヤバソチャ"
+      "Sinistcha-Masterpiece"
     ],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "チャデス",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"チャデス\")"
+    "requiredItem": ""
   },
-  "sinistchamasterpiece": {
+  "Sinistcha-Masterpiece": {
     "showdown_id": "sinistchamasterpiece",
     "showdown_name": "Sinistcha-Masterpiece",
+    "displayName": "Sinistcha(Masterpiece)",
     "num": 1013,
     "forme": "Masterpiece",
     "baseForme": "",
     "types": [
-      "くさ",
-      "ゴースト"
+      "Grass",
+      "Ghost"
     ],
     "abilities": [
-      "おもてなし",
-      "たいねつ"
+      "Hospitality",
+      "Heatproof"
     ],
     "baseStats": {
       "hp": 71,
@@ -3804,14 +3691,12 @@
     },
     "weight": 2.2,
     "height": 0.2,
-    "prevo": "チャデス",
+    "prevo": "Poltchageist-Artisan",
     "evos": [],
     "genderRatio": {
       "M": 0,
       "F": 0
     },
-    "requiredItem": "",
-    "name": "ヤバソチャ",
-    "reason": "langmap/_form_langmap.csv の exclude列により除外指定(和名\"ヤバソチャ\")"
+    "requiredItem": ""
   }
 }
