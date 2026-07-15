@@ -29192,7 +29192,7 @@
     },
     "requiredItem": ""
   },
-  "バケッチャ": {
+  "バケッチャ(ふつう)": {
     "showdown_id": "pumpkaboo",
     "showdown_name": "Pumpkaboo",
     "num": 710,
@@ -29219,7 +29219,7 @@
     "height": 0.4,
     "prevo": "",
     "evos": [
-      "パンプジン"
+      "パンプジン(ふつう)"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29332,7 +29332,7 @@
     },
     "requiredItem": ""
   },
-  "パンプジン": {
+  "パンプジン(ふつう)": {
     "showdown_id": "gourgeist",
     "showdown_name": "Gourgeist",
     "num": 711,
@@ -29357,7 +29357,7 @@
     },
     "weight": 12.5,
     "height": 0.9,
-    "prevo": "バケッチャ",
+    "prevo": "バケッチャ(ふつう)",
     "evos": [],
     "genderRatio": {
       "M": 0.5,
@@ -29850,7 +29850,7 @@
     },
     "requiredItem": "ディアンシナイト"
   },
-  "フーパ": {
+  "フーパ(いましめられし)": {
     "showdown_id": "hoopa",
     "showdown_name": "Hoopa",
     "num": 720,

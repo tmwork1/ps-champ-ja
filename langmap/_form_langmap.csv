@@ -273,11 +273,11 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Hawlucha-Mega,,ルチャブル,メガルチャブル
 0,Sliggoo-Hisui,,ヌメイル,ヌメイル(ヒスイ)
 0,Goodra-Hisui,,ヌメルゴン,ヌメルゴン(ヒスイ)
-0,Pumpkaboo,Average,バケッチャ,バケッチャ
+0,Pumpkaboo,Average,バケッチャ,バケッチャ(ふつう)
 0,Pumpkaboo-Small,,バケッチャ,バケッチャ(ちいさい)
 0,Pumpkaboo-Large,,バケッチャ,バケッチャ(おおきい)
 0,Pumpkaboo-Super,,バケッチャ,バケッチャ(とくだい)
-0,Gourgeist,Average,パンプジン,パンプジン
+0,Gourgeist,Average,パンプジン,パンプジン(ふつう)
 0,Gourgeist-Small,,パンプジン,パンプジン(ちいさい)
 0,Gourgeist-Large,,パンプジン,パンプジン(おおきい)
 0,Gourgeist-Super,,パンプジン,パンプジン(とくだい)
@@ -287,7 +287,7 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Zygarde-10%,,ジガルデ,ジガルデ(10%)
 0,Zygarde-Complete,,ジガルデ,ジガルデ(パーフェクト)
 0,Diancie-Mega,,ディアンシー,メガディアンシー
-0,Hoopa,Confined,フーパ,フーパ
+0,Hoopa,Confined,フーパ,フーパ(いましめられし)
 0,Hoopa-Unbound,,フーパ,フーパ(ときはなたれし)
 0,Decidueye-Hisui,,ジュナイパー,ジュナイパー(ヒスイ)
 1,Gumshoos-Totem,,デカグース,デカグース(ボス)
