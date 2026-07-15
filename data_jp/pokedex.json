@@ -34732,6 +34732,68 @@
     },
     "requiredItem": ""
   },
+  "ウッウ(うのみ)": {
+    "showdown_id": "cramorantgulping",
+    "showdown_name": "Cramorant-Gulping",
+    "num": 845,
+    "forme": "Gulping",
+    "baseForme": "",
+    "types": [
+      "ひこう",
+      "みず"
+    ],
+    "abilities": [
+      "うのミサイル"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 55,
+      "spa": 85,
+      "spd": 95,
+      "spe": 85
+    },
+    "weight": 18,
+    "height": 0.8,
+    "prevo": "",
+    "evos": [],
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "requiredItem": ""
+  },
+  "ウッウ(まるのみ)": {
+    "showdown_id": "cramorantgorging",
+    "showdown_name": "Cramorant-Gorging",
+    "num": 845,
+    "forme": "Gorging",
+    "baseForme": "",
+    "types": [
+      "ひこう",
+      "みず"
+    ],
+    "abilities": [
+      "うのミサイル"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 55,
+      "spa": 85,
+      "spd": 95,
+      "spe": 85
+    },
+    "weight": 18,
+    "height": 0.8,
+    "prevo": "",
+    "evos": [],
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "requiredItem": ""
+  },
   "サシカマス": {
     "showdown_id": "arrokuda",
     "showdown_name": "Arrokuda",

@@ -356,8 +356,8 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Flapple-Gmax,,アップリュー,アップリュー(キョダイ)
 0,Appletun-Gmax,,タルップル,タルップル(キョダイ)
 0,Sandaconda-Gmax,,サダイジャ,サダイジャ(キョダイ)
-1,Cramorant-Gulping,,ウッウ,ウッウ(うのみ)
-1,Cramorant-Gorging,,ウッウ,ウッウ(まるのみ)
+0,Cramorant-Gulping,,ウッウ,ウッウ(うのみ)
+0,Cramorant-Gorging,,ウッウ,ウッウ(まるのみ)
 0,Toxtricity,Amped,ストリンダー,ストリンダー(ハイ)
 0,Toxtricity-Low-Key,,ストリンダー,ストリンダー(ロー)
 0,Toxtricity-Gmax,,ストリンダー,"ストリンダー(ハイ,キョダイ)"
