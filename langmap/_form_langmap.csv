@@ -162,9 +162,9 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Rotom-Mow,,ロトム,カットロトム
 0,Dialga-Origin,,ディアルガ,ディアルガ(オリジン)
 0,Palkia-Origin,,パルキア,パルキア(オリジン)
-0,Giratina,Altered,ギラティナ,ギラティナ
+0,Giratina,Altered,ギラティナ,ギラティナ(アナザー)
 0,Giratina-Origin,,ギラティナ,ギラティナ(オリジン)
-0,Shaymin,Land,シェイミ,シェイミ
+0,Shaymin,Land,シェイミ,シェイミ(ランド)
 0,Shaymin-Sky,,シェイミ,シェイミ(スカイ)
 0,Arceus,Normal,アルセウス,アルセウス
 1,Arceus-Bug,,アルセウス,アルセウス(むし)
@@ -223,7 +223,7 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Kyurem-White,,キュレム,ホワイトキュレム
 0,Keldeo,Ordinary,ケルディオ,ケルディオ
 0,Keldeo-Resolute,,ケルディオ,ケルディオ(かくご)
-0,Meloetta,Aria,メロエッタ,メロエッタ
+0,Meloetta,Aria,メロエッタ,メロエッタ(ボイス)
 0,Meloetta-Pirouette,,メロエッタ,メロエッタ(ステップ)
 1,Genesect-Douse,,ゲノセクト,ゲノセクト(ダウズドライブ)
 1,Genesect-Shock,,ゲノセクト,ゲノセクト(ショックドライブ)
@@ -300,7 +300,7 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 1,Ribombee-Totem,,アブリボン,アブリボン(ボス)
 0,Rockruff,Midday,イワンコ,イワンコ
 1,Rockruff-Dusk,,イワンコ,イワンコ
-0,Lycanroc,Midday,ルガルガン,ルガルガン
+0,Lycanroc,Midday,ルガルガン,ルガルガン(まひる)
 0,Lycanroc-Midnight,,ルガルガン,ルガルガン(まよなか)
 0,Lycanroc-Dusk,,ルガルガン,ルガルガン(たそがれ)
 0,Wishiwashi,Solo,ヨワシ,ヨワシ(たんどく)
@@ -413,7 +413,7 @@ exclude,showdown_name,baseForme,base_jp,final_jp
 0,Squawkabilly-Yellow,,イキリンコ,イキリンコ(イエロー)
 0,Squawkabilly-White,,イキリンコ,イキリンコ(ホワイト)
 0,Scovillain-Mega,,スコヴィラン,メガスコヴィラン
-0,Palafin,Zero,イルカマン,イルカマン
+0,Palafin,Zero,イルカマン,イルカマン(ナイーブ)
 0,Palafin-Hero,,イルカマン,イルカマン(マイティ)
 0,Glimmora-Mega,,キラフロル,メガキラフロル
 0,Tatsugiri,Curly,シャリタツ,シャリタツ(そった)

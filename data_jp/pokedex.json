@@ -20352,7 +20352,7 @@
     },
     "requiredItem": ""
   },
-  "ギラティナ": {
+  "ギラティナ(アナザー)": {
     "showdown_id": "giratina",
     "showdown_name": "Giratina",
     "num": 487,
@@ -20535,7 +20535,7 @@
     },
     "requiredItem": ""
   },
-  "シェイミ": {
+  "シェイミ(ランド)": {
     "showdown_id": "shaymin",
     "showdown_name": "Shaymin",
     "num": 492,
@@ -26592,7 +26592,7 @@
     },
     "requiredItem": ""
   },
-  "メロエッタ": {
+  "メロエッタ(ボイス)": {
     "showdown_id": "meloetta",
     "showdown_name": "Meloetta",
     "num": 648,
@@ -30854,7 +30854,7 @@
     "height": 0.5,
     "prevo": "",
     "evos": [
-      "ルガルガン",
+      "ルガルガン(まひる)",
       "ルガルガン(まよなか)"
     ],
     "genderRatio": {
@@ -30863,7 +30863,7 @@
     },
     "requiredItem": ""
   },
-  "ルガルガン": {
+  "ルガルガン(まひる)": {
     "showdown_id": "lycanroc",
     "showdown_name": "Lycanroc",
     "num": 745,
@@ -39533,7 +39533,7 @@
     "height": 1.3,
     "prevo": "",
     "evos": [
-      "イルカマン"
+      "イルカマン(ナイーブ)"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39541,7 +39541,7 @@
     },
     "requiredItem": ""
   },
-  "イルカマン": {
+  "イルカマン(ナイーブ)": {
     "showdown_id": "palafin",
     "showdown_name": "Palafin",
     "num": 964,
