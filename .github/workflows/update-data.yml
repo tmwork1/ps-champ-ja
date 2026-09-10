@@ -1,0 +1,153 @@
+name: champions modデータの自動更新
+
+on:
+  schedule:
+    # 毎日 18:00 UTC (JST 翌03:00)。champions mod は smogon/pokemon-showdown 側の
+    # ゲーム内アップデート反映(通常は数日〜1週間程度)を待って更新されるため日次で十分。
+    - cron: '0 18 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ps-champ-ja
+        uses: actions/checkout@v4
+        with:
+          path: ps-champ-ja
+
+      - name: Checkout pokemon-showdown
+        uses: actions/checkout@v4
+        with:
+          repository: smogon/pokemon-showdown
+          path: pokemon-showdown
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: pokemon-showdown/package-lock.json
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build pokemon-showdown
+        working-directory: pokemon-showdown
+        run: |
+          npm ci
+          npm run build
+
+      - name: Extract raw data
+        working-directory: ps-champ-ja
+        run: node scripts/extract-champions-raw.js ../pokemon-showdown
+
+      - name: Build English data
+        working-directory: ps-champ-ja
+        run: node scripts/build-data-en.js
+
+      - name: Download langmap
+        working-directory: ps-champ-ja
+        run: python scripts/download-langmap.py
+
+      - name: Translate to Japanese
+        working-directory: ps-champ-ja
+        run: python scripts/translate-data.py | tee translate.log
+
+      - name: Validate
+        id: validate
+        working-directory: ps-champ-ja
+        continue-on-error: true
+        run: node scripts/validate-data.js | tee validate.log
+
+      - name: Check for data changes
+        id: diff
+        working-directory: ps-champ-ja
+        run: |
+          git add -A -- data_raw data_en data_jp
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.validate.outcome == 'success' && steps.diff.outputs.changed == 'true'
+        working-directory: ps-champ-ja
+        run: |
+          PS_SHA=$(git -C ../pokemon-showdown rev-parse HEAD)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "$(cat <<EOF
+          champions mod自動更新 ($(date -u +%Y-%m-%d))
+
+          pokemon-showdown: https://github.com/smogon/pokemon-showdown/commit/${PS_SHA}
+          EOF
+          )"
+          git push
+
+      - name: Find existing tracking issue
+        if: steps.validate.outcome == 'failure'
+        id: existing_issue
+        working-directory: ps-champ-ja
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --state open --search "in:title \"champions mod自動更新: 未収録あり\"" --json number --jq '.[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Build issue body
+        if: steps.validate.outcome == 'failure'
+        working-directory: ps-champ-ja
+        run: |
+          PS_SHA=$(git -C ../pokemon-showdown rev-parse HEAD)
+          {
+            echo "自動更新パイプラインで \`validate-data.js\` が FAIL しました。"
+            echo "新規フォルム/特性/アイテム/技が pokemon-showdown 側に追加され、"
+            echo "\`langmap/_form_langmap.csv\` または \`langmap/_additional_langmap.csv\` への"
+            echo "手動追記が必要な可能性があります(詳細はメモリの update-pipeline を参照)。"
+            echo ""
+            echo "pokemon-showdown commit: https://github.com/smogon/pokemon-showdown/commit/${PS_SHA}"
+            echo ""
+            echo "### translate-data.py の出力"
+            echo '```'
+            cat translate.log
+            echo '```'
+            echo ""
+            echo "### validate-data.js の出力"
+            echo '```'
+            cat validate.log
+            echo '```'
+          } > issue_body.md
+
+      - name: Create tracking issue
+        if: steps.validate.outcome == 'failure' && steps.existing_issue.outputs.number == ''
+        working-directory: ps-champ-ja
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "champions mod自動更新: 未収録あり ($(date -u +%Y-%m-%d))" \
+            --body-file issue_body.md
+
+      - name: Comment on existing tracking issue
+        if: steps.validate.outcome == 'failure' && steps.existing_issue.outputs.number != ''
+        working-directory: ps-champ-ja
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ steps.existing_issue.outputs.number }}" --body-file issue_body.md
+
+      - name: Fail job if validation failed
+        if: steps.validate.outcome == 'failure'
+        run: exit 1
