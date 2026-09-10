@@ -15688,7 +15688,7 @@
       "Ghost"
     ],
     "abilities": [
-      "Magic Bounce"
+      "Sharpness"
     ],
     "baseStats": {
       "hp": 65,
@@ -19203,7 +19203,7 @@
       "Dragon"
     ],
     "abilities": [
-      "Sand Force"
+      "Levitate"
     ],
     "baseStats": {
       "hp": 108,
@@ -19371,7 +19371,7 @@
       "Steel"
     ],
     "abilities": [
-      "Adaptability"
+      "Aura Guard"
     ],
     "baseStats": {
       "hp": 70,
@@ -32714,6 +32714,38 @@
     },
     "requiredItem": ""
   },
+  "Golisopod-Mega": {
+    "showdown_id": "golisopodmega",
+    "showdown_name": "Golisopod-Mega",
+    "displayName": "Golisopod(Mega)",
+    "num": 768,
+    "forme": "Mega",
+    "baseForme": "",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "abilities": [
+      "Tough Claws"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 150,
+      "def": 175,
+      "spa": 70,
+      "spd": 120,
+      "spe": 40
+    },
+    "weight": 148,
+    "height": 2.3,
+    "prevo": "",
+    "evos": [],
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "requiredItem": "Golisopite"
+  },
   "Sandygast": {
     "showdown_id": "sandygast",
     "showdown_name": "Sandygast",
@@ -42133,6 +42165,39 @@
       "F": 0.5
     },
     "requiredItem": ""
+  },
+  "Baxcalibur-Mega": {
+    "showdown_id": "baxcaliburmega",
+    "showdown_name": "Baxcalibur-Mega",
+    "displayName": "Baxcalibur(Mega)",
+    "num": 998,
+    "forme": "Mega",
+    "baseForme": "",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "abilities": [
+      "Thermal Exchange",
+      "Ice Body"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "atk": 175,
+      "def": 117,
+      "spa": 105,
+      "spd": 101,
+      "spe": 87
+    },
+    "weight": 315,
+    "height": 2.1,
+    "prevo": "",
+    "evos": [],
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "requiredItem": "Baxcalibrite"
   },
   "Gimmighoul": {
     "showdown_id": "gimmighoul",
