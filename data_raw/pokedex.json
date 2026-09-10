@@ -30857,9 +30857,9 @@
       "Flying"
     ],
     "prevo": "",
-    "tier": "OU",
-    "doublesTier": "OU",
-    "natDexTier": "OU",
+    "tier": "Uber",
+    "doublesTier": "Uber",
+    "natDexTier": "Uber",
     "evos": [],
     "nfe": false,
     "eggGroups": [
@@ -85668,8 +85668,7 @@
     "baseForme": "",
     "spriteid": "baxcalibur-mega",
     "abilities": {
-      "0": "Thermal Exchange",
-      "H": "Ice Body"
+      "0": "Thermal Exchange"
     },
     "types": [
       "Dragon",
