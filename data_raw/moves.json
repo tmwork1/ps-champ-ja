@@ -35,7 +35,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -100,7 +99,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -149,7 +147,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -205,7 +202,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -265,7 +261,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -312,7 +307,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -374,7 +368,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -420,7 +413,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -466,7 +458,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -527,7 +518,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -573,7 +563,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -629,7 +618,6 @@
       "failinstruct": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -683,7 +671,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -732,7 +719,6 @@
       "failcopycat": 1,
       "failmimic": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -781,7 +767,6 @@
       "failmimic": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -843,7 +828,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -904,7 +888,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -951,7 +934,6 @@
       "metronome": 1,
       "cantusetwice": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1007,7 +989,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1055,7 +1036,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1112,7 +1092,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1159,7 +1138,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1210,7 +1188,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1256,7 +1233,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1317,7 +1293,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1364,7 +1339,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1411,7 +1385,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1461,7 +1434,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1511,7 +1483,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1558,7 +1529,6 @@
       "sound": 1,
       "dance": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1605,7 +1575,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1668,7 +1637,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1716,7 +1684,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1775,7 +1742,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1821,7 +1787,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1870,7 +1835,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -1916,7 +1880,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -1957,7 +1920,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2020,7 +1982,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2068,7 +2029,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2079,6 +2039,52 @@
       "basePower": 140
     },
     "contestType": "Tough"
+  },
+  "curse": {
+    "name": "Curse",
+    "id": "curse",
+    "fullname": "move: Curse",
+    "effectType": "Move",
+    "exists": true,
+    "num": 174,
+    "gen": 2,
+    "isNonstandard": null,
+    "noCopy": false,
+    "affectsFainted": false,
+    "sourceEffect": "",
+    "type": "Ghost",
+    "target": "normal",
+    "basePower": 0,
+    "accuracy": true,
+    "critRatio": 1,
+    "baseMoveType": "Ghost",
+    "hasSheerForceBoost": false,
+    "priority": 0,
+    "category": "Status",
+    "ignoreNegativeOffensive": false,
+    "ignorePositiveDefensive": false,
+    "ignoreOffensive": false,
+    "ignoreDefensive": false,
+    "ignoreImmunity": true,
+    "pp": 10,
+    "noPPBoosts": false,
+    "isZ": false,
+    "isMax": false,
+    "flags": {
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "ignoreAbility": false,
+    "spreadHit": false,
+    "forceSTAB": false,
+    "condition": {
+      "onResidualOrder": 12
+    },
+    "zMove": {
+      "effect": "curse"
+    },
+    "contestType": "Tough",
+    "tracksTarget": true
   },
   "cut": {
     "name": "Cut",
@@ -2117,7 +2123,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2167,7 +2172,6 @@
       "metronome": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2210,7 +2214,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2259,7 +2262,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2315,7 +2317,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2378,7 +2379,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2426,7 +2426,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2479,7 +2478,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2522,7 +2520,6 @@
     "isZ": false,
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -2561,7 +2558,6 @@
       "metronome": 1,
       "futuremove": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2609,7 +2605,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2658,7 +2653,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2707,7 +2701,6 @@
       "mirror": 1,
       "distance": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2770,7 +2763,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2818,7 +2810,6 @@
       "metronome": 1,
       "sound": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2862,7 +2853,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2908,7 +2898,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -2955,7 +2944,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3003,7 +2991,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3058,7 +3045,6 @@
       "failinstruct": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3106,7 +3092,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3157,7 +3142,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3208,7 +3192,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3265,7 +3248,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3315,7 +3297,6 @@
       "metronome": 1,
       "failencore": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3385,7 +3366,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3432,7 +3412,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3490,7 +3469,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3537,7 +3515,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3584,7 +3561,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3641,7 +3617,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3685,7 +3660,6 @@
     "flags": {
       "snatch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3745,7 +3719,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3794,7 +3767,6 @@
       "metronome": 1,
       "pledgecombo": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3849,7 +3821,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3898,7 +3869,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -3956,7 +3926,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4002,7 +3971,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4056,7 +4024,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4111,7 +4078,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4158,7 +4124,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4217,7 +4182,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4273,7 +4237,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4320,7 +4283,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4373,7 +4335,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4424,7 +4385,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4475,7 +4435,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4523,7 +4482,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4571,7 +4529,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4618,7 +4575,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4678,7 +4634,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4727,7 +4682,6 @@
       "metronome": 1,
       "pledgecombo": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4792,7 +4746,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4841,7 +4794,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4889,7 +4841,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4941,7 +4892,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -4986,7 +4936,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5035,7 +4984,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5095,7 +5043,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5144,7 +5091,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5189,7 +5135,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5240,7 +5185,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5289,7 +5233,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5340,7 +5283,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5388,7 +5330,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5438,7 +5379,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5484,7 +5424,6 @@
       "contact": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5531,7 +5470,6 @@
       "bypasssub": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5583,7 +5521,6 @@
       "mirror": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5643,7 +5580,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5690,7 +5626,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5747,7 +5682,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5804,7 +5738,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5851,7 +5784,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5897,7 +5829,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -5944,7 +5875,6 @@
       "bypasssub": 1,
       "allyanim": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -5984,7 +5914,6 @@
       "failcopycat": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6034,7 +5963,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6082,7 +6010,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6142,7 +6069,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6188,7 +6114,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6242,7 +6167,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -6283,7 +6207,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6341,7 +6264,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6388,7 +6310,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6451,7 +6372,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6497,7 +6417,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6544,7 +6463,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6606,7 +6524,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6653,7 +6570,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6706,7 +6622,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6773,7 +6688,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6821,7 +6735,6 @@
       "mirror": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6873,7 +6786,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6916,7 +6828,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -6962,7 +6873,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7016,7 +6926,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7061,7 +6970,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7126,7 +7034,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7187,7 +7094,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7233,7 +7139,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7290,7 +7195,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7354,7 +7258,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7414,7 +7317,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7463,7 +7365,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7512,7 +7413,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7575,7 +7475,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7619,7 +7518,6 @@
     "flags": {
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7665,7 +7563,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7707,7 +7604,6 @@
     "flags": {
       "protect": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7753,7 +7649,6 @@
       "mirror": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7800,7 +7695,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7849,7 +7743,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7895,7 +7788,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7943,7 +7835,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -7994,7 +7885,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8050,7 +7940,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8108,7 +7997,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8165,7 +8053,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8210,7 +8097,6 @@
     "flags": {
       "snatch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8252,7 +8138,6 @@
       "mirror": 1,
       "nonsky": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8299,7 +8184,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8347,7 +8231,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8396,7 +8279,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8456,7 +8338,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8505,7 +8386,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8551,7 +8431,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8622,7 +8501,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8669,7 +8547,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8717,7 +8594,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8768,7 +8644,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8815,7 +8690,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8873,7 +8747,6 @@
       "sound": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8921,7 +8794,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -8969,7 +8841,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9017,7 +8888,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9082,7 +8952,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9129,7 +8998,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9179,7 +9047,6 @@
       "failinstruct": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9229,7 +9096,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9287,7 +9153,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9343,7 +9208,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9394,7 +9258,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9454,7 +9317,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9500,7 +9362,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9547,7 +9408,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9595,7 +9455,6 @@
       "mirror": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9656,7 +9515,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9705,7 +9563,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9756,7 +9613,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9811,7 +9667,6 @@
       "failcopycat": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9861,7 +9716,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9908,7 +9762,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -9948,7 +9801,6 @@
     "isZ": false,
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10000,7 +9852,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10052,7 +9903,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10101,7 +9951,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10158,7 +10007,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10215,7 +10063,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10263,7 +10110,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10312,7 +10158,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10359,7 +10204,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10403,7 +10247,6 @@
     "isZ": false,
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -10443,7 +10286,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10501,7 +10343,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10547,7 +10388,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10600,7 +10440,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10659,7 +10498,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10705,7 +10543,6 @@
       "gravity": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10765,7 +10602,6 @@
       "mirror": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10821,7 +10657,6 @@
       "mirror": 1,
       "defrost": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10882,7 +10717,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10930,7 +10764,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -10987,7 +10820,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11034,7 +10866,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11083,7 +10914,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11128,7 +10958,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -11168,7 +10997,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11218,7 +11046,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11266,7 +11093,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11314,7 +11140,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11372,7 +11197,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11424,7 +11248,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11473,7 +11296,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11519,7 +11341,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11567,7 +11388,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11617,7 +11437,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11667,7 +11486,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -11708,7 +11526,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11754,7 +11571,6 @@
       "metronome": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11799,7 +11615,6 @@
       "metronome": 1,
       "mustpressure": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11848,7 +11663,6 @@
       "failmimic": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11893,7 +11707,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -11940,7 +11753,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12001,7 +11813,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12057,7 +11868,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12106,7 +11916,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12157,7 +11966,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12208,7 +12016,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12256,7 +12063,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12320,7 +12126,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12378,7 +12183,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12425,7 +12229,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12479,7 +12282,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12525,7 +12327,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12573,7 +12374,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12620,7 +12420,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12669,7 +12468,6 @@
       "metronome": 1,
       "pledgecombo": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12722,7 +12520,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12785,7 +12582,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12842,7 +12638,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12890,7 +12685,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12937,7 +12731,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -12986,7 +12779,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13034,7 +12826,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13080,7 +12871,6 @@
     "isZ": "pikashuniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13125,7 +12915,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13171,7 +12960,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13214,7 +13002,6 @@
     "isZ": "poisoniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13273,7 +13060,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13322,7 +13108,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13367,7 +13152,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13414,7 +13198,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13460,7 +13243,6 @@
       "bypasssub": 1,
       "allyanim": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13505,7 +13287,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13554,7 +13335,6 @@
       "slicing": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13613,7 +13393,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13656,7 +13435,6 @@
     "isZ": "fightiniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13710,7 +13488,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13754,7 +13531,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13803,7 +13579,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13876,7 +13651,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13924,7 +13698,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -13972,7 +13745,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14018,7 +13790,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14088,7 +13859,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14136,7 +13906,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14182,7 +13951,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14234,7 +14002,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14277,7 +14044,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14329,7 +14095,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14372,7 +14137,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14421,7 +14185,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14473,7 +14236,6 @@
       "bullet": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14537,7 +14299,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14582,7 +14343,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14633,7 +14393,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14681,7 +14440,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14739,7 +14497,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14788,7 +14545,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14836,7 +14592,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14896,7 +14651,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14943,7 +14697,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -14993,7 +14746,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15039,7 +14791,6 @@
       "metronome": 1
     },
     "selfSwitch": "copyvolatile",
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15085,7 +14836,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15131,7 +14881,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15177,7 +14926,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15225,7 +14973,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15279,7 +15026,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15339,7 +15085,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15389,7 +15134,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15453,7 +15197,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15495,7 +15238,6 @@
     "isZ": "darkiniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15540,7 +15282,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15601,7 +15342,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15659,7 +15399,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15706,7 +15445,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15748,7 +15486,6 @@
     "isZ": "grassiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15793,7 +15530,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15852,7 +15588,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15909,7 +15644,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -15956,7 +15690,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16006,7 +15739,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16070,7 +15802,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16120,7 +15851,6 @@
       "mirror": 1,
       "heal": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16173,7 +15903,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16238,7 +15967,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16280,7 +16008,6 @@
     "isZ": "normaliumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16325,7 +16052,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16373,7 +16099,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16434,7 +16159,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16482,7 +16206,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16545,7 +16268,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16591,7 +16313,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16656,7 +16377,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16705,7 +16425,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16753,7 +16472,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16812,7 +16530,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16868,7 +16585,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16914,7 +16630,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -16961,7 +16676,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17008,7 +16722,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17055,7 +16768,6 @@
     "flags": {
       "contact": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17105,7 +16817,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17150,7 +16861,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17221,7 +16931,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17270,7 +16979,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17336,7 +17044,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17396,7 +17103,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17441,7 +17147,6 @@
     "isMax": false,
     "flags": {},
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17486,7 +17191,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17537,7 +17241,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17586,7 +17289,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17636,7 +17338,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17691,7 +17392,6 @@
       "sound": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17744,7 +17444,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17792,7 +17491,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17845,7 +17543,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17888,7 +17585,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17939,7 +17635,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -17991,7 +17686,6 @@
       "mirror": 1,
       "failmefirst": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18039,7 +17733,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18101,7 +17794,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18144,7 +17836,6 @@
     "isZ": "rockiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18191,7 +17882,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18238,7 +17928,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18281,7 +17970,6 @@
     "isZ": "steeliumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18324,7 +18012,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18373,7 +18060,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18422,7 +18108,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18471,7 +18156,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18522,7 +18206,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -18565,7 +18248,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18608,7 +18290,6 @@
     "isZ": false,
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18660,7 +18341,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18719,7 +18399,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18782,7 +18461,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18791,53 +18469,6 @@
     },
     "zMove": {
       "basePower": 160
-    },
-    "contestType": "Tough"
-  },
-  "curse": {
-    "name": "Curse",
-    "id": "curse",
-    "fullname": "move: Curse",
-    "effectType": "Move",
-    "exists": true,
-    "num": 174,
-    "gen": 2,
-    "isNonstandard": null,
-    "noCopy": false,
-    "affectsFainted": false,
-    "sourceEffect": "",
-    "type": "Ghost",
-    "target": "normal",
-    "basePower": 0,
-    "accuracy": true,
-    "critRatio": 1,
-    "baseMoveType": "Ghost",
-    "hasSheerForceBoost": false,
-    "priority": 0,
-    "category": "Status",
-    "ignoreNegativeOffensive": false,
-    "ignorePositiveDefensive": false,
-    "ignoreOffensive": false,
-    "ignoreDefensive": false,
-    "ignoreImmunity": true,
-    "pp": 10,
-    "noPPBoosts": false,
-    "isZ": false,
-    "isMax": false,
-    "flags": {
-      "bypasssub": 1,
-      "metronome": 1
-    },
-    "nonGhostTarget": "self",
-    "ignoreAbility": false,
-    "spreadHit": false,
-    "forceSTAB": false,
-    "volatileStatus": "curse",
-    "condition": {
-      "onResidualOrder": 12
-    },
-    "zMove": {
-      "effect": "curse"
     },
     "contestType": "Tough"
   },
@@ -18877,7 +18508,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18937,7 +18567,6 @@
       "metronome": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -18984,7 +18613,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19029,7 +18657,6 @@
     "flags": {
       "allyanim": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19075,7 +18702,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19121,7 +18747,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19169,7 +18794,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19213,7 +18837,6 @@
     "isZ": "dragoniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19263,7 +18886,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19323,7 +18945,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19377,7 +18998,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19439,7 +19059,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19487,7 +19106,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19539,7 +19157,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19598,7 +19215,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19647,7 +19263,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19697,7 +19312,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19744,7 +19358,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19796,7 +19409,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19845,7 +19457,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19895,7 +19506,6 @@
       "metronome": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -19942,7 +19552,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "damage": 40,
     "spreadHit": false,
@@ -20002,7 +19611,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20052,7 +19660,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20102,7 +19709,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20156,7 +19762,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20209,7 +19814,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20257,7 +19861,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20317,7 +19920,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20364,7 +19966,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20413,7 +20014,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20472,7 +20072,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20534,7 +20133,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20582,7 +20180,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20630,7 +20227,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20689,7 +20285,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20736,7 +20331,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20782,7 +20376,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20837,7 +20430,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20885,7 +20477,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20945,7 +20536,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -20993,7 +20583,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21046,7 +20635,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21092,7 +20680,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21157,7 +20744,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21206,7 +20792,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21252,7 +20837,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21299,7 +20883,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21348,7 +20931,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21395,7 +20977,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21453,7 +21034,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21496,7 +21076,6 @@
     "isZ": "eeviumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21545,7 +21124,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21593,7 +21171,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21640,7 +21217,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21692,7 +21268,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21744,7 +21319,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21793,7 +21367,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21842,7 +21415,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21890,7 +21462,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -21937,7 +21508,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22002,7 +21572,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22049,7 +21618,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22107,7 +21675,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22166,7 +21733,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22225,7 +21791,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22272,7 +21837,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22321,7 +21885,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22370,7 +21933,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22417,7 +21979,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22483,7 +22044,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22540,7 +22100,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22599,7 +22158,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22651,7 +22209,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22714,7 +22271,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22763,7 +22319,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22815,7 +22370,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22865,7 +22419,6 @@
       "metronome": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22922,7 +22475,6 @@
       "mirror": 1,
       "gravity": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -22968,7 +22520,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23014,7 +22565,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23068,7 +22618,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23123,7 +22672,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23185,7 +22733,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23231,7 +22778,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23284,7 +22830,6 @@
       "failcopycat": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23333,7 +22878,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23384,7 +22928,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23434,7 +22977,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23486,7 +23028,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23532,7 +23073,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23581,7 +23121,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23631,7 +23170,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23680,7 +23218,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23727,7 +23264,6 @@
       "metronome": 1,
       "futuremove": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23776,7 +23312,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23824,7 +23359,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23876,7 +23410,6 @@
     "isZ": "mewniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23922,7 +23455,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -23978,7 +23510,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24031,7 +23562,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24082,7 +23612,6 @@
       "metronome": 1,
       "cantusetwice": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24124,7 +23653,6 @@
     "isZ": "electriumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24169,7 +23697,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24224,7 +23751,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24269,7 +23795,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24315,7 +23840,6 @@
     "isZ": false,
     "isMax": "Butterfree",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24356,7 +23880,6 @@
     "isZ": false,
     "isMax": "Blastoise",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24404,7 +23927,6 @@
     "isZ": false,
     "isMax": "Centiskorch",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24445,7 +23967,6 @@
     "isZ": false,
     "isMax": "Machamp",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24489,7 +24010,6 @@
     "isZ": false,
     "isMax": "Eevee",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24530,7 +24050,6 @@
     "isZ": false,
     "isMax": "Duraludon",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24571,7 +24090,6 @@
     "isZ": false,
     "isMax": "Rillaboom",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24611,7 +24129,6 @@
     "isZ": false,
     "isMax": "Alcremie",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24652,7 +24169,6 @@
     "isZ": false,
     "isMax": "Cinderace",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24692,7 +24208,6 @@
     "isZ": false,
     "isMax": "Kingler",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24733,7 +24248,6 @@
     "isZ": false,
     "isMax": "Meowth",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24774,7 +24288,6 @@
     "isZ": false,
     "isMax": "Orbeetle",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24817,7 +24330,6 @@
     "isZ": false,
     "isMax": "Inteleon",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24857,7 +24369,6 @@
     "isZ": false,
     "isMax": "Garbodor",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24898,7 +24409,6 @@
     "isZ": false,
     "isMax": "Melmetal",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24939,7 +24449,6 @@
     "isZ": false,
     "isMax": "Urshifu",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -24979,7 +24488,6 @@
     "isZ": false,
     "isMax": "Urshifu-Rapid-Strike",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25019,7 +24527,6 @@
     "isZ": false,
     "isMax": "Snorlax",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25060,7 +24567,6 @@
     "isZ": false,
     "isMax": "Lapras",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25103,7 +24609,6 @@
     "isZ": false,
     "isMax": "Sandaconda",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25144,7 +24649,6 @@
     "isZ": false,
     "isMax": "Hatterene",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25185,7 +24689,6 @@
     "isZ": false,
     "isMax": "Grimmsnarl",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25225,7 +24728,6 @@
     "isZ": false,
     "isMax": "Copperajah",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25267,7 +24769,6 @@
     "isZ": false,
     "isMax": "Drednaw",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25308,7 +24809,6 @@
     "isZ": false,
     "isMax": "Toxtricity",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25349,7 +24849,6 @@
     "isZ": false,
     "isMax": "Appletun",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25390,7 +24889,6 @@
     "isZ": false,
     "isMax": "Flapple",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25431,7 +24929,6 @@
     "isZ": false,
     "isMax": "Gengar",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25472,7 +24969,6 @@
     "isZ": false,
     "isMax": "Venusaur",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25520,7 +25016,6 @@
     "isZ": false,
     "isMax": "Coalossal",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25568,7 +25063,6 @@
     "isZ": false,
     "isMax": "Pikachu",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25609,7 +25103,6 @@
     "isZ": false,
     "isMax": "Charizard",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25657,7 +25150,6 @@
     "isZ": false,
     "isMax": "Corviknight",
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25704,7 +25196,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25755,7 +25246,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25802,7 +25292,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25848,7 +25337,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25903,7 +25391,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25955,7 +25442,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -25999,7 +25485,6 @@
     "isZ": "tapuniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26043,7 +25528,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26091,7 +25575,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26138,7 +25621,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26196,7 +25678,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26245,7 +25726,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26291,7 +25771,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26339,7 +25818,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26392,7 +25870,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26437,7 +25914,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26482,7 +25958,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26535,7 +26010,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26588,7 +26062,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26641,7 +26114,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26686,7 +26158,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26738,7 +26209,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26782,7 +26252,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26834,7 +26303,6 @@
       "metronome": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26889,7 +26357,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26939,7 +26406,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -26997,7 +26463,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27047,7 +26512,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27094,7 +26558,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27143,7 +26606,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27189,7 +26651,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27238,7 +26699,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27287,7 +26747,6 @@
       "gravity": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27336,7 +26795,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27386,7 +26844,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27449,7 +26906,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27497,7 +26953,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27547,7 +27002,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27590,7 +27044,6 @@
     "isZ": "wateriumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27635,7 +27088,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27697,7 +27149,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27746,7 +27197,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27795,7 +27245,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27845,7 +27294,6 @@
       "bullet": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27906,7 +27354,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -27965,7 +27412,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28014,7 +27460,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28078,7 +27523,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28125,7 +27569,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28173,7 +27616,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28229,7 +27671,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28276,7 +27717,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28342,7 +27782,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28390,7 +27829,6 @@
       "metronome": 1,
       "mustpressure": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28451,7 +27889,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28494,7 +27931,6 @@
     "isZ": "firiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28539,7 +27975,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28587,7 +28022,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28638,7 +28072,6 @@
       "allyanim": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28682,7 +28115,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28732,7 +28164,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28794,7 +28225,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28843,7 +28273,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28890,7 +28319,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28939,7 +28367,6 @@
       "gravity": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -28988,7 +28415,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29036,7 +28462,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29086,7 +28511,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29135,7 +28559,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29182,7 +28605,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29228,7 +28650,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29279,7 +28700,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29326,7 +28746,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29373,7 +28792,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29429,7 +28847,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29478,7 +28895,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29525,7 +28941,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29591,7 +29006,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29640,7 +29054,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29692,7 +29105,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29738,7 +29150,6 @@
     "flags": {
       "contact": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29782,7 +29193,6 @@
       "heal": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29825,7 +29235,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29873,7 +29282,6 @@
     "isZ": "ultranecroziumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29932,7 +29340,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -29979,7 +29386,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30032,7 +29438,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30079,7 +29484,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30141,7 +29545,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30187,7 +29590,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30254,7 +29656,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30315,7 +29716,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30364,7 +29764,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30409,7 +29808,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30463,7 +29861,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -30502,7 +29899,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30555,7 +29951,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30603,7 +29998,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30649,7 +30043,6 @@
       "gravity": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30701,7 +30094,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30747,7 +30139,6 @@
       "contact": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30792,7 +30183,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30856,7 +30246,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30903,7 +30292,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30944,7 +30332,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -30985,7 +30372,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31026,7 +30412,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31067,7 +30452,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31108,7 +30492,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31151,7 +30534,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31192,7 +30574,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31233,7 +30614,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31274,7 +30654,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31315,7 +30694,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31356,7 +30734,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31397,7 +30774,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31438,7 +30814,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31479,7 +30854,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31520,7 +30894,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31561,7 +30934,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31602,7 +30974,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31643,7 +31014,6 @@
     "isZ": false,
     "isMax": true,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31688,7 +31058,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31733,7 +31102,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31788,7 +31156,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31840,7 +31207,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31888,7 +31254,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31935,7 +31300,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -31980,7 +31344,6 @@
     "isZ": "lunaliumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32025,7 +31388,6 @@
       "metronome": 1,
       "failmefirst": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32076,7 +31438,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32126,7 +31487,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32192,7 +31552,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32238,7 +31597,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32286,7 +31644,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32331,7 +31688,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32384,7 +31740,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32434,7 +31789,6 @@
       "failmefirst": 1,
       "noassist": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32489,7 +31843,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32550,7 +31903,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32597,7 +31949,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32643,7 +31994,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32697,7 +32047,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32741,7 +32090,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32796,7 +32144,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32857,7 +32204,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32919,7 +32265,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -32980,7 +32325,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33041,7 +32385,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33087,7 +32430,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33141,7 +32483,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33202,7 +32543,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33248,7 +32588,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33295,7 +32634,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33345,7 +32683,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33386,7 +32723,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33444,7 +32780,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33487,7 +32822,6 @@
     "isZ": "ghostiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33531,7 +32865,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33582,7 +32915,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "damage": "level",
     "spreadHit": false,
@@ -33633,7 +32965,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33682,7 +33013,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33742,7 +33072,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33791,7 +33120,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33838,7 +33166,6 @@
     "isZ": "primariumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33897,7 +33224,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -33947,7 +33273,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34020,7 +33345,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34069,7 +33393,6 @@
       "metronome": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34120,7 +33443,6 @@
       "sound": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34166,7 +33488,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34219,7 +33540,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34266,7 +33586,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34321,7 +33640,6 @@
       "metronome": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34366,7 +33684,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34414,7 +33731,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34463,7 +33779,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34513,7 +33828,6 @@
       "metronome": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34567,7 +33881,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34618,7 +33931,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34665,7 +33977,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34717,7 +34028,6 @@
       "mirror": 1,
       "punch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34780,7 +34090,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34829,7 +34138,6 @@
       "distance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34888,7 +34196,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34946,7 +34253,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -34996,7 +34302,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35044,7 +34349,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35091,7 +34395,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35138,7 +34441,6 @@
       "mirror": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35200,7 +34502,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35248,7 +34549,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35298,7 +34598,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35349,7 +34648,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35396,7 +34694,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35444,7 +34741,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35489,7 +34785,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35538,7 +34833,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35605,7 +34899,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35653,7 +34946,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35714,7 +35006,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35763,7 +35054,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35822,7 +35112,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35867,7 +35156,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35923,7 +35211,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -35970,7 +35257,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36017,7 +35303,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36062,7 +35347,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36109,7 +35393,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36154,7 +35437,6 @@
     "flags": {
       "contact": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36199,7 +35481,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36247,7 +35528,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36308,7 +35588,6 @@
       "defrost": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36353,7 +35632,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36400,7 +35678,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36445,7 +35722,6 @@
     "flags": {
       "snatch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36496,7 +35772,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36546,7 +35821,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36599,7 +35873,6 @@
       "failcopycat": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36648,7 +35921,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36693,7 +35965,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36741,7 +36012,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36806,7 +36076,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36869,7 +36138,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36919,7 +36187,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -36966,7 +36233,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37013,7 +36279,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37058,7 +36323,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37111,7 +36375,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37156,7 +36419,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37200,7 +36462,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37245,7 +36506,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37293,7 +36553,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37341,7 +36600,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37388,7 +36646,6 @@
       "nosketch": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37432,7 +36689,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37483,7 +36739,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37531,7 +36786,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37593,7 +36847,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37639,7 +36892,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37696,7 +36948,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37757,7 +37008,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37806,7 +37056,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37856,7 +37105,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37913,7 +37161,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -37960,7 +37207,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38016,7 +37262,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38064,7 +37309,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38113,7 +37357,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38160,7 +37403,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38212,7 +37454,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38260,7 +37501,6 @@
       "reflectable": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38303,7 +37543,6 @@
     "isZ": "buginiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38358,7 +37597,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38406,7 +37644,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38464,7 +37701,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38524,7 +37760,6 @@
       "defrost": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38575,7 +37810,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38635,7 +37869,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38680,7 +37913,6 @@
     "flags": {
       "contact": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": true,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38734,7 +37966,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38782,7 +38013,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38831,7 +38061,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "damage": "level",
     "spreadHit": false,
@@ -38880,7 +38109,6 @@
       "metronome": 1,
       "noparentalbond": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -38943,7 +38171,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39004,7 +38231,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39053,7 +38279,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39101,7 +38326,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39147,7 +38371,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39192,7 +38415,6 @@
     "isZ": "psychiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39233,7 +38455,6 @@
     "isMax": false,
     "flags": {},
     "selfSwitch": "shedtail",
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39278,7 +38499,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39336,7 +38556,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39381,7 +38600,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39431,7 +38649,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39473,7 +38690,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39531,7 +38747,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39604,7 +38819,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39653,7 +38867,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39703,7 +38916,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39745,7 +38957,6 @@
     "isZ": "decidiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39800,7 +39011,6 @@
       "mirror": 1,
       "defrost": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39849,7 +39059,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39910,7 +39119,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -39960,7 +39168,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40021,7 +39228,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40075,7 +39281,6 @@
       "noassist": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40131,7 +39336,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40178,7 +39382,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40229,7 +39432,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40278,7 +39480,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40335,7 +39536,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40392,7 +39592,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40440,7 +39639,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40492,7 +39690,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40540,7 +39737,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40602,7 +39798,6 @@
       "sound": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40650,7 +39845,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40712,7 +39906,6 @@
       "sound": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40762,7 +39955,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40808,7 +40000,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40859,7 +40050,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40911,7 +40101,6 @@
       "failinstruct": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -40958,7 +40147,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "damage": 20,
     "spreadHit": false,
@@ -41004,7 +40192,6 @@
     "flags": {
       "contact": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41060,7 +40247,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41106,7 +40292,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41155,7 +40340,6 @@
       "mirror": 1,
       "bypasssub": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41205,7 +40389,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41251,7 +40434,6 @@
       "reflectable": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41296,7 +40478,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41342,7 +40523,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41394,7 +40574,6 @@
       "metronome": 1,
       "mustpressure": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41456,7 +40635,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41504,7 +40682,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41547,7 +40724,6 @@
       "protect": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41590,7 +40766,6 @@
     "isZ": "lycaniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41643,7 +40818,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41693,7 +40867,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41739,7 +40912,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41791,7 +40963,6 @@
       "metronome": 1,
       "mustpressure": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41851,7 +41022,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41897,7 +41067,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -41945,7 +41114,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42010,7 +41178,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42056,7 +41223,6 @@
       "reflectable": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42103,7 +41269,6 @@
       "snatch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42157,7 +41322,6 @@
     "isZ": "aloraichiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42202,7 +41366,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42255,7 +41418,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42301,7 +41463,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42348,7 +41509,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42396,7 +41556,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42452,7 +41611,6 @@
       "failinstruct": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42508,7 +41666,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42558,7 +41715,6 @@
       "metronome": 1,
       "powder": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42605,7 +41761,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42656,7 +41811,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42700,7 +41854,6 @@
     "isZ": "iciumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42745,7 +41898,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42791,7 +41943,6 @@
     "flags": {
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42839,7 +41990,6 @@
       "metronome": 1,
       "minimize": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42887,7 +42037,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42935,7 +42084,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -42984,7 +42132,6 @@
     "isZ": "flyiniumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43029,7 +42176,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43078,7 +42224,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43126,7 +42271,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43171,7 +42315,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43219,7 +42362,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43270,7 +42412,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43316,7 +42457,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43363,7 +42503,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43410,7 +42549,6 @@
       "heal": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43455,7 +42593,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43506,7 +42643,6 @@
       "metronome": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43558,7 +42694,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43610,7 +42745,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43659,7 +42793,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -43698,7 +42831,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43741,7 +42873,6 @@
     "isZ": "groundiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43786,7 +42917,6 @@
       "dance": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43836,7 +42966,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43889,7 +43018,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43936,7 +43064,6 @@
       "metronome": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -43985,7 +43112,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44034,7 +43160,6 @@
       "mirror": 1,
       "nonsky": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44082,7 +43207,6 @@
       "mirror": 1,
       "nonsky": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44131,7 +43255,6 @@
       "metronome": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44190,7 +43313,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44252,7 +43374,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44309,7 +43430,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44368,7 +43488,6 @@
       "metronome": 1,
       "bite": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44427,7 +43546,6 @@
       "punch": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44476,7 +43594,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44524,7 +43641,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44570,7 +43686,6 @@
     "isZ": false,
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false
@@ -44612,7 +43727,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44678,7 +43792,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44727,7 +43840,6 @@
       "bypasssub": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44779,7 +43891,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44826,7 +43937,6 @@
       "metronome": 1,
       "mustpressure": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44892,7 +44002,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44942,7 +44051,6 @@
       "failmimic": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -44994,7 +44102,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45043,7 +44150,6 @@
       "noassist": 1,
       "failcopycat": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45088,7 +44194,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45152,7 +44257,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45199,7 +44303,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45248,7 +44351,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45294,7 +44396,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45352,7 +44453,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45396,7 +44496,6 @@
     "isZ": "fairiumz",
     "isMax": false,
     "flags": {},
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45451,7 +44550,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45501,7 +44599,6 @@
       "nosleeptalk": 1,
       "failinstruct": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45559,7 +44656,6 @@
       "metronome": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45606,7 +44702,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45653,7 +44748,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45701,7 +44795,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45747,7 +44840,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45795,7 +44887,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45843,7 +44934,6 @@
       "metronome": 1
     },
     "selfSwitch": true,
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45901,7 +44991,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -45953,7 +45042,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46011,7 +45099,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46070,7 +45157,6 @@
       "metronome": 1,
       "pulse": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46117,7 +45203,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46167,7 +45252,6 @@
       "nonsky": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46220,7 +45304,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46268,7 +45351,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46319,7 +45401,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46366,7 +45447,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46419,7 +45499,6 @@
       "failcopycat": 1,
       "wind": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46464,7 +45543,6 @@
     "flags": {
       "snatch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46516,7 +45594,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46569,7 +45646,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46614,7 +45690,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46667,7 +45742,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46720,7 +45794,6 @@
       "allyanim": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46767,7 +45840,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46816,7 +45888,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46865,7 +45936,6 @@
       "metronome": 1,
       "slicing": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46913,7 +45983,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -46976,7 +46045,6 @@
       "metronome": 1,
       "bullet": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47034,7 +46102,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47092,7 +46159,6 @@
       "mirror": 1,
       "metronome": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47157,7 +46223,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47217,7 +46282,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47278,7 +46342,6 @@
       "protect": 1,
       "mirror": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,
@@ -47336,7 +46399,6 @@
       "defrost": 1,
       "nosketch": 1
     },
-    "nonGhostTarget": "",
     "ignoreAbility": false,
     "spreadHit": false,
     "forceSTAB": false,

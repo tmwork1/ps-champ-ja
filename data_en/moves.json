@@ -286,6 +286,31 @@
       "basePower": 130
     }
   },
+  "curse": {
+    "showdown_id": "curse",
+    "showdown_name": "Curse",
+    "num": 174,
+    "type": "Ghost",
+    "category": "Status",
+    "pp": 12,
+    "power": null,
+    "accuracy": null,
+    "priority": 0,
+    "critRatio": 1,
+    "target": "normal",
+    "multihit": [],
+    "flags": [
+      "bypasssub",
+      "metronome"
+    ],
+    "spreadHit": false,
+    "isZ": false,
+    "isMax": false,
+    "zMove": {
+      "effect": "curse"
+    },
+    "maxMove": null
+  },
   "direclaw": {
     "showdown_id": "direclaw",
     "showdown_name": "Dire Claw",
@@ -3893,31 +3918,6 @@
     "maxMove": {
       "basePower": 130
     }
-  },
-  "curse": {
-    "showdown_id": "curse",
-    "showdown_name": "Curse",
-    "num": 174,
-    "type": "Ghost",
-    "category": "Status",
-    "pp": 12,
-    "power": null,
-    "accuracy": null,
-    "priority": 0,
-    "critRatio": 1,
-    "target": "normal",
-    "multihit": [],
-    "flags": [
-      "bypasssub",
-      "metronome"
-    ],
-    "spreadHit": false,
-    "isZ": false,
-    "isMax": false,
-    "zMove": {
-      "effect": "curse"
-    },
-    "maxMove": null
   },
   "darkestlariat": {
     "showdown_id": "darkestlariat",
