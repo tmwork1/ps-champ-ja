@@ -2083,8 +2083,7 @@
     "zMove": {
       "effect": "curse"
     },
-    "contestType": "Tough",
-    "tracksTarget": true
+    "contestType": "Tough"
   },
   "cut": {
     "name": "Cut",
