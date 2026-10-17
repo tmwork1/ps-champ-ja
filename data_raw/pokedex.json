@@ -77811,7 +77811,7 @@
     "canGigantamax": "G-Max One Blow",
     "gmaxUnreleased": false,
     "cannotDynamax": false,
-    "evoCondition": "Defeat the Single Strike Tower"
+    "evoCondition": "Use a Scroll of Darkness"
   },
   "urshifurapidstrike": {
     "name": "Urshifu-Rapid-Strike",
@@ -77873,7 +77873,7 @@
     "canGigantamax": "G-Max Rapid Flow",
     "gmaxUnreleased": false,
     "cannotDynamax": false,
-    "evoCondition": "Defeat the Rapid Strike Tower"
+    "evoCondition": "Use a Scroll of Waters"
   },
   "urshifugmax": {
     "name": "Urshifu-Gmax",
@@ -78663,7 +78663,8 @@
     "maleOnlyHidden": false,
     "gmaxUnreleased": false,
     "cannotDynamax": false,
-    "evoCondition": "Black Augurite"
+    "evoItem": "Black Augurite",
+    "evoCondition": "in Legends: Arceus or Legends: Z-A"
   },
   "ursaluna": {
     "name": "Ursaluna",
@@ -78702,7 +78703,7 @@
     "doublesTier": "Illegal",
     "natDexTier": "Illegal",
     "evos": [],
-    "evoType": "other",
+    "evoType": "useItem",
     "nfe": false,
     "eggGroups": [
       "Field"
@@ -78731,7 +78732,8 @@
     "maleOnlyHidden": false,
     "gmaxUnreleased": false,
     "cannotDynamax": false,
-    "evoCondition": "Peat Block when there's a full moon"
+    "evoItem": "Peat Block",
+    "evoCondition": "in Legends: Arceus when there's a full moon"
   },
   "ursalunabloodmoon": {
     "name": "Ursaluna-Bloodmoon",
